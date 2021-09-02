@@ -1,0 +1,855 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 197,
+	"markerBreak": 197,
+	"markerFooter": 207,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onUnload",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 96,
+					"left": 554,
+					"width": 100,
+					"height": 12,
+					"stroke": "#000000",
+					"fontFamily": "Police système",
+					"fontSize": 9,
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Numéro enreg."
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 515,
+					"height": 17,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"text": "Company"
+				},
+				"Line7": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 644,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 273,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 336,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 399,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte8": {
+					"type": "text",
+					"top": 126,
+					"left": 21,
+					"width": 48,
+					"height": 17,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": "ID : "
+				},
+				"Texte9": {
+					"type": "text",
+					"top": 153,
+					"left": 21,
+					"width": 48,
+					"height": 17,
+					"textAlign": "right",
+					"text": "name : "
+				},
+				"Texte10": {
+					"type": "text",
+					"top": 180,
+					"left": 21,
+					"width": 48,
+					"height": 17,
+					"textAlign": "right",
+					"text": "type : "
+				},
+				"ID": {
+					"type": "input",
+					"top": 126,
+					"left": 74,
+					"width": 64,
+					"height": 17,
+					"dataSource": "[Company:1]ID:1",
+					"dataSourceTypeHint": "integer",
+					"stroke": "#808080",
+					"textAlign": "left",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"name": {
+					"type": "input",
+					"top": 153,
+					"left": 74,
+					"width": 305,
+					"height": 17,
+					"dataSource": "[Company:1]name:2",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"type": {
+					"type": "input",
+					"top": 180,
+					"left": 74,
+					"width": 305,
+					"height": 17,
+					"dataSource": "[Company:1]type:3",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/companyType"
+					},
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Onglet": {
+					"type": "tab",
+					"top": 212,
+					"left": 19,
+					"width": 801,
+					"height": 274,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Commentaires",
+						"Employés",
+						"Projets",
+						"Hiérarchie"
+					],
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"type1": {
+					"type": "input",
+					"top": 244,
+					"left": 29,
+					"width": 767,
+					"height": 225,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "[Company:1]commentaire:4",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"street_input_1": {
+					"type": "input",
+					"top": 127,
+					"left": 467,
+					"width": 213,
+					"height": 17,
+					"visibility": "hidden",
+					"dataSource": "Form:C1466.current_entity.address.street",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"county_input_1": {
+					"type": "input",
+					"top": 173,
+					"left": 467,
+					"width": 213,
+					"height": 17,
+					"visibility": "hidden",
+					"dataSource": "Form:C1466.current_entity.address.country",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"postcode_input_1": {
+					"type": "input",
+					"top": 150,
+					"left": 467,
+					"width": 46,
+					"height": 17,
+					"visibility": "hidden",
+					"dataSource": "Form:C1466.current_entity.address.postcode",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"city_input_1": {
+					"type": "input",
+					"top": 150,
+					"left": 516,
+					"width": 164,
+					"height": 17,
+					"visibility": "hidden",
+					"dataSource": "Form:C1466.current_entity.address.city",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"entryFilter": "&\"a-z;A-Z;0-9; ;,;.;-\"",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 115,
+					"left": 457,
+					"height": 82,
+					"visibility": "hidden"
+				},
+				"Ligne6": {
+					"type": "line",
+					"top": 197,
+					"left": 458,
+					"width": 232,
+					"visibility": "hidden"
+				},
+				"Ligne7": {
+					"type": "line",
+					"top": 115,
+					"left": 457,
+					"width": 23,
+					"visibility": "hidden"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 107,
+					"left": 486,
+					"width": 53,
+					"height": 17,
+					"visibility": "hidden",
+					"textAlign": "left",
+					"text": "Address"
+				},
+				"Ligne8": {
+					"type": "line",
+					"top": 115,
+					"left": 690,
+					"height": 82,
+					"visibility": "hidden"
+				},
+				"Ligne9": {
+					"type": "line",
+					"top": 115,
+					"left": 538,
+					"width": 152,
+					"visibility": "hidden"
+				}
+			}
+		},
+		{
+			"objects": {
+				"lb_employees": {
+					"type": "listbox",
+					"top": 245,
+					"left": 29,
+					"width": 781,
+					"height": 231,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"headerHeight": "17px",
+					"footerHeight": "16px",
+					"dataSource": "Form:C1466.lb_employees",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#DDDDDD",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"method": "ObjectMethods/lb_employees.4dm",
+					"events": [
+						"onDisplayDetail",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "col_firstName",
+							"dataSource": "This:C1470.firstName",
+							"width": 110,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "left",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "ent_firstName",
+								"text": "First Name",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Pied1",
+								"timeFormat": "hh_mm_ss",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						},
+						{
+							"name": "col_lastName",
+							"dataSource": "This:C1470.lastName",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "left",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "ent_lastName",
+								"text": "Last Name",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Pied2",
+								"timeFormat": "hh_mm_ss",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						},
+						{
+							"name": "col_birthdate",
+							"dataSource": "This:C1470.birthdate",
+							"width": 536,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "left",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "ent_birthdate",
+								"text": "Birthdate",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Pied3",
+								"timeFormat": "hh_mm_ss",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"lb_projets": {
+					"type": "listbox",
+					"top": 245,
+					"left": 29,
+					"width": 782,
+					"height": 231,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"headerHeight": "17px",
+					"footerHeight": "16px",
+					"dataSource": "Form:C1466.lb_projects",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#DDDDDD",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"method": "ObjectMethods/lb_projets.4dm",
+					"events": [
+						"onDisplayDetail",
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "col_name",
+							"dataSource": "This:C1470.name",
+							"width": 160,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "left",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "ent_name",
+								"text": "Name",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Pied4",
+								"timeFormat": "hh_mm_ss",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						},
+						{
+							"name": "col_startingDate1",
+							"dataSource": "This:C1470.startingDate",
+							"dataSourceTypeHint": "date",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "left",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "ent_startingDate",
+								"text": "Starting date",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Pied7",
+								"timeFormat": "hh_mm_ss",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						},
+						{
+							"name": "col_endingDate",
+							"dataSource": "This:C1470.endingDate",
+							"dataSourceTypeHint": "date",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "left",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "ent_endingDate",
+								"text": "Ending date",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Pied5",
+								"timeFormat": "hh_mm_ss",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						},
+						{
+							"name": "col_birthdate1",
+							"dataSource": "This:C1470.budget",
+							"dataSourceTypeHint": "number",
+							"width": 380,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"numberFormat": "###,###,##0.00 €",
+							"textAlign": "left",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "ent_budget",
+								"text": "Budget",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Pied6",
+								"timeFormat": "hh_mm_ss",
+								"textAlign": "left",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"lh_employees": {
+					"type": "list",
+					"top": 245,
+					"left": 29,
+					"width": 782,
+					"height": 231,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "lh_employees",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"events": [
+						"onSelectionChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Texte6",
+					"Line7"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

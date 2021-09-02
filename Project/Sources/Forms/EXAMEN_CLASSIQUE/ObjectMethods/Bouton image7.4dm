@@ -1,0 +1,3 @@
+If (FORM Event:C1606.code=On Clicked:K2:4)
+	ADD RECORD:C56([DOCUMENT_PATIENT:22])
+End if 

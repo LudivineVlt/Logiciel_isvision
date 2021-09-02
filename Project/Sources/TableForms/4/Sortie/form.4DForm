@@ -1,0 +1,333 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 30,
+	"markerBody": 60,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "listScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"background": {
+					"type": "rectangle",
+					"fill": "white",
+					"stroke": "transparent",
+					"top": 30,
+					"height": 30,
+					"left": 0,
+					"right": 3372
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]ID:1",
+					"top": 37,
+					"left": 10,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_1": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 265
+				},
+				"label_MotifConsultation": {
+					"type": "text",
+					"text": "MotifConsultation",
+					"top": 10,
+					"left": 270,
+					"width": 100,
+					"height": 17
+				},
+				"field_MotifConsultation": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]MotifConsultation:2",
+					"top": 37,
+					"left": 270,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_2": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 525
+				},
+				"label_PlaintePrincipale": {
+					"type": "text",
+					"text": "PlaintePrincipale",
+					"top": 10,
+					"left": 530,
+					"width": 100,
+					"height": 17
+				},
+				"field_PlaintePrincipale": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]PlaintePrincipale:3",
+					"top": 37,
+					"left": 530,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_3": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 785
+				},
+				"label_PlainteSecondaire": {
+					"type": "text",
+					"text": "PlainteSecondaire",
+					"top": 10,
+					"left": 790,
+					"width": 100,
+					"height": 17
+				},
+				"field_PlainteSecondaire": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]PlainteSecondaire:4",
+					"top": 37,
+					"left": 790,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_4": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1045
+				},
+				"label_SanteGenerale": {
+					"type": "text",
+					"text": "SanteGenerale",
+					"top": 10,
+					"left": 1050,
+					"width": 100,
+					"height": 17
+				},
+				"field_SanteGenerale": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]SanteGenerale:5",
+					"top": 37,
+					"left": 1050,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_5": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1305
+				},
+				"label_SanteOculaire": {
+					"type": "text",
+					"text": "SanteOculaire",
+					"top": 10,
+					"left": 1310,
+					"width": 100,
+					"height": 17
+				},
+				"field_SanteOculaire": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]SanteOculaire:6",
+					"top": 37,
+					"left": 1310,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_6": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1565
+				},
+				"label_Traitements": {
+					"type": "text",
+					"text": "Traitements",
+					"top": 10,
+					"left": 1570,
+					"width": 100,
+					"height": 17
+				},
+				"field_Traitements": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]Traitements:7",
+					"top": 37,
+					"left": 1570,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_7": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1825
+				},
+				"label_AntecedentsFamiliaux": {
+					"type": "text",
+					"text": "AntecedentsFamiliaux",
+					"top": 10,
+					"left": 1830,
+					"width": 100,
+					"height": 17
+				},
+				"field_AntecedentsFamiliaux": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]AntecedentsFamiliaux:8.SO",
+					"top": 37,
+					"left": 1830,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_8": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 2085
+				},
+				"label_ID_EXAMEN_GENERAL": {
+					"type": "text",
+					"text": "ID_EXAMEN_GENERAL",
+					"top": 10,
+					"left": 3122,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID_EXAMEN_GENERAL": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]ID_EXAMEN_GENERAL:9",
+					"top": 37,
+					"left": 3122,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_9": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 2345
+				},
+				"label_Besoins": {
+					"type": "text",
+					"text": "Besoins",
+					"top": 10,
+					"left": 2350,
+					"width": 100,
+					"height": 17
+				},
+				"field_Besoins": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]Besoins:10",
+					"top": 37,
+					"left": 2350,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_10": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 2605
+				},
+				"label_Commentaire": {
+					"type": "text",
+					"text": "Commentaire",
+					"top": 10,
+					"left": 2610,
+					"width": 100,
+					"height": 17
+				},
+				"field_Commentaire": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]Commentaire:11",
+					"top": 37,
+					"left": 2610,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_11": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 2865
+				},
+				"label_DernièreCS": {
+					"type": "text",
+					"text": "DernièreCS",
+					"top": 10,
+					"left": 2870,
+					"width": 100,
+					"height": 17
+				},
+				"field_DernièreCS": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]DernièreCS:12",
+					"top": 37,
+					"left": 2870,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_12": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 3116
+				},
+				"label_AntecedentsFamiliaux1": {
+					"type": "text",
+					"text": "AntecedentsFamiliaux",
+					"top": 10,
+					"left": 2092,
+					"width": 100,
+					"height": 17
+				},
+				"field_AntecedentsFamiliaux1": {
+					"type": "input",
+					"dataSource": "[ANAMNESE:4]AntecedentsFamiliaux:8.SG",
+					"top": 37,
+					"left": 2092,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				}
+			}
+		}
+	],
+	"geometryStamp": 718
+}

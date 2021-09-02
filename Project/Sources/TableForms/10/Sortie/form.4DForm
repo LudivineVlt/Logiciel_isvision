@@ -1,0 +1,945 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 30,
+	"markerBody": 60,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "listScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"background": {
+					"type": "rectangle",
+					"fill": "white",
+					"stroke": "transparent",
+					"top": 30,
+					"height": 30,
+					"left": 1,
+					"right": 1570
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID",
+					"top": 10,
+					"left": 10,
+					"width": 30,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]ID:1",
+					"top": 37,
+					"left": 10,
+					"width": 30,
+					"height": 17,
+					"borderStyle": "none",
+					"fontSize": 9
+				},
+				"line_1": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 50
+				},
+				"label_AcuiteBruteVL": {
+					"type": "text",
+					"text": "AV OD",
+					"top": 16,
+					"left": 55,
+					"width": 35,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVL:2.OD",
+					"top": 37,
+					"left": 55,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 90,
+					"fontSize": 10
+				},
+				"line_5": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1490
+				},
+				"label_ID_ANTECEDENT_LUNETTE": {
+					"type": "text",
+					"text": "ID_ANTEDECENT_LUNETTES",
+					"top": 8,
+					"left": 1495,
+					"width": 30,
+					"height": 17,
+					"fontSize": 10
+				},
+				"field_ID_CORRECTION": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]ID_CORRECTION:6",
+					"top": 37,
+					"left": 1495,
+					"width": 30,
+					"height": 17,
+					"borderStyle": "none",
+					"fontSize": 10
+				},
+				"line_6": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1530
+				},
+				"label_ID_EXAMEN_PRELIMINAIRE": {
+					"type": "text",
+					"text": "ID_EXAMEN_PRELIMINAIRE",
+					"top": 8,
+					"left": 1535,
+					"width": 30,
+					"height": 17,
+					"fontSize": 10
+				},
+				"field_ID_EXAMEN_PRELIMINAIRE": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]ID_EXAMEN_PRELIMINAIRE:9",
+					"top": 37,
+					"left": 1535,
+					"width": 30,
+					"height": 17,
+					"borderStyle": "none",
+					"fontSize": 10
+				},
+				"line_7": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 95
+				},
+				"label_AcuiteBruteVL1": {
+					"type": "text",
+					"text": "AV OG",
+					"top": 16,
+					"left": 100,
+					"width": 35,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL1": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVL:2.OG",
+					"top": 37,
+					"left": 100,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 135,
+					"fontSize": 10
+				},
+				"line_8": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 140
+				},
+				"label_AcuiteBruteVL2": {
+					"type": "text",
+					"text": "AV ODG",
+					"top": 16,
+					"left": 145,
+					"width": 40,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL2": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVL:2.ODG",
+					"top": 37,
+					"left": 145,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 185,
+					"fontSize": 10
+				},
+				"line_9": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 190
+				},
+				"label_AcuiteBruteVL3": {
+					"type": "text",
+					"text": "Dist OD",
+					"top": 16,
+					"left": 195,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL3": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVL:2.DistanceOD",
+					"top": 37,
+					"left": 195,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 235,
+					"fontSize": 10
+				},
+				"line_10": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 240
+				},
+				"label_AcuiteBruteVL4": {
+					"type": "text",
+					"text": "Dist OG",
+					"top": 16,
+					"left": 245,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL4": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVL:2.DistanceOG",
+					"top": 37,
+					"left": 245,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 285,
+					"fontSize": 10
+				},
+				"line_11": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 290
+				},
+				"label_AcuiteBruteVL5": {
+					"type": "text",
+					"text": "Dist ODG",
+					"top": 16,
+					"left": 295,
+					"width": 45,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL5": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVL:2.DistanceODG",
+					"top": 37,
+					"left": 295,
+					"width": 45,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 340,
+					"fontSize": 10
+				},
+				"line_12": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 405
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 51,
+					"width": 355,
+					"height": 15,
+					"right": 406
+				},
+				"Texte": {
+					"type": "text",
+					"text": "BRUTE VISION DE LOIN",
+					"top": 0,
+					"left": 167,
+					"width": 123,
+					"height": 14,
+					"fontWeight": "bold",
+					"fontSize": 10
+				},
+				"line_13": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 410
+				},
+				"label_AcuiteBruteVL6": {
+					"type": "text",
+					"text": "AV OD",
+					"top": 16,
+					"left": 415,
+					"width": 35,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL6": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVP:3.OD",
+					"top": 37,
+					"left": 415,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 450,
+					"fontSize": 10
+				},
+				"line_14": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 455
+				},
+				"label_AcuiteBruteVL7": {
+					"type": "text",
+					"text": "AV OG",
+					"top": 16,
+					"left": 460,
+					"width": 35,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL7": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVP:3.OG",
+					"top": 37,
+					"left": 460,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 495,
+					"fontSize": 10
+				},
+				"line_15": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 500
+				},
+				"label_AcuiteBruteVL8": {
+					"type": "text",
+					"text": "AV ODG",
+					"top": 16,
+					"left": 505,
+					"width": 40,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL8": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVP:3.ODG",
+					"top": 37,
+					"left": 505,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 545,
+					"fontSize": 10
+				},
+				"line_16": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 550
+				},
+				"label_AcuiteBruteVL9": {
+					"type": "text",
+					"text": "Dist OD",
+					"top": 16,
+					"left": 555,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL9": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVP:3.DistanceOD",
+					"top": 37,
+					"left": 555,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 595,
+					"fontSize": 10
+				},
+				"line_17": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 600
+				},
+				"label_AcuiteBruteVL10": {
+					"type": "text",
+					"text": "Dist OG",
+					"top": 16,
+					"left": 605,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL10": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVP:3.DistanceOG",
+					"top": 37,
+					"left": 605,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 645,
+					"fontSize": 10
+				},
+				"line_18": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 650
+				},
+				"label_AcuiteBruteVL11": {
+					"type": "text",
+					"text": "Dist ODG",
+					"top": 16,
+					"left": 655,
+					"width": 45,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL11": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVP:3.DistanceODG",
+					"top": 37,
+					"left": 655,
+					"width": 45,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 700,
+					"fontSize": 10
+				},
+				"line_19": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 765
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 411,
+					"width": 355,
+					"height": 15,
+					"right": 766
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "BRUTE VISION DE PRES",
+					"top": 0,
+					"left": 527,
+					"width": 123,
+					"height": 14,
+					"fontWeight": "bold",
+					"fontSize": 10
+				},
+				"label_AcuiteBruteVL12": {
+					"type": "text",
+					"text": "Optotype",
+					"top": 16,
+					"left": 350,
+					"width": 50,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL12": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVL:2.Optotype",
+					"top": 37,
+					"left": 350,
+					"width": 50,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 400,
+					"fontSize": 10
+				},
+				"line_20": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 290
+				},
+				"label_AcuiteBruteVL13": {
+					"type": "text",
+					"text": "Optotype",
+					"top": 16,
+					"left": 710,
+					"width": 50,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL13": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteBruteVP:3.Optotype",
+					"top": 37,
+					"left": 710,
+					"width": 50,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 760,
+					"fontSize": 10
+				},
+				"line_21": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 705
+				},
+				"line_2": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 770
+				},
+				"label_AcuiteBruteVL14": {
+					"type": "text",
+					"text": "AV OD",
+					"top": 16,
+					"left": 775,
+					"width": 35,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL14": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVL:4.OD",
+					"top": 37,
+					"left": 775,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 810,
+					"fontSize": 10
+				},
+				"line_22": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 815
+				},
+				"label_AcuiteBruteVL15": {
+					"type": "text",
+					"text": "AV OG",
+					"top": 16,
+					"left": 820,
+					"width": 35,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL15": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVL:4.OG",
+					"top": 37,
+					"left": 820,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 855,
+					"fontSize": 10
+				},
+				"line_23": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 860
+				},
+				"label_AcuiteBruteVL16": {
+					"type": "text",
+					"text": "AV ODG",
+					"top": 16,
+					"left": 865,
+					"width": 40,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL16": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVL:4.ODG",
+					"top": 37,
+					"left": 865,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 905,
+					"fontSize": 10
+				},
+				"line_24": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 910
+				},
+				"label_AcuiteBruteVL17": {
+					"type": "text",
+					"text": "Dist OD",
+					"top": 16,
+					"left": 915,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL17": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVL:4.DistanceOD",
+					"top": 37,
+					"left": 915,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 955,
+					"fontSize": 10
+				},
+				"line_25": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 960
+				},
+				"label_AcuiteBruteVL18": {
+					"type": "text",
+					"text": "Dist OG",
+					"top": 16,
+					"left": 965,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL18": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVL:4.DistanceOG",
+					"top": 37,
+					"left": 965,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1005,
+					"fontSize": 10
+				},
+				"line_26": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1010
+				},
+				"label_AcuiteBruteVL19": {
+					"type": "text",
+					"text": "Dist ODG",
+					"top": 16,
+					"left": 1015,
+					"width": 45,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL19": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVL:4.DistanceODG",
+					"top": 37,
+					"left": 1015,
+					"width": 45,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1060,
+					"fontSize": 10
+				},
+				"line_27": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1125
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 771,
+					"width": 355,
+					"height": 15,
+					"right": 1126
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "HABITUELLE VISION DE LOIN",
+					"top": 0,
+					"left": 872,
+					"width": 153,
+					"height": 12,
+					"fontWeight": "bold",
+					"fontSize": 10
+				},
+				"label_AcuiteBruteVL20": {
+					"type": "text",
+					"text": "Optotype",
+					"top": 16,
+					"left": 1070,
+					"width": 50,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL20": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVL:4.Optotype",
+					"top": 37,
+					"left": 1070,
+					"width": 50,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1120,
+					"fontSize": 10
+				},
+				"line_28": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1065
+				},
+				"line_3": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1130
+				},
+				"label_AcuiteBruteVL21": {
+					"type": "text",
+					"text": "AV OD",
+					"top": 16,
+					"left": 1135,
+					"width": 35,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL21": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVP:5.OD",
+					"top": 37,
+					"left": 1135,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1170,
+					"fontSize": 10
+				},
+				"line_4": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1175
+				},
+				"label_AcuiteBruteVL22": {
+					"type": "text",
+					"text": "AV OG",
+					"top": 16,
+					"left": 1180,
+					"width": 35,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL22": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVP:5.OG",
+					"top": 37,
+					"left": 1180,
+					"width": 35,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1215,
+					"fontSize": 10
+				},
+				"line_29": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1220
+				},
+				"label_AcuiteBruteVL23": {
+					"type": "text",
+					"text": "AV ODG",
+					"top": 16,
+					"left": 1225,
+					"width": 40,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL23": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVP:5.ODG",
+					"top": 37,
+					"left": 1225,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1265,
+					"fontSize": 10
+				},
+				"line_30": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1270
+				},
+				"label_AcuiteBruteVL24": {
+					"type": "text",
+					"text": "Dist OD",
+					"top": 16,
+					"left": 1275,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL24": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVP:5.DistanceOD",
+					"top": 37,
+					"left": 1275,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1315,
+					"fontSize": 10
+				},
+				"line_31": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1320
+				},
+				"label_AcuiteBruteVL25": {
+					"type": "text",
+					"text": "Dist OG",
+					"top": 16,
+					"left": 1325,
+					"width": 40,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL25": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVP:5.DistanceOG",
+					"top": 37,
+					"left": 1325,
+					"width": 40,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1365,
+					"fontSize": 10
+				},
+				"line_32": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1370
+				},
+				"label_AcuiteBruteVL26": {
+					"type": "text",
+					"text": "Dist ODG",
+					"top": 16,
+					"left": 1375,
+					"width": 45,
+					"height": 16,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL26": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVP:5.DistanceODG",
+					"top": 37,
+					"left": 1375,
+					"width": 45,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1420,
+					"fontSize": 10
+				},
+				"line_33": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1485
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 1131,
+					"width": 355,
+					"height": 15,
+					"right": 1486
+				},
+				"Texte3": {
+					"type": "text",
+					"text": "HABITUELLE VISION DE PRES",
+					"top": 0,
+					"left": 1230,
+					"width": 156,
+					"height": 12,
+					"fontWeight": "bold",
+					"fontSize": 10
+				},
+				"label_AcuiteBruteVL27": {
+					"type": "text",
+					"text": "Optotype",
+					"top": 16,
+					"left": 1430,
+					"width": 50,
+					"height": 12,
+					"fontSize": 10
+				},
+				"field_AcuiteBruteVL27": {
+					"type": "input",
+					"dataSource": "[ACUITE:10]AcuiteHabituelleVP:5.Optotype",
+					"top": 37,
+					"left": 1430,
+					"width": 50,
+					"height": 17,
+					"borderStyle": "none",
+					"right": 1480,
+					"fontSize": 10
+				},
+				"line_34": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 1425
+				},
+				"line_35": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1570
+				},
+				"line_36": {
+					"type": "line",
+					"top": 15,
+					"height": 45,
+					"left": 345
+				}
+			}
+		}
+	],
+	"geometryStamp": 1822
+}

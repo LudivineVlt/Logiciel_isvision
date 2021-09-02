@@ -1,0 +1,3 @@
+If (FORM Event:C1606.code=On Clicked:K2:4)
+	ALERT:C41("Anthea L Cochrane\n<<Conception du questionnaire de qualité de vie basse vision (LVQOL) et mesure des résultats de la rééducation basse vision>> \nSous la direction de James S Wolffsohn \nCollege of Optométry, Université de Melbourne, Australie \n\nP"+"ublication : American Journal of Optometry, volume 130, numéro 6, pages 793-805, 2000.\r")
+End if 

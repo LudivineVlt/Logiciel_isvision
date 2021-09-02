@@ -1,0 +1,176 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle12": {
+					"type": "rectangle",
+					"top": 12,
+					"left": 14,
+					"width": 1173,
+					"height": 64,
+					"fill": "transparent",
+					"stroke": "#FFFFFF"
+				},
+				"Texte99": {
+					"type": "text",
+					"text": "CHAMP VISUEL",
+					"top": 16,
+					"left": 18,
+					"width": 171,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte100": {
+					"type": "text",
+					"text": "Commentaire :",
+					"top": 16,
+					"left": 163,
+					"width": 89,
+					"height": 16
+				},
+				"Zone de saisie43": {
+					"type": "input",
+					"left": 164,
+					"top": 37,
+					"width": 288,
+					"height": 33
+				},
+				"Bouton image20": {
+					"type": "pictureButton",
+					"left": 38,
+					"top": 36,
+					"width": 35,
+					"height": 35,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/NewItem.png",
+					"rowCount": 4,
+					"borderStyle": "none"
+				},
+				"Bouton image21": {
+					"type": "pictureButton",
+					"left": 76,
+					"top": 39,
+					"width": 30,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/oeil.png"
+				},
+				"Texte101": {
+					"type": "text",
+					"text": "Commentaire :",
+					"top": 16,
+					"left": 521,
+					"width": 89,
+					"height": 16
+				},
+				"Zone de saisie44": {
+					"type": "input",
+					"left": 522,
+					"top": 37,
+					"width": 288,
+					"height": 33
+				},
+				"Image statique11": {
+					"type": "picture",
+					"top": 20,
+					"left": 485,
+					"width": 17,
+					"height": 16,
+					"picture": "Images/fleche_droite.png",
+					"pictureFormat": "scaled"
+				},
+				"Image statique12": {
+					"type": "picture",
+					"top": 20,
+					"left": 460,
+					"width": 17,
+					"height": 16,
+					"picture": "Images/fleche_gauche.png",
+					"pictureFormat": "scaled"
+				},
+				"Séparateur12": {
+					"type": "splitter",
+					"left": 480,
+					"top": 17,
+					"width": 1,
+					"height": 54
+				},
+				"Texte102": {
+					"type": "text",
+					"text": "Instrument de mesure :",
+					"top": 40,
+					"left": 825,
+					"width": 148,
+					"height": 16
+				},
+				"Combo Box3": {
+					"type": "combo",
+					"left": 971,
+					"top": 37,
+					"width": 173,
+					"height": 21,
+					"events": [
+						"onDataChange"
+					],
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Type_cv"
+					}
+				},
+				"Séparateur17": {
+					"type": "splitter",
+					"left": 149,
+					"top": 17,
+					"width": 1,
+					"height": 53
+				},
+				"Séparateur18": {
+					"type": "splitter",
+					"left": 816,
+					"top": 17,
+					"width": 1,
+					"height": 54
+				}
+			}
+		}
+	],
+	"geometryStamp": 2
+}

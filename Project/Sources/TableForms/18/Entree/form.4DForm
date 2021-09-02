@@ -1,0 +1,1431 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle_fond": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 3,
+					"width": 1188,
+					"height": 572,
+					"fill": "#366B84",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Rectangle130": {
+					"type": "rectangle",
+					"top": 345,
+					"left": 7,
+					"width": 586,
+					"height": 141,
+					"fill": "transparent",
+					"stroke": "#A7C211"
+				},
+				"Texte305": {
+					"type": "text",
+					"text": "• A quel point vous a-t-on expliqué votre condition oculaire ",
+					"top": 465,
+					"left": 12,
+					"width": 363,
+					"height": 16
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 30,
+					"left": 599,
+					"width": 586,
+					"height": 340,
+					"fill": "transparent",
+					"stroke": "#A7C211"
+				},
+				"Rectangle129": {
+					"type": "rectangle",
+					"top": 175,
+					"left": 7,
+					"width": 586,
+					"height": 166,
+					"fill": "transparent",
+					"stroke": "#A7C211"
+				},
+				"Rectangle133": {
+					"type": "rectangle",
+					"top": 175,
+					"left": 7,
+					"width": 585,
+					"height": 17,
+					"stroke": "transparent",
+					"fill": "#ACC812"
+				},
+				"Rectangle134": {
+					"type": "rectangle",
+					"top": 345,
+					"left": 7,
+					"width": 585,
+					"height": 17,
+					"stroke": "transparent",
+					"fill": "#ACC812"
+				},
+				"Rectangle128": {
+					"type": "rectangle",
+					"top": 31,
+					"left": 7,
+					"width": 586,
+					"height": 141,
+					"fill": "transparent",
+					"stroke": "#A7C211"
+				},
+				"Rectangle131": {
+					"type": "rectangle",
+					"top": 31,
+					"left": 599,
+					"width": 585,
+					"height": 17,
+					"stroke": "transparent",
+					"fill": "#ACC812"
+				},
+				"Texte29": {
+					"type": "text",
+					"text": "VISION DE LOIN, DEPLACEMENT & LUMINOSITE",
+					"top": 31,
+					"left": 744,
+					"width": 294,
+					"height": 16
+				},
+				"Rectangle132": {
+					"type": "rectangle",
+					"top": 31,
+					"left": 7,
+					"width": 585,
+					"height": 17,
+					"stroke": "transparent",
+					"fill": "#ACC812"
+				},
+				"Texte268": {
+					"type": "text",
+					"text": "AJUSTEMENT",
+					"top": 346,
+					"left": 255,
+					"width": 89,
+					"height": 16
+				},
+				"Texte269": {
+					"type": "text",
+					"text": "LECTURE ET TRAVAIL",
+					"top": 176,
+					"left": 233,
+					"width": 133,
+					"height": 16
+				},
+				"Texte270": {
+					"type": "text",
+					"text": "LOISIRS ET VIE QUOTIDIENNE",
+					"top": 32,
+					"left": 207,
+					"width": 184,
+					"height": 16
+				},
+				"Bouton45": {
+					"type": "button",
+					"text": "Calculer le score",
+					"top": 382,
+					"left": 599,
+					"width": 133,
+					"height": 24,
+					"events": [
+						"onClick"
+					],
+					"style": "texturedBevel",
+					"method": "ObjectMethods/Bouton45.4dm"
+				},
+				"Texte271": {
+					"type": "text",
+					"text": "Le score qualité de vie du jour est :",
+					"top": 382,
+					"left": 780,
+					"width": 239,
+					"height": 17,
+					"fontSize": 14,
+					"stroke": "#fffacd"
+				},
+				"Texte273": {
+					"type": "text",
+					"text": "/ 125",
+					"top": 382,
+					"left": 1081,
+					"width": 50,
+					"height": 16,
+					"stroke": "#fffacd"
+				},
+				"Texte274": {
+					"type": "text",
+					"text": "A quel point vous sentez vous pénalisé par : ",
+					"top": 50,
+					"left": 602,
+					"width": 281,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "normal",
+					"textDecoration": "underline",
+					"fontStyle": "italic"
+				},
+				"Texte275": {
+					"type": "text",
+					"text": "• Votre vision en général",
+					"top": 73,
+					"left": 602,
+					"width": 151,
+					"height": 16
+				},
+				"Texte276": {
+					"type": "text",
+					"text": "• Une sensation de fatigue oculaire chronique",
+					"top": 98,
+					"left": 602,
+					"width": 303,
+					"height": 16
+				},
+				"Texte277": {
+					"type": "text",
+					"text": "• Votre vision, chez vous le soir",
+					"top": 123,
+					"left": 602,
+					"width": 193,
+					"height": 16
+				},
+				"Texte278": {
+					"type": "text",
+					"text": "• Trouver la bonne quantité de lumière pour bien voir",
+					"top": 148,
+					"left": 602,
+					"width": 324,
+					"height": 16
+				},
+				"Texte279": {
+					"type": "text",
+					"text": "• Une sensation d'éblouissement",
+					"top": 173,
+					"left": 602,
+					"width": 214,
+					"height": 16
+				},
+				"Texte280": {
+					"type": "text",
+					"text": "• Lire les panneaux directionnels / nom de rue",
+					"top": 198,
+					"left": 602,
+					"width": 281,
+					"height": 16
+				},
+				"Texte281": {
+					"type": "text",
+					"text": "• Regarder la télévision",
+					"top": 223,
+					"left": 602,
+					"width": 208,
+					"height": 16
+				},
+				"Texte282": {
+					"type": "text",
+					"text": "• Regarder et suivre des objets en mouvement",
+					"top": 248,
+					"left": 602,
+					"width": 292,
+					"height": 16
+				},
+				"Texte283": {
+					"type": "text",
+					"text": "• Apprécier la profondeur ou la distance d'un objet",
+					"top": 273,
+					"left": 602,
+					"width": 313,
+					"height": 16
+				},
+				"Texte284": {
+					"type": "text",
+					"text": "• Distinguer les marches d'un escalier ou les trottoirs",
+					"top": 298,
+					"left": 602,
+					"width": 329,
+					"height": 16
+				},
+				"Texte285": {
+					"type": "text",
+					"text": "• La crainte de sortir, à cause de votre vision",
+					"top": 323,
+					"left": 602,
+					"width": 275,
+					"height": 16
+				},
+				"Texte286": {
+					"type": "text",
+					"text": "• Traverser la rue, en cas de forte affluence",
+					"top": 348,
+					"left": 602,
+					"width": 270,
+					"height": 16
+				},
+				"Texte294": {
+					"type": "text",
+					"text": "A cause de votre vision à quel point êtes vous :",
+					"top": 366,
+					"left": 12,
+					"width": 299,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "normal",
+					"textDecoration": "underline",
+					"fontStyle": "italic"
+				},
+				"Texte295": {
+					"type": "text",
+					"text": "• Malheureux dans votre situation de vie actuelle",
+					"top": 390,
+					"left": 12,
+					"width": 299,
+					"height": 16
+				},
+				"Texte296": {
+					"type": "text",
+					"text": "• Frustré de ne pas pouvoir faire certaines activités",
+					"top": 415,
+					"left": 12,
+					"width": 318,
+					"height": 16
+				},
+				"Texte297": {
+					"type": "text",
+					"text": "• Restreint dans vos visites à votre famille et vos amis",
+					"top": 440,
+					"left": 12,
+					"width": 337,
+					"height": 16
+				},
+				"Texte306": {
+					"type": "text",
+					"text": "A cause de votre vision à quel point êtes vous :",
+					"top": 50,
+					"left": 12,
+					"width": 299,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "normal",
+					"textDecoration": "underline",
+					"fontStyle": "italic"
+				},
+				"Texte307": {
+					"type": "text",
+					"text": "• Trouver du temps pour vous",
+					"top": 76,
+					"left": 12,
+					"width": 299,
+					"height": 16
+				},
+				"Texte308": {
+					"type": "text",
+					"text": "• Ecrire un chèque ou votre correspondance certaines activités",
+					"top": 100,
+					"left": 12,
+					"width": 318,
+					"height": 16
+				},
+				"Texte309": {
+					"type": "text",
+					"text": "• Relire votre propre écriture",
+					"top": 125,
+					"left": 12,
+					"width": 337,
+					"height": 16
+				},
+				"Texte310": {
+					"type": "text",
+					"text": "• Réaliser vos tâches quotidiennes (ménage, repas...) ",
+					"top": 150,
+					"left": 12,
+					"width": 363,
+					"height": 16
+				},
+				"Texte311": {
+					"type": "text",
+					"text": "A cause de votre vision à quel point êtes vous :",
+					"top": 194,
+					"left": 10,
+					"width": 299,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "normal",
+					"textDecoration": "underline",
+					"fontStyle": "italic"
+				},
+				"Texte312": {
+					"type": "text",
+					"text": "• Lire les gros caractères",
+					"top": 219,
+					"left": 10,
+					"width": 299,
+					"height": 16
+				},
+				"Texte313": {
+					"type": "text",
+					"text": "• Lire le journal ou un livre",
+					"top": 243,
+					"left": 10,
+					"width": 318,
+					"height": 16
+				},
+				"Texte314": {
+					"type": "text",
+					"text": "• Lire les étiquettes de médicament",
+					"top": 268,
+					"left": 10,
+					"width": 337,
+					"height": 16
+				},
+				"Texte315": {
+					"type": "text",
+					"text": "• Lire votre courrier, vos emails",
+					"top": 293,
+					"left": 10,
+					"width": 363,
+					"height": 16
+				},
+				"Texte316": {
+					"type": "text",
+					"text": "• Utiliser des outils (découper, coudre, tricoter, bricoler...)",
+					"top": 318,
+					"left": 10,
+					"width": 363,
+					"height": 16
+				},
+				"Texte318": {
+					"type": "text",
+					"text": "1",
+					"top": 50,
+					"left": 436,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte319": {
+					"type": "text",
+					"text": "2",
+					"top": 50,
+					"left": 468,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte320": {
+					"type": "text",
+					"text": "3",
+					"top": 50,
+					"left": 501,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte321": {
+					"type": "text",
+					"text": "4",
+					"top": 50,
+					"left": 534,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte333": {
+					"type": "text",
+					"text": "Questionnaire LVQOL-25",
+					"top": 10,
+					"left": 516,
+					"width": 175,
+					"height": 17,
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Bouton46": {
+					"type": "button",
+					"text": "source",
+					"top": 10,
+					"left": 838,
+					"width": 64,
+					"height": 17,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton46.4dm"
+				},
+				"Bouton47": {
+					"type": "button",
+					"text": "aide",
+					"top": 10,
+					"left": 772,
+					"width": 64,
+					"height": 17,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton47.4dm"
+				},
+				"Regle1": {
+					"type": "ruler",
+					"left": 401,
+					"top": 80,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q1",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 575,
+					"left": 2,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 575,
+					"left": 65,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 575,
+					"left": 128,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 575,
+					"left": 191,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 575,
+					"left": 254,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 575,
+					"left": 317,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 575,
+					"left": 380,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 514,
+					"left": 7,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[SCORE_QUALITE_VIE:18]ID:1",
+					"top": 514,
+					"left": 117,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"field_Resultat": {
+					"type": "input",
+					"dataSource": "[SCORE_QUALITE_VIE:18]Resultat:3",
+					"top": 511,
+					"left": 503,
+					"width": 250,
+					"height": 17,
+					"stroke": "#c0c0c0",
+					"fill": "transparent"
+				},
+				"label_Commentaire": {
+					"type": "text",
+					"text": "Commentaire:",
+					"top": 437,
+					"left": 602,
+					"width": 100,
+					"height": 17,
+					"stroke": "#FFFFFF"
+				},
+				"field_Commentaire": {
+					"type": "input",
+					"dataSource": "[SCORE_QUALITE_VIE:18]Commentaire:4",
+					"top": 437,
+					"left": 780,
+					"width": 340,
+					"height": 49
+				},
+				"label_ID_EXAMEN_COMPLEMENTAIRE": {
+					"type": "text",
+					"text": "ID_EXAMEN_COMPLEMENTAIRE:",
+					"top": 543,
+					"left": 7,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID_EXAMEN_COMPLEMENTAIRE": {
+					"type": "input",
+					"dataSource": "[SCORE_QUALITE_VIE:18]ID_EXAMEN_COMPLEMENTAIRE:5",
+					"top": 543,
+					"left": 117,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"field_Resultat1": {
+					"type": "input",
+					"dataSource": "int_convert",
+					"top": 382,
+					"left": 1010,
+					"width": 62,
+					"height": 17,
+					"enterable": false
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "5",
+					"top": 50,
+					"left": 567,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Regle2": {
+					"type": "ruler",
+					"left": 401,
+					"top": 104,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q2",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle3": {
+					"type": "ruler",
+					"left": 401,
+					"top": 129,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q3",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle4": {
+					"type": "ruler",
+					"left": 401,
+					"top": 154,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q4",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle5": {
+					"type": "ruler",
+					"left": 401,
+					"top": 223,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q5",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle6": {
+					"type": "ruler",
+					"left": 401,
+					"top": 247,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q6",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle7": {
+					"type": "ruler",
+					"left": 401,
+					"top": 272,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q7",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle8": {
+					"type": "ruler",
+					"left": 401,
+					"top": 297,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q8",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle9": {
+					"type": "ruler",
+					"left": 401,
+					"top": 322,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q9",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle10": {
+					"type": "ruler",
+					"left": 401,
+					"top": 394,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q10",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle11": {
+					"type": "ruler",
+					"left": 401,
+					"top": 419,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q11",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle12": {
+					"type": "ruler",
+					"left": 401,
+					"top": 444,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q12",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle13": {
+					"type": "ruler",
+					"left": 401,
+					"top": 469,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q13",
+					"continuousExecution": false,
+					"right": 577,
+					"min": 0
+				},
+				"Regle14": {
+					"type": "ruler",
+					"left": 987,
+					"top": 77,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q14",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle15": {
+					"type": "ruler",
+					"left": 987,
+					"top": 102,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q15",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle16": {
+					"type": "ruler",
+					"left": 987,
+					"top": 127,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q16",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle17": {
+					"type": "ruler",
+					"left": 987,
+					"top": 152,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q17",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle18": {
+					"type": "ruler",
+					"left": 987,
+					"top": 177,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q18",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle19": {
+					"type": "ruler",
+					"left": 987,
+					"top": 202,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q19",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle20": {
+					"type": "ruler",
+					"left": 987,
+					"top": 227,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q20",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle21": {
+					"type": "ruler",
+					"left": 987,
+					"top": 252,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q21",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle22": {
+					"type": "ruler",
+					"left": 987,
+					"top": 277,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q22",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle23": {
+					"type": "ruler",
+					"left": 987,
+					"top": 302,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q23",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle24": {
+					"type": "ruler",
+					"left": 987,
+					"top": 327,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q24",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Regle25": {
+					"type": "ruler",
+					"left": 987,
+					"top": 352,
+					"width": 176,
+					"height": 12,
+					"max": 5,
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"showGraduations": true,
+					"dataSource": "int_Q25",
+					"continuousExecution": false,
+					"right": 1163,
+					"min": 0
+				},
+				"Bouton1": {
+					"type": "button",
+					"text": "Reinitialiser",
+					"top": 407,
+					"left": 599,
+					"width": 133,
+					"height": 24,
+					"events": [
+						"onClick"
+					],
+					"style": "texturedBevel",
+					"method": "ObjectMethods/Bouton1.4dm"
+				},
+				"Texte20": {
+					"type": "text",
+					"text": "n/a",
+					"top": 50,
+					"left": 397,
+					"width": 22,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "1",
+					"top": 194,
+					"left": 436,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte3": {
+					"type": "text",
+					"text": "2",
+					"top": 194,
+					"left": 468,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte4": {
+					"type": "text",
+					"text": "3",
+					"top": 194,
+					"left": 501,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte5": {
+					"type": "text",
+					"text": "4",
+					"top": 194,
+					"left": 534,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte6": {
+					"type": "text",
+					"text": "5",
+					"top": 194,
+					"left": 567,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte7": {
+					"type": "text",
+					"text": "n/a",
+					"top": 194,
+					"left": 397,
+					"width": 22,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte8": {
+					"type": "text",
+					"text": "1",
+					"top": 366,
+					"left": 436,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte9": {
+					"type": "text",
+					"text": "2",
+					"top": 366,
+					"left": 468,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte10": {
+					"type": "text",
+					"text": "3",
+					"top": 366,
+					"left": 501,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte11": {
+					"type": "text",
+					"text": "4",
+					"top": 366,
+					"left": 534,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte12": {
+					"type": "text",
+					"text": "5",
+					"top": 366,
+					"left": 567,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte13": {
+					"type": "text",
+					"text": "n/a",
+					"top": 366,
+					"left": 397,
+					"width": 22,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte14": {
+					"type": "text",
+					"text": "1",
+					"top": 50,
+					"left": 1024,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte15": {
+					"type": "text",
+					"text": "2",
+					"top": 50,
+					"left": 1056,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte16": {
+					"type": "text",
+					"text": "3",
+					"top": 50,
+					"left": 1089,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte17": {
+					"type": "text",
+					"text": "4",
+					"top": 50,
+					"left": 1122,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte18": {
+					"type": "text",
+					"text": "5",
+					"top": 50,
+					"left": 1155,
+					"width": 9,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Texte19": {
+					"type": "text",
+					"text": "n/a",
+					"top": 50,
+					"left": 985,
+					"width": 22,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"label_ReponsesQ1": {
+					"type": "text",
+					"text": "Resultat:",
+					"top": 511,
+					"left": 393,
+					"width": 100,
+					"height": 17
+				}
+			}
+		}
+	],
+	"geometryStamp": 216,
+	"editor": {
+		"groups": {
+			"Group": [
+				"label_Commentaire",
+				"field_Commentaire"
+			],
+			"Group1": [
+				"Texte318",
+				"Texte319",
+				"Texte320",
+				"Texte321",
+				"Texte1",
+				"Texte20"
+			],
+			"Group2": [
+				"Texte2",
+				"Texte3",
+				"Texte4",
+				"Texte5",
+				"Texte6",
+				"Texte7"
+			],
+			"Group3": [
+				"Texte8",
+				"Texte9",
+				"Texte10",
+				"Texte11",
+				"Texte12",
+				"Texte13"
+			],
+			"Group4": [
+				"Texte14",
+				"Texte15",
+				"Texte16",
+				"Texte17",
+				"Texte18",
+				"Texte19"
+			]
+		}
+	},
+	"method": "method.4dm"
+}

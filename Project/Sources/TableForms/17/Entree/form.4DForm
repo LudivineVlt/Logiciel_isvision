@@ -1,0 +1,415 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle_fond": {
+					"type": "rectangle",
+					"top": 9,
+					"left": 4,
+					"width": 1069,
+					"height": 543,
+					"fill": "#366B84",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 361,
+					"left": 12,
+					"width": 1046,
+					"height": 123,
+					"fill": "transparent",
+					"stroke": "#ACC812",
+					"borderRadius": 5
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 28,
+					"left": 12,
+					"width": 1046,
+					"height": 312,
+					"fill": "transparent",
+					"stroke": "#ACC812",
+					"borderRadius": 5
+				},
+				"Texte": {
+					"type": "text",
+					"text": "OEIL DROIT\r",
+					"top": 37,
+					"left": 347,
+					"width": 87,
+					"height": 17,
+					"fontWeight": "bold",
+					"fontSize": 14,
+					"stroke": "#FFFFFF"
+				},
+				"Texte15": {
+					"type": "text",
+					"text": "OEIL GAUCHE\r",
+					"top": 37,
+					"left": 793,
+					"width": 103,
+					"height": 17,
+					"fontWeight": "bold",
+					"fontSize": 14,
+					"stroke": "#FFFFFF"
+				},
+				"Texte17": {
+					"type": "text",
+					"text": "SEGMENT ANTÉRIEUR :",
+					"top": 154,
+					"left": 22,
+					"width": 160,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#fffacd",
+					"textDecoration": "underline"
+				},
+				"Texte18": {
+					"type": "text",
+					"text": "SEGMENT POSTÉRIEUR :",
+					"top": 248,
+					"left": 22,
+					"width": 167,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#fffacd",
+					"textDecoration": "underline"
+				},
+				"Texte19": {
+					"type": "text",
+					"text": "CONCLUSION :",
+					"top": 374,
+					"left": 22,
+					"width": 126,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#fffacd",
+					"textDecoration": "underline"
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 499,
+					"left": 22,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]ID:1",
+					"top": 499,
+					"left": 132,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"field_Annexes_OD": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]Annexes:2.OD",
+					"top": 61,
+					"left": 190,
+					"width": 400,
+					"height": 80
+				},
+				"field_SegmentAnterieur_OD": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]SegmentAnterieur:3.OD",
+					"top": 154,
+					"left": 190,
+					"width": 400,
+					"height": 80
+				},
+				"field_SegmentPosterieur_OD": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]SegmentPosterieur:4.OD",
+					"top": 248,
+					"left": 190,
+					"width": 400,
+					"height": 80
+				},
+				"field_Conclusion": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE]Conclusion",
+					"top": 374,
+					"left": 190,
+					"width": 854,
+					"height": 45,
+					"right": 1044
+				},
+				"label_ID_EXAMEN_COMPLEMENTAIRE": {
+					"type": "text",
+					"text": "ID_EXAMEN_COMPLEMENTAIRE:",
+					"top": 525,
+					"left": 22,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID_EXAMEN_COMPLEMENTAIRE": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]ID_EXAMEN_COMPLEMENTAIRE:6",
+					"top": 525,
+					"left": 132,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "ANNEXES :",
+					"top": 61,
+					"left": 22,
+					"width": 167,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#fffacd",
+					"textDecoration": "underline"
+				},
+				"Séparateur": {
+					"type": "splitter",
+					"left": 616,
+					"top": 37,
+					"width": 1,
+					"height": 297,
+					"bottom": 334
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "COMMENTAIRE :",
+					"top": 428,
+					"left": 22,
+					"width": 116,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#fffacd",
+					"textDecoration": "underline"
+				},
+				"field_Commentaire1": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]Commentaire:5",
+					"top": 428,
+					"left": 190,
+					"width": 854,
+					"height": 45,
+					"right": 1044
+				},
+				"Texte3": {
+					"type": "text",
+					"text": "OBSERVATIONS",
+					"top": 14,
+					"left": 22,
+					"width": 167,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#ACC812"
+				},
+				"field_Annexes_OG": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]Annexes:2.OG",
+					"top": 61,
+					"left": 644,
+					"width": 400,
+					"height": 80
+				},
+				"field_SegmentAnterieur_OG": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]SegmentAnterieur:3.OG",
+					"top": 154,
+					"left": 644,
+					"width": 400,
+					"height": 80
+				},
+				"field_SegmentPosterieur_OG": {
+					"type": "input",
+					"dataSource": "[BIOMICROSCOPIE:17]SegmentPosterieur:4.OG",
+					"top": 248,
+					"left": 644,
+					"width": 400,
+					"height": 80
+				},
+				"Texte4": {
+					"type": "text",
+					"text": "CONCLUSIONS",
+					"top": 347,
+					"left": 22,
+					"width": 126,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#ACC812"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 562,
+					"left": 12,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 562,
+					"left": 75,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 562,
+					"left": 138,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 562,
+					"left": 201,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 562,
+					"left": 264,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 562,
+					"left": 327,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 562,
+					"left": 390,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 1167
+}

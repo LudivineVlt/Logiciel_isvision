@@ -1,0 +1,1838 @@
+﻿{
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image3.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:20:25.083Z"
+	},
+	"Sources/Forms/Accueil - identification/ObjectMethods/Bouton3.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T01:10:21.227Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton image3.4dm": {
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:41:07.010Z"
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton15.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T13:21:57.537Z"
+	},
+	"Sources/Forms/Sous menu exams comp/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T13:23:32.831Z"
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T13:39:17.789Z"
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton2.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T13:39:26.486Z"
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton3.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T13:39:34.369Z"
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton5.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T13:39:42.796Z"
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton4.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T13:39:51.033Z"
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Zone de saisie45.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T14:56:40.098Z"
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 52,
+		"endSelection": 52,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-25T09:12:37.460Z"
+	},
+	"Sources/Forms/EXAMEN_BV/method.4dm": {
+		"startSelection": 47,
+		"endSelection": 47,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 30,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:59:05.212Z"
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/Bouton2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-28T22:32:45.268Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Non saisissable1.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-25T23:44:32.131Z"
+	},
+	"Sources/Forms/TEST/ObjectMethods/Bouton7.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T00:23:02.041Z"
+	},
+	"Sources/Forms/TEST/method.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T00:17:59.638Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/lb_patient.4dm": {
+		"startSelection": 40,
+		"endSelection": 40,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T17:02:16.066Z"
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/lb_patient.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T10:37:00.962Z"
+	},
+	"Sources/Forms/Accueil - identification/ObjectMethods/Bouton2.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T01:08:12.534Z"
+	},
+	"Sources/TableForms/2/Entree/ObjectMethods/Bouton image2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T10:43:40.839Z"
+	},
+	"Sources/TableForms/1/Sortie/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T10:57:10.232Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 64,
+		"endSelection": 64,
+		"firstSelectedLine": 75,
+		"lastSelectedLine": 75,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T14:56:50.855Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton5.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T14:55:30.137Z"
+	},
+	"Sources/Forms/Main menu/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 9,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T14:57:54.631Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton image4.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T13:05:34.060Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton6.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T13:36:16.846Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T14:21:01.638Z"
+	},
+	"Sources/Forms/TEST/ObjectMethods/listbox.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T15:06:38.092Z"
+	},
+	"Sources/Forms/TEST/ObjectMethods/lb_patient.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T15:23:11.180Z"
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Règle.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-24T19:51:45.243Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton45.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T23:01:34.283Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/field_Resultat.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T14:59:57.621Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton47.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T15:06:17.096Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio143.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T15:08:52.154Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Règle1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T15:18:20.440Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Règle.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T15:12:58.741Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T16:09:39.096Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T15:21:04.675Z"
+	},
+	"Sources/Forms/Test_SCORE/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T23:01:46.616Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio4.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T15:30:22.926Z"
+	},
+	"Trash/Methods/(chargerPatient).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-26T14:23:38.325Z"
+	},
+	"Trash/Methods/(setValue).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T15:59:43.591Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 14,
+		"endSelection": 14,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T22:54:01.641Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Regle1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T22:35:55.424Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/field_Resultat2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T22:56:56.092Z"
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/field_Resultat1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T22:55:32.559Z"
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Bouton47.4dm": {
+		"startSelection": 364,
+		"endSelection": 364,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T23:05:12.408Z"
+	},
+	"Sources/TableForms/18/Entree/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T23:36:41.873Z"
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Bouton45.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T12:48:29.699Z"
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 30,
+		"endSelection": 30,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-27T23:41:19.752Z"
+	},
+	"Sources/TableForms/3/Entree/ObjectMethods/Bouton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-28T21:57:40.525Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_patientCourant_dateNaissance.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-28T22:15:56.021Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Sous formulaire1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T10:34:47.385Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton2.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-28T22:31:46.577Z"
+	},
+	"Sources/Forms/Sous menu examen/ObjectMethods/Bouton2.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-28T22:31:59.095Z"
+	},
+	"Sources/TableForms/4/Entree_TEST/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T10:26:24.004Z"
+	},
+	"Sources/TableForms/4/Entree_TEST/ObjectMethods/field_PlaintePrincipale.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T09:54:33.913Z"
+	},
+	"Sources/TableForms/4/Entree_TEST/ObjectMethods/Pop_MotifCS.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T10:15:15.362Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_PlaintePrincipale1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T10:49:37.186Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton27.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 28,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:38:48.007Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T09:58:04.093Z"
+	},
+	"Sources/TableForms/23/Entree/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T13:21:54.676Z"
+	},
+	"Sources/Forms/EXAMEN_BV1/ObjectMethods/Sous formulaire1.4dm": {
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-30T14:09:52.499Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate1.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 52,
+		"lastSelectedLine": 52,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T09:51:56.404Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Sous formulaire8.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T09:55:29.233Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T09:57:14.752Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVBRUTEVLOPTO.4dm": {
+		"startSelection": 30,
+		"endSelection": 30,
+		"firstSelectedLine": 23,
+		"lastSelectedLine": 23,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T11:58:27.929Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 34,
+		"lastSelectedLine": 34,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T14:02:40.888Z"
+	},
+	"Sources/Forms/TEST/ObjectMethods/Bouton9.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T11:52:55.854Z"
+	},
+	"Sources/Forms/TEST/ObjectMethods/Popup Liste déroulante1.4dm": {
+		"startSelection": 14,
+		"endSelection": 14,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T11:56:41.369Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVBRUTEVPOPTO.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T12:01:31.790Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVHABVLOPTO.4dm": {
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T12:02:16.818Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVHABVPOPTO.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T12:02:33.486Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Date1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T12:59:05.691Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo Box_Geometrie_lu.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T13:06:37.898Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_TYPECV.4dm": {
+		"startSelection": 0,
+		"endSelection": 9,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T13:27:09.689Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_Bris_type.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T14:05:20.626Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_OD_ast_co_puissance.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T14:29:29.593Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton29.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T14:16:33.311Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OD_RayonPlat.4dm": {
+		"startSelection": 70,
+		"endSelection": 70,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T12:48:02.955Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OD_RayonCambre.4dm": {
+		"startSelection": 80,
+		"endSelection": 80,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T15:11:09.415Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OG_RayonPlat.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T15:12:08.725Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OG_RayonCambre.4dm": {
+		"startSelection": 58,
+		"endSelection": 58,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T15:12:21.435Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_RefObj_methode1.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:29:46.359Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image1.4dm": {
+		"startSelection": 14,
+		"endSelection": 14,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T23:59:43.804Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image6.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:00:04.963Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image12.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:02:38.080Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image13.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:02:56.876Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image14.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:05:38.909Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image15.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:06:01.740Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image20.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:40:07.962Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image16.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:15:22.596Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image17.4dm": {
+		"startSelection": 37,
+		"endSelection": 37,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:15:22.608Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image18.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T00:15:22.629Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_RefObj_methode.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T01:08:10.549Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_at_RefSubjVL_optotype.4dm": {
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T01:09:08.470Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_at_RefSubjVP_optotype.4dm": {
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T01:10:01.135Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image23.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:40:53.138Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image28.4dm": {
+		"startSelection": 28,
+		"endSelection": 0,
+		"firstSelectedLine": 34,
+		"lastSelectedLine": 30,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:43:08.030Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image29.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:42:26.795Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image25.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:40:06.217Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image24.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:46:13.198Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_galilee.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T09:45:00.119Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_galilee1.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:52:50.081Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_galilee.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:53:17.779Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_subjVL.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:47:39.784Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_subjVP.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T09:45:29.250Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_obj.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:43:08.030Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_subjVL.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T09:00:12.767Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_subjVP.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T09:00:13.873Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_co_portee.4dm": {
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T08:40:53.138Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_finale.4dm": {
+		"startSelection": 33,
+		"endSelection": 33,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T09:04:49.897Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate3.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 41,
+		"lastSelectedLine": 41,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:03:38.884Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate4.4dm": {
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:02:52.245Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate5.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:06:13.387Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton5.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:08:47.275Z"
+	},
+	"Sources/Methods/alerteFonctionAVenir.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:08:21.237Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate6.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:09:45.667Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image10.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T14:02:50.984Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image3.4dm": {
+		"startSelection": 6,
+		"endSelection": 6,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:14:24.843Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_aideVisuelle.4dm": {
+		"startSelection": 38,
+		"endSelection": 38,
+		"firstSelectedLine": 48,
+		"lastSelectedLine": 48,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:34:04.783Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Nom2.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:33:01.365Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Nom3.4dm": {
+		"startSelection": 15,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:33:16.118Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_score.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T11:36:31.668Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T11:31:05.697Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image7.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T14:14:46.012Z"
+	},
+	"Trash/Methods/(exportFichePatient).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T15:11:34.562Z"
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/Pop_Sexe_Patient.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T17:16:32.878Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image13.4dm": {
+		"startSelection": 0,
+		"endSelection": 7,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:39:45.448Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image11.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:40:07.240Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image12.4dm": {
+		"startSelection": 24,
+		"endSelection": 24,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:40:19.385Z"
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton image5.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:40:59.016Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton8.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:43:38.168Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton9.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:27:00.366Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/lb_praticien.4dm": {
+		"startSelection": 0,
+		"endSelection": 9,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:47:07.355Z"
+	},
+	"Sources/Forms/Parametres/method.4dm": {
+		"startSelection": 33,
+		"endSelection": 33,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T01:11:21.043Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton7.4dm": {
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 71,
+		"lastSelectedLine": 71,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T01:13:45.441Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Zone de saisie1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T20:57:24.166Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image4.4dm": {
+		"startSelection": 57,
+		"endSelection": 57,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:01:44.462Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image1.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:20:15.800Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton10.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:22:34.209Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/List Box1.4dm": {
+		"startSelection": 48,
+		"endSelection": 48,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:04:07.679Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 65,
+		"endSelection": 65,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:09:59.679Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/List Box3.4dm": {
+		"startSelection": 0,
+		"endSelection": 9,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:12:13.797Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/List Box2.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:16:06.821Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image7.4dm": {
+		"startSelection": 26,
+		"endSelection": 14,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:19:43.808Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image5.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:19:52.952Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image6.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:20:03.956Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton11.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:22:14.669Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton3.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:25:02.182Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Popup Liste déroulante.4dm": {
+		"startSelection": 61,
+		"endSelection": 61,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:50:12.028Z"
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Combo Box.4dm": {
+		"startSelection": 73,
+		"endSelection": 73,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:50:01.954Z"
+	},
+	"Sources/TableForms/2/Entree/ObjectMethods/Pop_statut.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:56:38.928Z"
+	},
+	"Sources/TableForms/23/Entree/ObjectMethods/Combo Box.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T21:58:11.322Z"
+	},
+	"Sources/TableForms/14/Entree/ObjectMethods/Combo Box.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:00:28.141Z"
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVBRUTEVLOPTO.4dm": {
+		"startSelection": 84,
+		"endSelection": 84,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:54:35.144Z"
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVBRUTEVPOPTO.4dm": {
+		"startSelection": 84,
+		"endSelection": 84,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:54:55.626Z"
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVHABVLOPTO.4dm": {
+		"startSelection": 99,
+		"endSelection": 99,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:55:12.921Z"
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVHABVPOPTO.4dm": {
+		"startSelection": 99,
+		"endSelection": 99,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:55:29.834Z"
+	},
+	"Sources/TableForms/6/Entree/ObjectMethods/Combo Box_Geometrie_lu.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:15:45.762Z"
+	},
+	"Sources/TableForms/12/Entree/ObjectMethods/Combo_AT_TypeBris.4dm": {
+		"startSelection": 58,
+		"endSelection": 58,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:21:59.397Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_examPreliminaire.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T14:02:40.888Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_keratometrie_refraction.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:30:49.471Z"
+	},
+	"Sources/TableForms/9/Entree/ObjectMethods/Combo_RefObj_methode1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:34:02.901Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Combo_RefObj_methode.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:53:52.003Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Combo_at_RefSubjVL_optotype.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:57:49.305Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Combo_at_RefSubjVP_optotype.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T22:58:18.901Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/field_RefGalilee_OD_Distance.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:14:06.220Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/field_RefSubjectiveVL_Distance5.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:20:02.763Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/[REFRACTION]RefGalilee_ODG_AV.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:25:23.655Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image12.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:31:13.271Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image13.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:31:42.696Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image14.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:33:37.113Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image15.4dm": {
+		"startSelection": 0,
+		"endSelection": 7,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:33:58.835Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image18.4dm": {
+		"startSelection": 68,
+		"endSelection": 68,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:34:33.365Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image19.4dm": {
+		"startSelection": 68,
+		"endSelection": 68,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:35:02.327Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image17.4dm": {
+		"startSelection": 0,
+		"endSelection": 7,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:35:58.285Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image16.4dm": {
+		"startSelection": 61,
+		"endSelection": 61,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:36:32.423Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image20.4dm": {
+		"startSelection": 0,
+		"endSelection": 7,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:39:27.683Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image21.4dm": {
+		"startSelection": 60,
+		"endSelection": 60,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:39:54.336Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image21.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:40:42.933Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_obj.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:44:32.963Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_obj.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:45:51.082Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_subjVL.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:49:14.098Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_subjVL.4dm": {
+		"startSelection": 32,
+		"endSelection": 32,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:48:58.949Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/field_RefSubjectiveVL_ODG_AV.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:49:20.879Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_subjVL1.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:51:02.935Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_subjVL1.4dm": {
+		"startSelection": 41,
+		"endSelection": 41,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:51:36.087Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_galilee.4dm": {
+		"startSelection": 39,
+		"endSelection": 39,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:52:43.414Z"
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_finale.4dm": {
+		"startSelection": 24,
+		"endSelection": 24,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-01T23:55:09.024Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/listbox.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:15:35.844Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Image.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:30:44.755Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_score1.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:36:59.309Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bCancel8.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:38:56.653Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/List Box.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:40:38.061Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image22.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:46:14.089Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_score2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:51:34.153Z"
+	},
+	"Sources/Forms/EXAMEN_BV1/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T12:14:49.068Z"
+	},
+	"Sources/Forms/EXAMEN_CLASSIQUE/method.4dm": {
+		"startSelection": 47,
+		"endSelection": 0,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 28,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:58:30.843Z"
+	},
+	"Sources/Forms/EXAMEN_CLASSIQUE/ObjectMethods/bValidate_solutionOptique.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 44,
+		"lastSelectedLine": 44,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T00:56:21.152Z"
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_solutionOptique.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-31T09:51:56.404Z"
+	},
+	"Sources/Forms/EXAMEN_CLASSIQUE/ObjectMethods/bValidate_keratometrie_refraction.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 93,
+		"lastSelectedLine": 93,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T01:00:30.325Z"
+	},
+	"Sources/Forms/Accueil - identification/ObjectMethods/Zone de saisie.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-02T01:08:40.459Z"
+	}
+}

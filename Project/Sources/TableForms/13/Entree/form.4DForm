@@ -1,0 +1,336 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle_fond": {
+					"type": "rectangle",
+					"top": 7,
+					"left": 10,
+					"width": 730,
+					"height": 214,
+					"fill": "#366B84",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Rectangle90": {
+					"type": "rectangle",
+					"top": 14,
+					"left": 16,
+					"width": 714,
+					"height": 125,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Texte147": {
+					"type": "text",
+					"text": "LATERALISATION",
+					"top": 20,
+					"left": 19,
+					"width": 171,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte149": {
+					"type": "text",
+					"text": "Coordination oeil main :",
+					"top": 43,
+					"left": 21,
+					"width": 148,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte150": {
+					"type": "text",
+					"text": "Dominant sensoriel :",
+					"top": 43,
+					"left": 418,
+					"width": 128,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte151": {
+					"type": "text",
+					"text": "Oeil directeur :",
+					"top": 75,
+					"left": 418,
+					"width": 123,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte152": {
+					"type": "text",
+					"text": "Oeil de visée :",
+					"top": 108,
+					"left": 418,
+					"width": 128,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte153": {
+					"type": "text",
+					"text": "Commentaire :",
+					"top": 93,
+					"left": 21,
+					"width": 148,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Séparateur28": {
+					"type": "splitter",
+					"left": 409,
+					"top": 43,
+					"width": 3,
+					"height": 90
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 153,
+					"left": 21,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[LATERALISATION:13]ID:1",
+					"top": 153,
+					"left": 131,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"field_Commentaire": {
+					"type": "input",
+					"dataSource": "[LATERALISATION:13]Commentaire:2",
+					"top": 93,
+					"left": 175,
+					"width": 221,
+					"height": 40
+				},
+				"field_Coordination": {
+					"type": "input",
+					"dataSource": "[LATERALISATION:13]Coordination:3",
+					"top": 43,
+					"left": 175,
+					"width": 221,
+					"height": 40
+				},
+				"field_Dominance_Sensorielle": {
+					"type": "input",
+					"dataSource": "[LATERALISATION:13]Dominance:4.Sensorielle",
+					"top": 43,
+					"left": 546,
+					"width": 176,
+					"height": 25
+				},
+				"label_ID_EXAMEN_PRELIMINAIRE": {
+					"type": "text",
+					"text": "ID_EXAMEN_PRELIMINAIRE:",
+					"top": 185,
+					"left": 21,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID_EXAMEN_PRELIMINAIRE": {
+					"type": "input",
+					"dataSource": "[LATERALISATION:13]ID_EXAMEN_PRELIMINAIRE:5",
+					"top": 185,
+					"left": 131,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"field_Dominance_Directeur": {
+					"type": "input",
+					"dataSource": "[LATERALISATION:13]Dominance:4.Directeur",
+					"top": 75,
+					"left": 546,
+					"width": 176,
+					"height": 25
+				},
+				"field_Dominance_Visee": {
+					"type": "input",
+					"dataSource": "[LATERALISATION:13]Dominance:4.Visee",
+					"top": 108,
+					"left": 546,
+					"width": 176,
+					"height": 25
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 231,
+					"left": 16,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 231,
+					"left": 79,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 231,
+					"left": 142,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 231,
+					"left": 205,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 231,
+					"left": 268,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 231,
+					"left": 331,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 231,
+					"left": 394,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 91
+}

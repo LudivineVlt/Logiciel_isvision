@@ -1,0 +1,648 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle152": {
+					"type": "rectangle",
+					"top": 368,
+					"left": 158,
+					"width": 97,
+					"height": 28,
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 364,
+					"left": 19,
+					"width": 667,
+					"height": 37,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Bouton image11": {
+					"type": "pictureButton",
+					"left": 221,
+					"top": 364,
+					"width": 35,
+					"height": 35,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"rowCount": 4,
+					"borderStyle": "none"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 690,
+					"width": 500,
+					"height": 311,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 318,
+					"left": 690,
+					"width": 500,
+					"height": 188,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 3,
+					"left": 19,
+					"width": 667,
+					"height": 355,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Texte": {
+					"type": "text",
+					"text": "Motif de la visite :",
+					"top": 32,
+					"left": 25,
+					"width": 115,
+					"height": 16,
+					"textDecoration": "none",
+					"fontStyle": "normal",
+					"stroke": "#FFFFFF"
+				},
+				"Texte15": {
+					"type": "text",
+					"text": "Plainte principale :",
+					"top": 61,
+					"left": 25,
+					"width": 115,
+					"height": 16,
+					"textDecoration": "none",
+					"fontStyle": "normal",
+					"stroke": "#FFFFFF"
+				},
+				"Texte17": {
+					"type": "text",
+					"text": "Plaintes secondaires :",
+					"top": 161,
+					"left": 25,
+					"width": 133,
+					"height": 16,
+					"textDecoration": "none",
+					"fontStyle": "normal",
+					"stroke": "#FFFFFF"
+				},
+				"Help": {
+					"type": "button",
+					"top": 180,
+					"left": 25,
+					"width": 25,
+					"height": 25,
+					"dataSource": "Help",
+					"focusable": false,
+					"style": "help",
+					"events": [
+						"onClick"
+					]
+				},
+				"Help2": {
+					"type": "button",
+					"top": 164,
+					"left": 695,
+					"width": 25,
+					"height": 25,
+					"dataSource": "Help",
+					"focusable": false,
+					"style": "help",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte25": {
+					"type": "text",
+					"text": "Besoins :",
+					"top": 262,
+					"left": 25,
+					"width": 133,
+					"height": 16,
+					"textDecoration": "none",
+					"fontStyle": "normal",
+					"stroke": "#FFFFFF"
+				},
+				"Help6": {
+					"type": "button",
+					"top": 281,
+					"left": 25,
+					"width": 25,
+					"height": 25,
+					"dataSource": "Help",
+					"focusable": false,
+					"style": "help",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte44": {
+					"type": "text",
+					"text": "BUT DE LA VISITE",
+					"top": 10,
+					"left": 25,
+					"width": 144,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte18": {
+					"type": "text",
+					"text": "Santé générale :",
+					"top": 233,
+					"left": 693,
+					"width": 133,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Help1": {
+					"type": "button",
+					"top": 80,
+					"left": 695,
+					"width": 25,
+					"height": 25,
+					"dataSource": "Help",
+					"focusable": false,
+					"style": "help",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte19": {
+					"type": "text",
+					"text": "Traitements :",
+					"top": 147,
+					"left": 693,
+					"width": 133,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte20": {
+					"type": "text",
+					"text": "SANTE PERSONNELLE",
+					"top": 10,
+					"left": 693,
+					"width": 195,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte21": {
+					"type": "text",
+					"text": "Santé générale :",
+					"top": 349,
+					"left": 693,
+					"width": 133,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Help3": {
+					"type": "button",
+					"top": 368,
+					"left": 695,
+					"width": 25,
+					"height": 25,
+					"dataSource": "Help",
+					"focusable": false,
+					"style": "help",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte23": {
+					"type": "text",
+					"text": "ANTECEDENTS FAMILIAUX",
+					"top": 323,
+					"left": 693,
+					"width": 195,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte22": {
+					"type": "text",
+					"text": "Santé oculaire :",
+					"top": 428,
+					"left": 693,
+					"width": 101,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Help4": {
+					"type": "button",
+					"top": 447,
+					"left": 695,
+					"width": 25,
+					"height": 25,
+					"dataSource": "Help",
+					"focusable": false,
+					"style": "help",
+					"events": [
+						"onClick"
+					]
+				},
+				"field_AntecedentsFamiliauxSO": {
+					"type": "input",
+					"left": 802,
+					"top": 427,
+					"width": 382,
+					"height": 70,
+					"dataSource": "sante_oculaire_famille"
+				},
+				"Texte24": {
+					"type": "text",
+					"text": "Santé oculaire :",
+					"top": 61,
+					"left": 693,
+					"width": 101,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Help5": {
+					"type": "button",
+					"top": 250,
+					"left": 694,
+					"width": 25,
+					"height": 25,
+					"dataSource": "Help",
+					"focusable": false,
+					"style": "help",
+					"events": [
+						"onClick"
+					]
+				},
+				"field_AntecedentsFamiliauxSG": {
+					"type": "input",
+					"left": 802,
+					"top": 349,
+					"width": 382,
+					"height": 70,
+					"dataSource": "sante_generale_famille"
+				},
+				"field_SanteGenerale1": {
+					"type": "input",
+					"left": 802,
+					"top": 233,
+					"width": 382,
+					"height": 75,
+					"dataSource": "sante_generale_patient"
+				},
+				"field_Traitements1": {
+					"type": "input",
+					"left": 802,
+					"top": 147,
+					"width": 382,
+					"height": 75,
+					"dataSource": "traitements_patient"
+				},
+				"field_SanteOculaire1": {
+					"type": "input",
+					"left": 802,
+					"top": 61,
+					"width": 382,
+					"height": 75,
+					"dataSource": "sante_oculaire_patient"
+				},
+				"Texte46": {
+					"type": "text",
+					"text": "QUALITE DE VIE",
+					"top": 368,
+					"left": 25,
+					"width": 144,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Bouton image3": {
+					"type": "pictureButton",
+					"left": 191,
+					"top": 364,
+					"width": 35,
+					"height": 35,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/edition.png",
+					"columnCount": 1,
+					"rowCount": 4,
+					"borderStyle": "none"
+				},
+				"Bouton image10": {
+					"type": "pictureButton",
+					"left": 158,
+					"top": 364,
+					"width": 35,
+					"height": 35,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/NewItem.png",
+					"rowCount": 4,
+					"borderStyle": "none",
+					"loopBackToFirstFrame": true,
+					"switchWhenRollover": true
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 407,
+					"left": 19,
+					"width": 667,
+					"height": 99,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Texte79": {
+					"type": "text",
+					"text": "COMMENTAIRE",
+					"top": 416,
+					"left": 25,
+					"width": 144,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"field_commentaire": {
+					"type": "input",
+					"left": 159,
+					"top": 418,
+					"width": 520,
+					"height": 81,
+					"dataSource": "commentaire_anamnese"
+				},
+				"Texte259": {
+					"type": "text",
+					"text": "Ophtalmologiste :",
+					"top": 32,
+					"left": 693,
+					"width": 133,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_Patient_ophta": {
+					"type": "input",
+					"left": 802,
+					"top": 32,
+					"width": 130,
+					"height": 17,
+					"dataSource": "[PATIENT:1]Ophtalmologiste:9"
+				},
+				"Texte260": {
+					"type": "text",
+					"text": "Dernière consultation :",
+					"top": 32,
+					"left": 936,
+					"width": 164,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_PlaintePrincipale": {
+					"type": "input",
+					"dataSource": "plainte_principale",
+					"top": 61,
+					"left": 158,
+					"width": 520,
+					"height": 90
+				},
+				"field_PlainteSecondaire": {
+					"type": "input",
+					"dataSource": "plainte_secondaire",
+					"top": 161,
+					"left": 158,
+					"width": 520,
+					"height": 90
+				},
+				"field_Besoins": {
+					"type": "input",
+					"dataSource": "besoins_patient",
+					"top": 262,
+					"left": 158,
+					"width": 520,
+					"height": 90
+				},
+				"PopupDate": {
+					"type": "subform",
+					"top": 32,
+					"left": 1165,
+					"width": 19,
+					"height": 16,
+					"dataSource": "vDate",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/PopupDate.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"field_DerniereCS": {
+					"type": "input",
+					"left": 1079,
+					"top": 32,
+					"width": 80,
+					"height": 17,
+					"dataSource": "derniere_cs"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 519,
+					"left": 19,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 519,
+					"left": 82,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 519,
+					"left": 145,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 519,
+					"left": 208,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 519,
+					"left": 271,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 519,
+					"left": 334,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 519,
+					"left": 397,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"field_PlaintePrincipale1": {
+					"type": "input",
+					"dataSource": "motif_cs",
+					"top": 32,
+					"left": 158,
+					"width": 520,
+					"height": 17
+				}
+			}
+		}
+	],
+	"geometryStamp": 737,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

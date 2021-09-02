@@ -1,0 +1,267 @@
+﻿{
+	"Sexe_Patient": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Feminin",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Masculin",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Autre",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Statut_Praticien": {
+		"editable": true,
+		"items": [
+			{
+				"text": "EtudiantU7",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Enseignant",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"Optotype": {
+		"editable": true,
+		"items": [
+			{
+				"text": "ETDRS",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Galinett",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "E de Snellen",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "C de Landolt",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Chiffres",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Dessins",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "Parinaud",
+				"ref": 7,
+				"editable": true
+			}
+		]
+	},
+	"Geometrie_verre": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Unifocal",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Unifocal à freination myopique (défocalisation périphérique)",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "Dégressif",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Progressif d'intérieur",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Progressif",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Bifocal",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Trifocal",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "Lenticulaire",
+				"ref": 6,
+				"editable": true
+			}
+		]
+	},
+	"Type_Champ_visuel": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Amsler",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Confrontation",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Écran tangent",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Champ visuel au sol",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Campimétrie",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"Type_bris": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Evasement",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Bris OD",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Bris OG",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Arrêt de convergence",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	},
+	"Type_Ref_Objective": {
+		"editable": true,
+		"items": [
+			{
+				"text": "ARK",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Skia Statique",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Mohindra",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Moherer",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"Categorie_rapport": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Bilan patient",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Bilan ophtalmologiste",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Bilan orthoptiste",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Bilan confrère/consoeur",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Référer",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"Type_Kerato": {
+		"editable": true,
+		"items": [
+			{
+				"text": "ARK",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Sutcliff",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Javal",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Topographe conique",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "Topographe à disque",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	}
+}

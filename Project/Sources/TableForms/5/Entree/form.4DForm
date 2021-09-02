@@ -1,0 +1,412 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle_fond": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 650,
+					"height": 524,
+					"fill": "#366B84",
+					"stroke": "transparent",
+					"borderRadius": 0
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 67,
+					"left": 126,
+					"width": 500,
+					"height": 80,
+					"borderRadius": 10,
+					"stroke": "transparent",
+					"fill": "#FFFFFF"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 157,
+					"left": 126,
+					"width": 500,
+					"height": 80,
+					"borderRadius": 10,
+					"stroke": "transparent",
+					"fill": "#FFFFFF"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 247,
+					"left": 126,
+					"width": 500,
+					"height": 80,
+					"borderRadius": 10,
+					"stroke": "transparent",
+					"fill": "#FFFFFF"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 337,
+					"left": 126,
+					"width": 500,
+					"height": 80,
+					"borderRadius": 10,
+					"stroke": "transparent",
+					"fill": "#FFFFFF"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 427,
+					"left": 126,
+					"width": 500,
+					"height": 80,
+					"borderRadius": 10,
+					"stroke": "transparent",
+					"fill": "#FFFFFF"
+				},
+				"field_Graphisme": {
+					"type": "input",
+					"dataSource": "[VIE_QUOTIDIENNE:5]Graphisme:2",
+					"top": 67,
+					"left": 129,
+					"width": 500,
+					"height": 80,
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 528,
+					"left": 446,
+					"width": 100,
+					"height": 17,
+					"visibility": "hidden"
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[VIE_QUOTIDIENNE:5]ID:1",
+					"top": 526,
+					"left": 556,
+					"width": 80,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#808080",
+					"visibility": "hidden",
+					"enterable": false
+				},
+				"label_Graphisme": {
+					"type": "text",
+					"text": "Graphisme:",
+					"top": 67,
+					"left": 19,
+					"width": 100,
+					"height": 17,
+					"stroke": "#FFFFFF"
+				},
+				"label_Perception": {
+					"type": "text",
+					"text": "Perception:",
+					"top": 157,
+					"left": 19,
+					"width": 100,
+					"height": 17,
+					"stroke": "#FFFFFF"
+				},
+				"field_Perception": {
+					"type": "input",
+					"dataSource": "[VIE_QUOTIDIENNE:5]Perception:3",
+					"top": 157,
+					"left": 129,
+					"width": 500,
+					"height": 80,
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"label_VieQuotidienne": {
+					"type": "text",
+					"text": "VieQuotidienne:",
+					"top": 337,
+					"left": 19,
+					"width": 100,
+					"height": 17,
+					"stroke": "#FFFFFF"
+				},
+				"field_VieQuotidienne": {
+					"type": "input",
+					"dataSource": "[VIE_QUOTIDIENNE:5]VieQuotidienne:4",
+					"top": 337,
+					"left": 129,
+					"width": 500,
+					"height": 80,
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"label_Deplacements": {
+					"type": "text",
+					"text": "Deplacements:",
+					"top": 247,
+					"left": 19,
+					"width": 100,
+					"height": 17,
+					"stroke": "#FFFFFF"
+				},
+				"field_Deplacements": {
+					"type": "input",
+					"dataSource": "[VIE_QUOTIDIENNE:5]Deplacements:5",
+					"top": 247,
+					"left": 129,
+					"width": 500,
+					"height": 80,
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"label_BienEtre": {
+					"type": "text",
+					"text": "BienEtre:",
+					"top": 427,
+					"left": 19,
+					"width": 100,
+					"height": 17,
+					"stroke": "#FFFFFF"
+				},
+				"field_BienEtre": {
+					"type": "input",
+					"dataSource": "[VIE_QUOTIDIENNE:5]BienEtre:6",
+					"top": 427,
+					"left": 129,
+					"width": 500,
+					"height": 80,
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"label_ID_ANAMNESE": {
+					"type": "text",
+					"text": "ID_ANAMNESE:",
+					"top": 546,
+					"left": 446,
+					"width": 100,
+					"height": 17,
+					"visibility": "hidden"
+				},
+				"field_ID_ANAMNESE": {
+					"type": "input",
+					"dataSource": "[VIE_QUOTIDIENNE:5]ID_ANAMNESE:7",
+					"top": 546,
+					"left": 556,
+					"width": 80,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#808080",
+					"visibility": "hidden",
+					"enterable": true
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 516,
+					"left": 0,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 516,
+					"left": 63,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 516,
+					"left": 126,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 516,
+					"left": 189,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"visibility": "hidden"
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 516,
+					"left": 252,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 516,
+					"left": 315,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 516,
+					"left": 378,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 13,
+					"left": 19,
+					"width": 610,
+					"height": 32,
+					"fill": "transparent",
+					"strokeWidth": 2,
+					"stroke": "#ACC813",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
+					"right": 629
+				},
+				"Texte3": {
+					"type": "text",
+					"text": "QUALITE DE VIE : ANAMNESE",
+					"top": 21,
+					"left": 228,
+					"width": 192,
+					"height": 16,
+					"stroke": "#fffacd",
+					"fontWeight": "bold",
+					"fontTheme": "main",
+					"sizingX": "fixed",
+					"sizingY": "fixed"
+				}
+			}
+		}
+	],
+	"geometryStamp": 844,
+	"width": 650,
+	"height": 570,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

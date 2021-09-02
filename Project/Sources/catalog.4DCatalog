@@ -1,0 +1,1092 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Logiciel clinique ISV" uuid="5F288F9F3B4041F7B5BF55B79D376FE0" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="PATIENT" uuid="0DCFA340DAD54ACA970CB428FDC233D7" id="1">
+		<field name="ID" uuid="C65F5F8802B14727B5ABFAC80D59DEAE" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="1DE41672C415405B82CF664A4A5EF451" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Prenom" uuid="F9048A8D585947DC8AD3F432850BD3A0" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="DateDeNaissance" uuid="AB54EF580B604BBB9B793EA46321FABA" type="8" never_null="true" id="4"/>
+		<field name="Adresse" uuid="787AA8D0FA6942959F74A4C6D296C498" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
+		<field name="Tel1" uuid="87B8DBF8C1FA48299B26543A4B2CD10A" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Tel2" uuid="FB50CDCA9A834FA3BB0252DA2DA2B5E1" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="Mail" uuid="3FF845E77BBF496FA9D1A19F90574A3F" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="Ophtalmologiste" uuid="562C3CAFAF54428A8D631629A411D442" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="Accompagnant" uuid="85E7386C6AE2426485876B4A08F34111" type="21" blob_switch_size="2147483647" never_null="true" id="10"/>
+		<field name="Commentaire" uuid="4F31F84263314109A8432EF0279DADB4" type="10" never_null="true" id="11"/>
+		<field name="Referent" uuid="981F0756C2DA4F0EA0A2FA8CFF46A89A" type="21" blob_switch_size="2147483647" never_null="true" id="12"/>
+		<field name="Sexe" uuid="13ED41DBFFD140F9A01A368619181D36" type="10" limiting_length="255" never_null="true" id="13"/>
+		<primary_key field_name="ID" field_uuid="C65F5F8802B14727B5ABFAC80D59DEAE"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="13">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0" top="0" width="171.03125" height="316.890625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="PRATICIEN" uuid="C1521AC1440742D9A4596F0826284538" id="2">
+		<field name="ID" uuid="480DBC09289C4B378CB9E8CF3FB2DF8A" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="A07E9BA1C5AE46338A2A197F852F9CF8" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Prenom" uuid="54F60819314D4A5F805316DAB065DE77" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Statut" uuid="960A610384944E8A8CE5D33CAAFCBE4C" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Login" uuid="D708069F0922450FB1D9DF07071ED452" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="MotDePasse" uuid="D126B4801AB244CE840F9C67C20C16DB" type="10" limiting_length="255" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="480DBC09289C4B378CB9E8CF3FB2DF8A"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0.78125" top="332.96484375" width="149.9921875" height="172.74609375"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="EXAMEN_GENERAL" uuid="A069595C2EF34884A6369A43F3B6BBA5" id="3">
+		<field name="ID" uuid="40C1001E1EB842EDA1B134680B416BFF" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="TypeExam" uuid="60CE864E5D804745825EB696F6B4B77C" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="DateExam" uuid="CFA82259C93D400FAD15BF1E8EC21450" type="8" never_null="true" id="3"/>
+		<field name="ID_PATIENT" uuid="7EDAB2FB0A5D4CC1A0F570F31DD00A7D" type="4" never_null="true" id="4"/>
+		<field name="ID_PRATICIEN" uuid="4CF7898178374F41A5C30310DAB89B2E" type="4" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="40C1001E1EB842EDA1B134680B416BFF"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="6">
+				<color red="249" green="130" blue="127" alpha="255"/>
+				<coordinates left="224.60546875" top="274.6171875" width="146.75" height="186.67578125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ANAMNESE" uuid="B87B111BA57B4622B5AEAF3F596C675E" id="4">
+		<field name="ID" uuid="B11909A940134777B7C7C92A9B32AC4D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="MotifConsultation" uuid="1744047AA339400D874CE5BCD17810AB" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="PlaintePrincipale" uuid="70E9788FFDA3447A97124ED8E6B52ADB" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="PlainteSecondaire" uuid="6907A22C3B3E4E83A3B19B72E68B1FD9" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="SanteGenerale" uuid="D8EFDAF4C5934A42805DD7DBC1887E03" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="SanteOculaire" uuid="BAB92DF97CE74A008FAAE1CEE7176FBD" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Traitements" uuid="B84957EB0E6F45B5971DDB226711F6AB" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="AntecedentsFamiliaux" uuid="0EFF75D0A5AB40FE90BB4E596F00E3C8" type="21" blob_switch_size="2147483647" never_null="true" id="8"/>
+		<field name="ID_EXAMEN_GENERAL" uuid="1E63D587B33D4137BADDC4C2E05E9629" type="4" never_null="true" id="9"/>
+		<field name="Besoins" uuid="D73CA0F6CF1B41509E28DA0FFA6A87C9" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="Commentaire" uuid="CBD160B1AC42494487C518D5A4438EF2" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="DerniereCS" uuid="177428CBC2684451967C5B0831FA5E2D" type="8" never_null="true" id="12"/>
+		<primary_key field_name="ID" field_uuid="B11909A940134777B7C7C92A9B32AC4D"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="12">
+				<color red="237" green="211" blue="181" alpha="255"/>
+				<coordinates left="435.1171875" top="1.6145833333333" width="223.9765625" height="311.23828125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="VIE_QUOTIDIENNE" uuid="4269B588065B4D9AB2EDB706240D6FE0" id="5">
+		<field name="ID" uuid="0EDE1DC7EB5D4510B78BD708D757E702" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Graphisme" uuid="F5D8E0F68627495E98FC71FAA5005B96" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Perception" uuid="37B82A74E6DB4193A417A4CB7D55E4E9" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="VieQuotidienne" uuid="3F5703EE96234187A2DFA74883DB8DB2" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Deplacements" uuid="53F8BD52503C4CC3AA0F37B91E02B75F" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="BienEtre" uuid="B4AEF71E056B4932A27A4581E9ADFF45" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="ID_ANAMNESE" uuid="63E139526ECC463F965D7CCF70AEDAA6" type="4" never_null="true" id="7"/>
+		<primary_key field_name="ID" field_uuid="0EDE1DC7EB5D4510B78BD708D757E702"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="7">
+				<color red="237" green="211" blue="181" alpha="255"/>
+				<coordinates left="1327.671875" top="52.390625" width="132.296875" height="197.44401041667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ANTECEDENT_LUNETTES" uuid="660EBE117F18497CA3259A807B421D9D" id="6">
+		<field name="ID" uuid="B05B857D516A44F4BD7ED387F8BA58D2" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Utilisation" uuid="287756DC89FD4EE0929E02FA7D24B23F" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Geometrie" uuid="A8040F86B4DF4A6892374F30A85C6F5F" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="DatePrescription" uuid="1CDFE6A65A6546988ED17DC2320411AA" type="8" never_null="true" id="4"/>
+		<field name="Modification" uuid="9FE9AE0954734D66A9C4630A6DF8A48B" type="1" never_null="true" id="5"/>
+		<field name="DateRealisation" uuid="3AAA89330CFF4A79B175C2036C77531D" type="8" never_null="true" id="6"/>
+		<field name="ID_ANAMNESE" uuid="4F9662A7758540A28C64119F2152F6EA" type="4" never_null="true" id="7"/>
+		<field name="Commentaire" uuid="15DCDC3DB65A4A6486EC1E0361540087" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="Correction" uuid="798103DACE644224A618C27A27FFD207" type="21" blob_switch_size="2147483647" never_null="true" id="9"/>
+		<primary_key field_name="ID" field_uuid="B05B857D516A44F4BD7ED387F8BA58D2"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="9">
+				<color red="237" green="211" blue="181" alpha="255"/>
+				<coordinates left="2326.27734375" top="183.4375" width="156.421875" height="233.83072916667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ANTECEDENT_AIDE_VISUELLE" uuid="4186C9FFE494424FAE5D9014EC0EA687" id="7">
+		<field name="ID" uuid="74AE5D0A9FB144479257A280091AB586" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="8D75A541F463481C9CA866D492B12D46" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Distance" uuid="81283711476C410BAD092B1674EE27DF" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Utilisation" uuid="6F27C96C83BE460A8BA9BCEA37F047F5" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Commentaire" uuid="E7FADDA38AE24A609F21BE5DB527394E" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Date" uuid="77C8AF2861BF4839A6F360C2576701D5" type="8" never_null="true" id="6"/>
+		<field name="ID_ANAMNESE" uuid="C38CC98ABDDC4042AC171BA726BD801B" type="4" never_null="true" id="7"/>
+		<field name="Description" uuid="1AE47079DB794FCAAC93623B3DB74695" type="10" limiting_length="255" never_null="true" id="9"/>
+		<primary_key field_name="ID" field_uuid="74AE5D0A9FB144479257A280091AB586"/>
+		<table_extra output_form="Sortie" input_form="Entree">
+			<editor_table_info displayable_fields_count="8">
+				<color red="237" green="211" blue="181" alpha="255"/>
+				<coordinates left="775.60546875" top="47.705729166667" width="162.03385416667" height="214.3203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="EXAMEN_PRELIMINAIRE" uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" id="8">
+		<field name="ID" uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ID_EXAMEN_GENERAL" uuid="2955FCCE0D40478E971DB3E5BE1B4508" type="4" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="2">
+				<color red="181" green="145" blue="209" alpha="255"/>
+				<coordinates left="438.63151041667" top="443.31380208334" width="193.30208333334" height="88.347656250003"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="KERATOMETRIE" uuid="FE4004B7B26C415DA38BE9D5EF8907C4" id="9">
+		<field name="ID" uuid="7AE4E5023FD141A0AA611A189E954C35" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ID_EXAMEN_PRELIMINAIRE" uuid="9CA5E6EF10D54B7A9358DFEC853CE2D3" type="4" never_null="true" id="2"/>
+		<field name="K_OD" uuid="8CD9765A36C64EA9AC7997298E0CEFD6" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="K_OG" uuid="4010A8EF6A3645AC8864D61AA97BD3CF" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="Methode" uuid="9E93C29321EE4E5DB96CA2F15F7C17B2" type="10" limiting_length="255" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="7AE4E5023FD141A0AA611A189E954C35"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="5">
+				<color red="181" green="145" blue="209" alpha="255"/>
+				<coordinates left="696.56770833333" top="308.70833333334" width="123.08984375" height="149.82421875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ACUITE" uuid="CDC58073903B4E839855EE40B4E9997F" id="10">
+		<field name="ID" uuid="C190AB1E57654267B6E391020CFA8900" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="AcuiteBruteVL" uuid="4C38BC02C90945CEB0E95D1427628CDD" type="21" blob_switch_size="2147483647" never_null="true" id="2"/>
+		<field name="AcuiteBruteVP" uuid="E4577C3C69E54DF2A0C902CA438E1059" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="AcuiteHabituelleVL" uuid="C6AA7E6BED4D4118AA1986556E68B59A" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="AcuiteHabituelleVP" uuid="1C3215F74E554F81BE6F0C784985B821" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
+		<field name="ID_ANTECEDENT_LUNETTES" uuid="5A24304FBC7E46FCAF5705515BFA3067" type="4" never_null="true" id="6"/>
+		<field name="ID_EXAMEN_PRELIMINAIRE" uuid="4DBDDE0F21744E709270AA88309A3D7F" type="4" never_null="true" id="9"/>
+		<primary_key field_name="ID" field_uuid="C190AB1E57654267B6E391020CFA8900"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="7">
+				<color red="181" green="145" blue="209" alpha="255"/>
+				<coordinates left="1971.5104166667" top="355.11588541667" width="248.65755208333" height="189.54036458334"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="BINOCULARITE" uuid="123F64CF62224204BB914497140CBFED" id="12">
+		<field name="ID" uuid="3B51D89C87B14D77AFEFD6AFAE128A3E" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Commentaire" uuid="9B740331913F44F68C6B4F1A3BB981A2" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="AmplitudeTriangulation" uuid="2B491AD8FC514221A50CF5AF7A7224EB" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="Masquage" uuid="4B5D4CD3235D441B84C425FE6298D499" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="Hirschberg" uuid="4A143FDD53D44FAEA75F23539EC562FA" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="ID_EXAMEN_PRELIMINAIRE" uuid="EADCBE3FD51844BAA2D471AEE0250BDA" type="4" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="3B51D89C87B14D77AFEFD6AFAE128A3E"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="6">
+				<color red="181" green="145" blue="209" alpha="255"/>
+				<coordinates left="1755.9700520833" top="527.171875" width="164.51432291666" height="171.27604166667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="LATERALISATION" uuid="43167471D0E4484E81E973CAB219C5EF" id="13">
+		<field name="ID" uuid="DB759337F7704FDF9849E43F1036B101" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Commentaire" uuid="D54FD489EFCB4F94A23DEC7A76AD80B2" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Coordination" uuid="0D7C8B5845174EC39543901BC2029DD3" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Dominance" uuid="14709388677943F4A02FF90D93D7BC8B" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="ID_EXAMEN_PRELIMINAIRE" uuid="DEAD2B07C1AD4EAEB4638D94B33EEDB1" type="4" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="DB759337F7704FDF9849E43F1036B101"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="5">
+				<color red="181" green="145" blue="209" alpha="255"/>
+				<coordinates left="1072.3346354167" top="233.39322916667" width="126.12109375" height="154.390625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="CHAMP_VISUEL" uuid="55FF4DA41BE046C08E0B5815AD91081E" id="14">
+		<field name="ID" uuid="F73EA049A3C44F0AAA92AB68B4CDADA9" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Type" uuid="5329F8B81C894D3AA83C5662E04F28DD" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Commentaire" uuid="F7CEF418058E4CEB8F298F0D11445E01" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Image" uuid="8AC2E9541D77410F8B0FDFDB3FD8F21C" type="12" never_null="true" id="4"/>
+		<field name="ID_EXAMEN_PRELIMINAIRE" uuid="6EADCE9C31824F6DBCFF8A3D3B5ADDCF" type="4" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="F73EA049A3C44F0AAA92AB68B4CDADA9"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="5">
+				<color red="181" green="145" blue="209" alpha="255"/>
+				<coordinates left="1000.1861979167" top="505.92708333333" width="130.86328125" height="148.30338541667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="REFRACTION" uuid="91709E6E53544BBF8F13DB885C0928E0" id="15">
+		<field name="ID" uuid="F06D445079414747BB2B5C0244089EBE" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="RefObjective" uuid="83E5ACE468DC4430B7186783E2B5C5E9" type="21" blob_switch_size="2147483647" never_null="true" id="2"/>
+		<field name="RefSubjectiveVL" uuid="AD741DBF60C149FAABE65EE479E70404" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="RefGalilee" uuid="D296E892FABA4006B69798F332A0D22D" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="RefSubjectiveVP" uuid="B1B7625FBCA748CA88C4ACC650EC71A5" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
+		<field name="RefFinale" uuid="4F54A45DE1E24E0B8D9446BECE87A3F5" type="21" blob_switch_size="2147483647" never_null="true" id="6"/>
+		<field name="ID_EXAMEN_GENERAL" uuid="6B74265784C94B00B086AE3C8CC30872" type="4" never_null="true" id="7"/>
+		<primary_key field_name="ID" field_uuid="F06D445079414747BB2B5C0244089EBE"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="7">
+				<color red="252" green="191" blue="73" alpha="255"/>
+				<coordinates left="442.71614583334" top="611.94270833333" width="151.29557291667" height="198.71744791667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="EXAMEN_COMPLEMENTAIRE" uuid="17E51BF1E67F44C6A140FFBAD9921E2A" id="16">
+		<field name="ID" uuid="FDA4A1D052E3490BB2896514E24D4869" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ID_EXAMEN_GENERAL" uuid="8355020DE38A4500941D2B4BC2C50049" type="4" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="FDA4A1D052E3490BB2896514E24D4869"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="2">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="436.67708333333" top="857.64583333333" width="222.703125" height="90.27473958333"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="BIOMICROSCOPIE" uuid="B791CC2C6BCC4B4EA9B591E401700505" id="17">
+		<field name="ID" uuid="CE0BB0363B2E458F8FF76E644E247E38" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Annexes" uuid="0D9B38B3A5784E0792E356B5D94D28AC" type="21" blob_switch_size="2147483647" never_null="true" id="2"/>
+		<field name="SegmentAnterieur" uuid="250E5D5973C542E19879F6D203F4DB60" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="SegmentPosterieur" uuid="3406FFB6F5444429B319B919CB05B6CD" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="Commentaire" uuid="1129DC818FBA4D96AF63452DA9C38F06" type="10" never_null="true" id="5"/>
+		<field name="ID_EXAMEN_COMPLEMENTAIRE" uuid="3E48AA07A8374E658C8362B8A8275570" type="4" never_null="true" id="6"/>
+		<field name="Conclusion" uuid="AE8B657E8086471C9FCA0295A1A994B3" type="10" never_null="true" id="7"/>
+		<primary_key field_name="ID" field_uuid="CE0BB0363B2E458F8FF76E644E247E38"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="7">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="922.19010416667" top="675.3515625" width="262.265625" height="192.77473958333"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="SCORE_QUALITE_VIE" uuid="58AA5B3BED464CB2AD400ED6B79EBD4C" id="18">
+		<field name="ID" uuid="E6984D0467A54848A47D77F0C7D3DA22" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Resultat" uuid="9DDA449928A2438188FE9DCE10E6FDF5" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Commentaire" uuid="AB1E80B1268C48C4B318F3223F98FF15" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="ID_EXAMEN_COMPLEMENTAIRE" uuid="0A2C81C163EE4440874AA590CAC08685" type="4" never_null="true" id="5">
+			<field_extra multi_line="false">
+				<editor_field_info>
+					<color red="255" green="255" blue="255" alpha="0"/>
+				</editor_field_info>
+			</field_extra>
+		</field>
+		<primary_key field_name="ID" field_uuid="E6984D0467A54848A47D77F0C7D3DA22"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="5">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="1830.96875" top="711.66666666667" width="229.30859375" height="154.96223958333"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="IMAGERIE" uuid="B9D5A7EEB74B419FBE38902B2E8907B7" id="19">
+		<field name="ID" uuid="EDE3EC63A6D34B19918124A841260AEA" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ID_EXAMEN_COMPLEMENTAIRE" uuid="4EA43D112B9645F1B432A3609910D359" type="4" never_null="true" id="2"/>
+		<field name="Image" uuid="6BDA9BCAB03241B78263704CDF528B9E" type="12" never_null="true" id="3"/>
+		<field name="Commentaire" uuid="9D4846A707734971AE02686FEF88C4BA" type="10" never_null="true" id="4"/>
+		<field name="Type" uuid="9941586270CD48AEA8CB60E5BDDCBE61" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Date" uuid="7E621AEF96454B14B9180DEC8200CF2F" type="8" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="EDE3EC63A6D34B19918124A841260AEA"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="6">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="2106.2421875" top="837.09895833333" width="236.96875" height="170.85546875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="AUTRE_EXAMEN" uuid="5CEA5EDB654E42F3B8E319ED2334F67B" id="20">
+		<field name="ID" uuid="290F8C8B6B7E4356A5A9C933041C6254" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ID_EXAMEN_COMPLEMENTAIRE" uuid="3DFC47D0B52F44E08245C2FF1D9658E3" type="4" never_null="true" id="2"/>
+		<field name="SensibiliteEblouissement" uuid="9864839968D94CD5851C520FB7D02465" type="10" never_null="true" id="3"/>
+		<field name="VisionCouleurs" uuid="481F9639BC904EB1B6CB6D2AE02A48C0" type="10" never_null="true" id="4"/>
+		<field name="BinoculariteAvancee" uuid="9613DBE3EEA846E0A73B1B340CC454AC" type="10" never_null="true" id="5"/>
+		<field name="Autre" uuid="FC193CC4BB24498D9BA455A7E664BF45" type="10" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="290F8C8B6B7E4356A5A9C933041C6254"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="6">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="1823.7565104166" top="954.25260416666" width="241.17838541667" height="182.18229166667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="CONCLUSION" uuid="FB8BBC6BDF564169AF4A83E07EF56F1B" id="21">
+		<field name="ID" uuid="67DB0C273A484B63B54F5863EB82980E" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Diagnostic" uuid="69A998DDC1B646BC8BE9CE3BB0260331" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Traitement" uuid="914AC51F44964B8E920F343DC1ED2FBA" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Conseils" uuid="514394AAB1C946C5A48776E0F6855894" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="ProchaineVisite" uuid="BE13EE7839E64D42B7A6BA43EA774630" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Commentaire" uuid="CCF41F3789984648A9617A1C8BE49871" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="ID_EXAMEN_GENERAL" uuid="566931BFEAB74D68A71875D4BC835567" type="4" never_null="true" id="7"/>
+		<primary_key field_name="ID" field_uuid="67DB0C273A484B63B54F5863EB82980E"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="7">
+				<color red="224" green="234" blue="104" alpha="255"/>
+				<coordinates left="439.53645833333" top="1021.9270833333" width="181.58333333334" height="191.28515625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="DOCUMENT_PATIENT" uuid="DAD00FC049614449B03382F500E6F9B9" id="22">
+		<field name="ID" uuid="3D33E8CCDA5F45B4BF315ECC6AA488BA" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ID_PATIENT" uuid="46A0F2C770404770B2DCE1921B352324" type="4" never_null="true" id="2"/>
+		<field name="Date" uuid="2ECD71F0ECE041E68E4DE2C6310142BB" type="8" never_null="true" id="3"/>
+		<field name="Nom" uuid="919BC9F0D9F44339A27AF80F4918D21E" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Type" uuid="86D39543787A49B5B97774E7E31DEAEC" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Document" uuid="1433F39D47594C5A94D4456FF51446B7" type="12" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="3D33E8CCDA5F45B4BF315ECC6AA488BA"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="7">
+				<color red="186" green="170" blue="158" alpha="255"/>
+				<coordinates left="226.90364583333" top="2.13151041667" width="127.92708333333" height="188.85286458333"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="RAPPORT_TYPE" uuid="3A2FC1ADB30744219DC49080DB2F12E2" id="23">
+		<field name="ID" uuid="386CFB829ADB4D8DB2FF5934A3B25D05" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="0BE164FF2C184DAFB808689707012A08" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Categorie" uuid="6B56C103F81344228390F4439911D738" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Modele" uuid="289BBEBF04A64453AB336B8B21597DC6" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="386CFB829ADB4D8DB2FF5934A3B25D05"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0.55859375" top="533.046875" width="153.88541666667" height="168.45182291667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="FICHE_THEMATIQUE" uuid="547AB7BD9DC347D98A3BBE6EDA161141" id="24">
+		<field name="ID" uuid="8772288DF1F1440998DD5AA01C2FAA8C" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="C044536AEC9C4D23AB6AD4E99F83C626" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Fiche" uuid="FFCCEB77697140138AB55FEA6B20E9B1" type="12" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="8772288DF1F1440998DD5AA01C2FAA8C"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="3">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0" top="718.24869791667" width="168.734375" height="120.01432291667"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="FIXATION" uuid="F7516F2A55E34DB68F3E662584660543" id="25">
+		<field name="ID" uuid="B2A32F765FC548B597F5F6EC9A3E0B7F" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="FixationExcentree" uuid="9AB821D4000040F6A5A0769B7DE60E64" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="FixationsSautees" uuid="CBCAD09EFA7249A8B7E3C99836226D88" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Poursuites" uuid="4C9B66EB33154D3D8460E3F73CB90813" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Commentaire" uuid="A1B54E35AAC1427C9CEBFA69DF58CE30" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="ID_EXAMEN_PRELIMINAIRE" uuid="DAADB4206BC946D8B1B98B87565E764B" type="4" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="B2A32F765FC548B597F5F6EC9A3E0B7F"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="6">
+				<color red="181" green="145" blue="209" alpha="255"/>
+				<coordinates left="1243.6458333333" top="270.91015625" width="205.8828125" height="169.19140625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ESSAI_AIDE_VISUELLE" uuid="5434DC6118D4443AB0CBC54E40AD57DF" id="26">
+		<field name="ID" uuid="116DA9E66DB34130BE1010A2C63ADF8C" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="0542656B05914FA69FFDE00971FF3C93" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Distance" uuid="84515F88E99940168F9AD3FEAB895DFA" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Utilisation" uuid="332D1CF9A6414CFCB8DBCE5CE6FF65EA" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Commentaire" uuid="83FB3AAD9394461FA79C77AF5E177FED" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Date" uuid="3DBFA9BEE2D34803B36BDACB60147FEC" type="8" never_null="true" id="6"/>
+		<field name="ID_EXAMEN_COMPLEMENTAIRE" uuid="61A1513F01824C7480CE1CB590AA50DC" type="4" never_null="true" id="8"/>
+		<field name="Description" uuid="5C905FC6252C46CE85A6A2315B9CE496" type="10" limiting_length="255" never_null="true" id="9"/>
+		<primary_key field_name="ID" field_uuid="116DA9E66DB34130BE1010A2C63ADF8C"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="8">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="916.67708333333" top="918.06119791667" width="228.17057291667" height="211.93098958333"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="ANTECEDENT_LENTILLE" uuid="BCA7DAFB09BE41FCB5F68BD6E76133A0" id="27">
+		<field name="ID" uuid="537D1CA7AF2D4ED6B1123264D3D8C7D4" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="DatePrescription" uuid="E404F53BAED9420AAEF2ABCD2E1417AF" type="8" never_null="true" id="2"/>
+		<field name="Denomination" uuid="3024249C75C2443E9DDDE1AC59C0CDA0" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="Correction" uuid="FDBD1F98CA05498F8B5059F5E95A7F93" type="21" blob_switch_size="2147483647" never_null="true" id="4"/>
+		<field name="Produit" uuid="899C6EBFC83D4E288D645D93A1C4373A" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Utilisation" uuid="E2AB7DDEECF04BFAA39F127D0A150156" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="ID_ANAMNESE" uuid="B9482E5C37064BD68D77ACC37D7AB091" type="4" never_null="true" id="7"/>
+		<field name="DateRealisation" uuid="51081AFD15F74E419807BA9B0099A104" type="8" never_null="true" id="8"/>
+		<field name="Modification" uuid="88CEB3A0597B4CA09F36DD274C2B4D8D" type="1" never_null="true" id="9"/>
+		<field name="Commentaire" uuid="FDA77B9487714A29919FCEB3222887F3" type="10" never_null="true" id="10"/>
+		<primary_key field_name="ID" field_uuid="537D1CA7AF2D4ED6B1123264D3D8C7D4"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info displayable_fields_count="10">
+				<color red="237" green="211" blue="181" alpha="255"/>
+				<coordinates left="2510.3958333333" top="0" width="247.68229166667" height="254.90755208333"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="CONTAGUIDE" uuid="D88DA188968D42CB9636DE8B6BD604B6" id="28">
+		<field name="ID" uuid="A7933EAB004145DAB55BDDB343AB8645" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Fabricant" uuid="D981A942009146B0B56C26CDC1166D9F" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Marque" uuid="0C1F6636FE59446DB4A0D5F8B6DDE67C" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Diametre" uuid="4D0143BD22934EE0B7673648E7B0747E" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Rayon" uuid="E6FBB760E4B0471A9185F838EACC1077" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Renouvellement" uuid="DECECD6615914634917F127E56DCD1BC" type="10" limiting_length="255" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="A7933EAB004145DAB55BDDB343AB8645"/>
+		<table_extra input_form="Entree" output_form="Sortie">
+			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0" top="854.48958333333" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="2768321EE80D45558FACDFF5A22618B0" name_Nto1="ExamenGeneralToPatient" name_1toN="PatientToExamenGeneral" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="7EDAB2FB0A5D4CC1A0F570F31DD00A7D" name="ID_PATIENT">
+				<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="C65F5F8802B14727B5ABFAC80D59DEAE" name="ID">
+				<table_ref uuid="0DCFA340DAD54ACA970CB428FDC233D7" name="PATIENT"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="082968ACDBBC4E3C94AE6CA0F8A70B83" name_Nto1="Lien_3" name_1toN="Lien_3_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="4CF7898178374F41A5C30310DAB89B2E" name="ID_PRATICIEN">
+				<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="480DBC09289C4B378CB9E8CF3FB2DF8A" name="ID">
+				<table_ref uuid="C1521AC1440742D9A4596F0826284538" name="PRATICIEN"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="0" via_point_y="0" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="01A7EA2A657E4420AF9E3E76845B6102" name_Nto1="Lien_4" name_1toN="Lien_4_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="1E63D587B33D4137BADDC4C2E05E9629" name="ID_EXAMEN_GENERAL">
+				<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="40C1001E1EB842EDA1B134680B416BFF" name="ID">
+				<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="249" green="130" blue="127" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="5B68C7B345A144D68AA957161DE0BB97" name_Nto1="Lien_5" name_1toN="Lien_5_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="63E139526ECC463F965D7CCF70AEDAA6" name="ID_ANAMNESE">
+				<table_ref uuid="4269B588065B4D9AB2EDB706240D6FE0" name="VIE_QUOTIDIENNE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="B11909A940134777B7C7C92A9B32AC4D" name="ID">
+				<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="237" green="211" blue="181" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="BBD2A058ECC24C3BB28D09091585D287" name_Nto1="Lien_6" name_1toN="Lien_6_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="4F9662A7758540A28C64119F2152F6EA" name="ID_ANAMNESE">
+				<table_ref uuid="660EBE117F18497CA3259A807B421D9D" name="ANTECEDENT_LUNETTES"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="B11909A940134777B7C7C92A9B32AC4D" name="ID">
+				<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="237" green="211" blue="181" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="DBEA4F5E3DE84DC0935D4B6D97C9CA88" name_Nto1="Lien_7" name_1toN="Lien_7_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="C38CC98ABDDC4042AC171BA726BD801B" name="ID_ANAMNESE">
+				<table_ref uuid="4186C9FFE494424FAE5D9014EC0EA687" name="ANTECEDENT_AIDE_VISUELLE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="B11909A940134777B7C7C92A9B32AC4D" name="ID">
+				<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="237" green="211" blue="181" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="D59B1368F5A248D2BD83786F545E2D69" name_Nto1="Lien_8" name_1toN="Lien_8_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="2955FCCE0D40478E971DB3E5BE1B4508" name="ID_EXAMEN_GENERAL">
+				<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="40C1001E1EB842EDA1B134680B416BFF" name="ID">
+				<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="249" green="130" blue="127" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="EE1069A38D2B44ECA7F3A4F1E11CBB5C" name_Nto1="Lien_9" name_1toN="Lien_9_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="9CA5E6EF10D54B7A9358DFEC853CE2D3" name="ID_EXAMEN_PRELIMINAIRE">
+				<table_ref uuid="FE4004B7B26C415DA38BE9D5EF8907C4" name="KERATOMETRIE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" name="ID">
+				<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="181" green="145" blue="209" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="FAF5BA2D16A145E9967CFA80ED46228D" name_Nto1="Lien_32" name_1toN="Lien_32_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="6B74265784C94B00B086AE3C8CC30872" name="ID_EXAMEN_GENERAL">
+				<table_ref uuid="91709E6E53544BBF8F13DB885C0928E0" name="REFRACTION"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="40C1001E1EB842EDA1B134680B416BFF" name="ID">
+				<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="249" green="130" blue="127" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="3AFE858EC5A349189455F3FDBFC3EC35" name_Nto1="Lien_11" name_1toN="Lien_11_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="4DBDDE0F21744E709270AA88309A3D7F" name="ID_EXAMEN_PRELIMINAIRE">
+				<table_ref uuid="CDC58073903B4E839855EE40B4E9997F" name="ACUITE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" name="ID">
+				<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="181" green="145" blue="209" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="32ACE66ACC474A0E99E6A19AB2B1B5EF" name_Nto1="Lien_28" name_1toN="Lien_28_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="DAADB4206BC946D8B1B98B87565E764B" name="ID_EXAMEN_PRELIMINAIRE">
+				<table_ref uuid="F7516F2A55E34DB68F3E662584660543" name="FIXATION"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" name="ID">
+				<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="181" green="145" blue="209" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="28540A2DB2AE468D8F324C7600FECC24" name_Nto1="Lien_27" name_1toN="Lien_27_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="5A24304FBC7E46FCAF5705515BFA3067" name="ID_ANTECEDENT_LUNETTES">
+				<table_ref uuid="CDC58073903B4E839855EE40B4E9997F" name="ACUITE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="B05B857D516A44F4BD7ED387F8BA58D2" name="ID">
+				<table_ref uuid="660EBE117F18497CA3259A807B421D9D" name="ANTECEDENT_LUNETTES"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="252" green="191" blue="73" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="E06C89664CA64E7FA25A8F4F751F1A9A" name_Nto1="Lien_15" name_1toN="Lien_15_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="EADCBE3FD51844BAA2D471AEE0250BDA" name="ID_EXAMEN_PRELIMINAIRE">
+				<table_ref uuid="123F64CF62224204BB914497140CBFED" name="BINOCULARITE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" name="ID">
+				<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="181" green="145" blue="209" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="49C07A090A444B689BA61DCCE2A1D0ED" name_Nto1="Lien_16" name_1toN="Lien_16_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="DEAD2B07C1AD4EAEB4638D94B33EEDB1" name="ID_EXAMEN_PRELIMINAIRE">
+				<table_ref uuid="43167471D0E4484E81E973CAB219C5EF" name="LATERALISATION"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" name="ID">
+				<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="181" green="145" blue="209" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="E129CA2D516F4C2493B4CC9F043D15A2" name_Nto1="Lien_17" name_1toN="Lien_17_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="6EADCE9C31824F6DBCFF8A3D3B5ADDCF" name="ID_EXAMEN_PRELIMINAIRE">
+				<table_ref uuid="55FF4DA41BE046C08E0B5815AD91081E" name="CHAMP_VISUEL"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" name="ID">
+				<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="181" green="145" blue="209" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="71E17A74DB8F486493FE6727544560A3" name_Nto1="Lien_19" name_1toN="Lien_19_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="8355020DE38A4500941D2B4BC2C50049" name="ID_EXAMEN_GENERAL">
+				<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="40C1001E1EB842EDA1B134680B416BFF" name="ID">
+				<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="249" green="130" blue="127" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="30C0FCA869714EC49D661D980AAF3533" name_Nto1="Lien_20" name_1toN="Lien_20_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="3E48AA07A8374E658C8362B8A8275570" name="ID_EXAMEN_COMPLEMENTAIRE">
+				<table_ref uuid="B791CC2C6BCC4B4EA9B591E401700505" name="BIOMICROSCOPIE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="FDA4A1D052E3490BB2896514E24D4869" name="ID">
+				<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="168" green="206" blue="226" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="0B1F8F1ABEA8414A9CBA45F3CE6F2ADC" name_Nto1="Lien_21" name_1toN="Lien_21_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="0A2C81C163EE4440874AA590CAC08685" name="ID_EXAMEN_COMPLEMENTAIRE">
+				<table_ref uuid="58AA5B3BED464CB2AD400ED6B79EBD4C" name="SCORE_QUALITE_VIE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="FDA4A1D052E3490BB2896514E24D4869" name="ID">
+				<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="168" green="206" blue="226" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="4ED7B8BC0F1F4D5C9DD61A70C4C96FFA" name_Nto1="Lien_29" name_1toN="Lien_29_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="61A1513F01824C7480CE1CB590AA50DC" name="ID_EXAMEN_COMPLEMENTAIRE">
+				<table_ref uuid="5434DC6118D4443AB0CBC54E40AD57DF" name="ESSAI_AIDE_VISUELLE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="FDA4A1D052E3490BB2896514E24D4869" name="ID">
+				<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="168" green="206" blue="226" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="125578AC55704422AFFD525A82416F6E" name_Nto1="Lien_23" name_1toN="Lien_23_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="4EA43D112B9645F1B432A3609910D359" name="ID_EXAMEN_COMPLEMENTAIRE">
+				<table_ref uuid="B9D5A7EEB74B419FBE38902B2E8907B7" name="IMAGERIE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="FDA4A1D052E3490BB2896514E24D4869" name="ID">
+				<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="168" green="206" blue="226" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="72D5F53EB81A443AA904CF3631D7CBD1" name_Nto1="Lien_24" name_1toN="Lien_24_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="3DFC47D0B52F44E08245C2FF1D9658E3" name="ID_EXAMEN_COMPLEMENTAIRE">
+				<table_ref uuid="5CEA5EDB654E42F3B8E319ED2334F67B" name="AUTRE_EXAMEN"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="FDA4A1D052E3490BB2896514E24D4869" name="ID">
+				<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="168" green="206" blue="226" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="C9AE986E59D5413FAFF831441C9F578A" name_Nto1="Lien_25" name_1toN="Lien_25_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="566931BFEAB74D68A71875D4BC835567" name="ID_EXAMEN_GENERAL">
+				<table_ref uuid="FB8BBC6BDF564169AF4A83E07EF56F1B" name="CONCLUSION"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="40C1001E1EB842EDA1B134680B416BFF" name="ID">
+				<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="249" green="130" blue="127" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="4C6A94EA4ED54F07A004D9F4620861FE" name_Nto1="Lien_26" name_1toN="Lien_26_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="46A0F2C770404770B2DCE1921B352324" name="ID_PATIENT">
+				<table_ref uuid="DAD00FC049614449B03382F500E6F9B9" name="DOCUMENT_PATIENT"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="C65F5F8802B14727B5ABFAC80D59DEAE" name="ID">
+				<table_ref uuid="0DCFA340DAD54ACA970CB428FDC233D7" name="PATIENT"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="0" via_point_y="0" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="EEFC97C62FBB42D5BFF5374E3C4B9FF7" name_Nto1="Lien_31" name_1toN="Lien_31_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="B9482E5C37064BD68D77ACC37D7AB091" name="ID_ANAMNESE">
+				<table_ref uuid="BCA7DAFB09BE41FCB5F68BD6E76133A0" name="ANTECEDENT_LENTILLE"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="B11909A940134777B7C7C92A9B32AC4D" name="ID">
+				<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="237" green="211" blue="181" alpha="255"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="009AB7AE2FAD4556B4AA936391D6619C" type="1">
+		<field_ref uuid="DB759337F7704FDF9849E43F1036B101" name="ID">
+			<table_ref uuid="43167471D0E4484E81E973CAB219C5EF" name="LATERALISATION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="0293B76088EE4137AC434023E21D8E68" type="7">
+		<field_ref uuid="67DB0C273A484B63B54F5863EB82980E" name="ID">
+			<table_ref uuid="FB8BBC6BDF564169AF4A83E07EF56F1B" name="CONCLUSION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="0AD1D259509E4EFDBF8DEAD69A1B3A5A" type="1">
+		<field_ref uuid="116DA9E66DB34130BE1010A2C63ADF8C" name="ID">
+			<table_ref uuid="5434DC6118D4443AB0CBC54E40AD57DF" name="ESSAI_AIDE_VISUELLE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0B193C60957B41E9A746DA976E071A8F" type="3">
+		<field_ref uuid="1E63D587B33D4137BADDC4C2E05E9629" name="ID_EXAMEN_GENERAL">
+			<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="11BF9D5786BC4F1D86CC7D674BBD5615" type="1">
+		<field_ref uuid="F73EA049A3C44F0AAA92AB68B4CDADA9" name="ID">
+			<table_ref uuid="55FF4DA41BE046C08E0B5815AD91081E" name="CHAMP_VISUEL"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="186FFAD5BC6B4536882890B0B7A7FDB7" type="3">
+		<field_ref uuid="3E48AA07A8374E658C8362B8A8275570" name="ID_EXAMEN_COMPLEMENTAIRE">
+			<table_ref uuid="B791CC2C6BCC4B4EA9B591E401700505" name="BIOMICROSCOPIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1E554EB0FB3A49F882FC01545269F632" type="3">
+		<field_ref uuid="6B74265784C94B00B086AE3C8CC30872" name="ID_EXAMEN_GENERAL">
+			<table_ref uuid="91709E6E53544BBF8F13DB885C0928E0" name="REFRACTION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="210895151BBB408D852E889D7ADE0AF9" type="3">
+		<field_ref uuid="4F9662A7758540A28C64119F2152F6EA" name="ID_ANAMNESE">
+			<table_ref uuid="660EBE117F18497CA3259A807B421D9D" name="ANTECEDENT_LUNETTES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="2563A223EB0248999A5D4384BEA557C8" type="3">
+		<field_ref uuid="6EADCE9C31824F6DBCFF8A3D3B5ADDCF" name="ID_EXAMEN_PRELIMINAIRE">
+			<table_ref uuid="55FF4DA41BE046C08E0B5815AD91081E" name="CHAMP_VISUEL"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="265D0E04FDE04BF6923842FB68188991" type="7">
+		<field_ref uuid="8772288DF1F1440998DD5AA01C2FAA8C" name="ID">
+			<table_ref uuid="547AB7BD9DC347D98A3BBE6EDA161141" name="FICHE_THEMATIQUE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="28D189EFAFFD44DC8FD0DA6DE5E23C25" type="3">
+		<field_ref uuid="B9482E5C37064BD68D77ACC37D7AB091" name="ID_ANAMNESE">
+			<table_ref uuid="BCA7DAFB09BE41FCB5F68BD6E76133A0" name="ANTECEDENT_LENTILLE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3BC3D231862F4505910F36F826A52BBC" type="3">
+		<field_ref uuid="7EDAB2FB0A5D4CC1A0F570F31DD00A7D" name="ID_PATIENT">
+			<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3BDA12268FA949C79379CE113A1271A1" type="3">
+		<field_ref uuid="566931BFEAB74D68A71875D4BC835567" name="ID_EXAMEN_GENERAL">
+			<table_ref uuid="FB8BBC6BDF564169AF4A83E07EF56F1B" name="CONCLUSION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="3D67975101EF4448AC060A63E829AA8B" type="1">
+		<field_ref uuid="AE5186CFE6AB4FAD942E4AD5B5A158EA" name="ID">
+			<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="45797D3D025D4BF3A8961C0E90BAEA8E" type="3">
+		<field_ref uuid="2955FCCE0D40478E971DB3E5BE1B4508" name="ID_EXAMEN_GENERAL">
+			<table_ref uuid="74C5A4A3991A46FAAA0DEDCBAC04D8BA" name="EXAMEN_PRELIMINAIRE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="4B0F12C5B50241E18C0EE0C259DB5739" type="7">
+		<field_ref uuid="FDA4A1D052E3490BB2896514E24D4869" name="ID">
+			<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="4B486D4EB96A42A2948E742F653A1DC6" type="7">
+		<field_ref uuid="A7933EAB004145DAB55BDDB343AB8645" name="ID">
+			<table_ref uuid="D88DA188968D42CB9636DE8B6BD604B6" name="CONTAGUIDE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="5DE0179639664AE7B71BABBCA71066C8" type="7">
+		<field_ref uuid="290F8C8B6B7E4356A5A9C933041C6254" name="ID">
+			<table_ref uuid="5CEA5EDB654E42F3B8E319ED2334F67B" name="AUTRE_EXAMEN"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="5E5BF38C695C47DC91AE9D4567C5C3A0" type="3">
+		<field_ref uuid="61A1513F01824C7480CE1CB590AA50DC" name="ID_EXAMEN_COMPLEMENTAIRE">
+			<table_ref uuid="5434DC6118D4443AB0CBC54E40AD57DF" name="ESSAI_AIDE_VISUELLE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="5E9D40FA7119443A9F1C1177A1A6AF25" type="1">
+		<field_ref uuid="74AE5D0A9FB144479257A280091AB586" name="ID">
+			<table_ref uuid="4186C9FFE494424FAE5D9014EC0EA687" name="ANTECEDENT_AIDE_VISUELLE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6E3F97B441CC4107B59C512BEA61EC68" type="3">
+		<field_ref uuid="C38CC98ABDDC4042AC171BA726BD801B" name="ID_ANAMNESE">
+			<table_ref uuid="4186C9FFE494424FAE5D9014EC0EA687" name="ANTECEDENT_AIDE_VISUELLE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="73ED16869D044DC090F0705BEED42657" type="3">
+		<field_ref uuid="EADCBE3FD51844BAA2D471AEE0250BDA" name="ID_EXAMEN_PRELIMINAIRE">
+			<table_ref uuid="123F64CF62224204BB914497140CBFED" name="BINOCULARITE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7D82D3810FFB4D0A82944ADB08FB4D60" type="3">
+		<field_ref uuid="0A2C81C163EE4440874AA590CAC08685" name="ID_EXAMEN_COMPLEMENTAIRE">
+			<table_ref uuid="58AA5B3BED464CB2AD400ED6B79EBD4C" name="SCORE_QUALITE_VIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7E8534327D6A4B4399846794C48C17C8" type="3">
+		<field_ref uuid="DAADB4206BC946D8B1B98B87565E764B" name="ID_EXAMEN_PRELIMINAIRE">
+			<table_ref uuid="F7516F2A55E34DB68F3E662584660543" name="FIXATION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="81C66BE6F12E4E649415F3F41015A495" type="3">
+		<field_ref uuid="63E139526ECC463F965D7CCF70AEDAA6" name="ID_ANAMNESE">
+			<table_ref uuid="4269B588065B4D9AB2EDB706240D6FE0" name="VIE_QUOTIDIENNE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="8245CCE1477D423DB0647FEA875E6EDD" type="7">
+		<field_ref uuid="EDE3EC63A6D34B19918124A841260AEA" name="ID">
+			<table_ref uuid="B9D5A7EEB74B419FBE38902B2E8907B7" name="IMAGERIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="83D1904DF5DA4BED9DBA6C5068CE4BA3" type="1">
+		<field_ref uuid="C65F5F8802B14727B5ABFAC80D59DEAE" name="ID">
+			<table_ref uuid="0DCFA340DAD54ACA970CB428FDC233D7" name="PATIENT"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="85220F473F3A47338FC88F1DC0E2123A" type="7">
+		<field_ref uuid="537D1CA7AF2D4ED6B1123264D3D8C7D4" name="ID">
+			<table_ref uuid="BCA7DAFB09BE41FCB5F68BD6E76133A0" name="ANTECEDENT_LENTILLE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="877F0056F2E14FC492EA595D1228788A" type="7">
+		<field_ref uuid="E6984D0467A54848A47D77F0C7D3DA22" name="ID">
+			<table_ref uuid="58AA5B3BED464CB2AD400ED6B79EBD4C" name="SCORE_QUALITE_VIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8CDF3B8FF20E465C9BCBFF5276CCAC9C" type="3">
+		<field_ref uuid="8355020DE38A4500941D2B4BC2C50049" name="ID_EXAMEN_GENERAL">
+			<table_ref uuid="17E51BF1E67F44C6A140FFBAD9921E2A" name="EXAMEN_COMPLEMENTAIRE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="8CE93C13F57F4DFCBC981CBC596C0977" type="1">
+		<field_ref uuid="480DBC09289C4B378CB9E8CF3FB2DF8A" name="ID">
+			<table_ref uuid="C1521AC1440742D9A4596F0826284538" name="PRATICIEN"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="928E24295FB94A76B89590A979E3160B" type="1">
+		<field_ref uuid="B11909A940134777B7C7C92A9B32AC4D" name="ID">
+			<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9DB90DAAB9964B39BE91B9FDC74C6BC8" type="3">
+		<field_ref uuid="5A24304FBC7E46FCAF5705515BFA3067" name="ID_ANTECEDENT_LUNETTES">
+			<table_ref uuid="CDC58073903B4E839855EE40B4E9997F" name="ACUITE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A8F90F884E9A440AB941885376D83020" type="7">
+		<field_ref uuid="386CFB829ADB4D8DB2FF5934A3B25D05" name="ID">
+			<table_ref uuid="3A2FC1ADB30744219DC49080DB2F12E2" name="RAPPORT_TYPE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="AF561331E77F432082B2AD8C47C0FA7B" type="3">
+		<field_ref uuid="9CA5E6EF10D54B7A9358DFEC853CE2D3" name="ID_EXAMEN_PRELIMINAIRE">
+			<table_ref uuid="FE4004B7B26C415DA38BE9D5EF8907C4" name="KERATOMETRIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B297923AD1694D5D92D500BEC0CE227F" type="1">
+		<field_ref uuid="B05B857D516A44F4BD7ED387F8BA58D2" name="ID">
+			<table_ref uuid="660EBE117F18497CA3259A807B421D9D" name="ANTECEDENT_LUNETTES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B7B9594D6A3B46E089009C90528B1177" type="3">
+		<field_ref uuid="0EFF75D0A5AB40FE90BB4E596F00E3C8" name="AntecedentsFamiliaux">
+			<table_ref uuid="B87B111BA57B4622B5AEAF3F596C675E" name="ANAMNESE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B93D2BF895A4486180407F8993F754DA" type="1">
+		<field_ref uuid="7AE4E5023FD141A0AA611A189E954C35" name="ID">
+			<table_ref uuid="FE4004B7B26C415DA38BE9D5EF8907C4" name="KERATOMETRIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="BA58AC6B559C4583AE0A8D8C051BA7BC" type="3">
+		<field_ref uuid="DEAD2B07C1AD4EAEB4638D94B33EEDB1" name="ID_EXAMEN_PRELIMINAIRE">
+			<table_ref uuid="43167471D0E4484E81E973CAB219C5EF" name="LATERALISATION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="BFAE23AE8CB74CE5B788FFD117DE8085" type="3">
+		<field_ref uuid="4EA43D112B9645F1B432A3609910D359" name="ID_EXAMEN_COMPLEMENTAIRE">
+			<table_ref uuid="B9D5A7EEB74B419FBE38902B2E8907B7" name="IMAGERIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C1BE5FA956654D6EBA4A300D02ADC7A3" type="3">
+		<field_ref uuid="4DBDDE0F21744E709270AA88309A3D7F" name="ID_EXAMEN_PRELIMINAIRE">
+			<table_ref uuid="CDC58073903B4E839855EE40B4E9997F" name="ACUITE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C3912BC94D6C4586A272AAD3BDF7FC47" type="7">
+		<field_ref uuid="F06D445079414747BB2B5C0244089EBE" name="ID">
+			<table_ref uuid="91709E6E53544BBF8F13DB885C0928E0" name="REFRACTION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C617A163891E453481E58FF24A27FC43" type="7">
+		<field_ref uuid="CE0BB0363B2E458F8FF76E644E247E38" name="ID">
+			<table_ref uuid="B791CC2C6BCC4B4EA9B591E401700505" name="BIOMICROSCOPIE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="CC5A6075CFCC437194148F8D0879C440" type="7">
+		<field_ref uuid="B2A32F765FC548B597F5F6EC9A3E0B7F" name="ID">
+			<table_ref uuid="F7516F2A55E34DB68F3E662584660543" name="FIXATION"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="D3C2B373951949C0BC6005248C50D941" type="7">
+		<field_ref uuid="3D33E8CCDA5F45B4BF315ECC6AA488BA" name="ID">
+			<table_ref uuid="DAD00FC049614449B03382F500E6F9B9" name="DOCUMENT_PATIENT"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DDF812B9FA0844A88897E71903603988" type="3">
+		<field_ref uuid="3DFC47D0B52F44E08245C2FF1D9658E3" name="ID_EXAMEN_COMPLEMENTAIRE">
+			<table_ref uuid="5CEA5EDB654E42F3B8E319ED2334F67B" name="AUTRE_EXAMEN"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="DE3D00B8B95C436380D72E39509FD7C8" type="1">
+		<field_ref uuid="3B51D89C87B14D77AFEFD6AFAE128A3E" name="ID">
+			<table_ref uuid="123F64CF62224204BB914497140CBFED" name="BINOCULARITE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E55C82387D694938A22B14A166459D3F" type="1">
+		<field_ref uuid="C190AB1E57654267B6E391020CFA8900" name="ID">
+			<table_ref uuid="CDC58073903B4E839855EE40B4E9997F" name="ACUITE"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E71B6830167E495C8187DEF73D8DF2A8" type="1">
+		<field_ref uuid="40C1001E1EB842EDA1B134680B416BFF" name="ID">
+			<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="FBB371F8DEA54C70A6304BA3DDCA4ABB" type="3">
+		<field_ref uuid="4CF7898178374F41A5C30310DAB89B2E" name="ID_PRATICIEN">
+			<table_ref uuid="A069595C2EF34884A6369A43F3B6BBA5" name="EXAMEN_GENERAL"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="FC53488401054C6395E044373E409C15" type="1">
+		<field_ref uuid="0EDE1DC7EB5D4510B78BD708D757E702" name="ID">
+			<table_ref uuid="4269B588065B4D9AB2EDB706240D6FE0" name="VIE_QUOTIDIENNE"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

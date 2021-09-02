@@ -1,0 +1,1226 @@
+﻿{
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image3.4dm": {
+		"left": 366,
+		"top": 435,
+		"width": 1440,
+		"height": 520
+	},
+	"Sources/Forms/Accueil - identification/ObjectMethods/Bouton3.4dm": {
+		"left": 597,
+		"top": 380,
+		"width": 984,
+		"height": 452
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton image3.4dm": {
+		"left": 523,
+		"top": 336,
+		"width": 984,
+		"height": 478
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton15.4dm": {
+		"left": 29,
+		"top": 141,
+		"width": 984,
+		"height": 504
+	},
+	"Sources/Forms/Sous menu exams comp/method.4dm": {
+		"left": 29,
+		"top": 167,
+		"width": 984,
+		"height": 478
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton1.4dm": {
+		"left": 29,
+		"top": 245,
+		"width": 984,
+		"height": 400
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton2.4dm": {
+		"left": 29,
+		"top": 245,
+		"width": 984,
+		"height": 400
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton3.4dm": {
+		"left": 29,
+		"top": 271,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton5.4dm": {
+		"left": 29,
+		"top": 297,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Sous menu exams comp/ObjectMethods/Bouton4.4dm": {
+		"left": 29,
+		"top": 323,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Zone de saisie45.4dm": {
+		"left": 29,
+		"top": 271,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/Bouton1.4dm": {
+		"left": 29,
+		"top": 297,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/method.4dm": {
+		"left": 0,
+		"top": 259,
+		"width": 1440,
+		"height": 572
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/Bouton2.4dm": {
+		"left": 496,
+		"top": 334,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Non saisissable1.4dm": {
+		"left": 38,
+		"top": 309,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/TEST/ObjectMethods/Bouton7.4dm": {
+		"left": 38,
+		"top": 413,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/TEST/method.4dm": {
+		"left": 38,
+		"top": 387,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Main menu/ObjectMethods/lb_patient.4dm": {
+		"left": 120,
+		"top": 420,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/lb_patient.4dm": {
+		"left": 303,
+		"top": 256,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Accueil - identification/ObjectMethods/Bouton2.4dm": {
+		"left": 510,
+		"top": 254,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/TableForms/2/Entree/ObjectMethods/Bouton image2.4dm": {
+		"left": 471,
+		"top": 507,
+		"width": 984,
+		"height": 504
+	},
+	"Sources/TableForms/1/Sortie/method.4dm": {
+		"left": 40,
+		"top": 241,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton1.4dm": {
+		"left": 588,
+		"top": 525,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton5.4dm": {
+		"left": 632,
+		"top": 285,
+		"width": 1440,
+		"height": 520
+	},
+	"Sources/Forms/Main menu/method.4dm": {
+		"left": 211,
+		"top": 480,
+		"width": 1440,
+		"height": 416
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton image4.4dm": {
+		"left": 523,
+		"top": 336,
+		"width": 984,
+		"height": 478
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton6.4dm": {
+		"left": 303,
+		"top": 490,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton.4dm": {
+		"left": 624,
+		"top": 440,
+		"width": 1440,
+		"height": 598
+	},
+	"Sources/Forms/TEST/ObjectMethods/listbox.4dm": {
+		"left": 314,
+		"top": 469,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/TEST/ObjectMethods/lb_patient.4dm": {
+		"left": 0,
+		"top": 129,
+		"width": 1440,
+		"height": 702
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Règle.4dm": {
+		"left": 772,
+		"top": 466,
+		"width": 984,
+		"height": 556
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton45.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/field_Resultat.4dm": {
+		"left": 772,
+		"top": 518,
+		"width": 984,
+		"height": 504
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton47.4dm": {
+		"left": 327,
+		"top": 525,
+		"width": 984,
+		"height": 426
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio143.4dm": {
+		"left": 327,
+		"top": 577,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Règle1.4dm": {
+		"left": 327,
+		"top": 629,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Règle.4dm": {
+		"left": 327,
+		"top": 655,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio1.4dm": {
+		"left": 407,
+		"top": 410,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio2.4dm": {
+		"left": 367,
+		"top": 458,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Test_SCORE/method.4dm": {
+		"left": 0,
+		"top": 363,
+		"width": 1440,
+		"height": 468
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton radio4.4dm": {
+		"left": 648,
+		"top": 442,
+		"width": 984,
+		"height": 374
+	},
+	"Trash/Methods/(chargerPatient).4dm": {
+		"left": 518,
+		"top": 388,
+		"width": 1440,
+		"height": 546
+	},
+	"Trash/Methods/(setValue).4dm": {
+		"left": 518,
+		"top": 414,
+		"width": 1440,
+		"height": 520
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Bouton1.4dm": {
+		"left": 0,
+		"top": 311,
+		"width": 1440,
+		"height": 520
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/Regle1.4dm": {
+		"left": 185,
+		"top": 468,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/field_Resultat2.4dm": {
+		"left": 0,
+		"top": 363,
+		"width": 1440,
+		"height": 468
+	},
+	"Sources/Forms/Test_SCORE/ObjectMethods/field_Resultat1.4dm": {
+		"left": 0,
+		"top": 363,
+		"width": 1440,
+		"height": 468
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Bouton47.4dm": {
+		"left": 0,
+		"top": 363,
+		"width": 1440,
+		"height": 468
+	},
+	"Sources/TableForms/18/Entree/method.4dm": {
+		"left": 0,
+		"top": 441,
+		"width": 1440,
+		"height": 390
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Bouton45.4dm": {
+		"left": 0,
+		"top": 259,
+		"width": 1440,
+		"height": 572
+	},
+	"Sources/TableForms/18/Entree/ObjectMethods/Bouton1.4dm": {
+		"left": 0,
+		"top": 378,
+		"width": 1440,
+		"height": 515
+	},
+	"Sources/TableForms/3/Entree/ObjectMethods/Bouton.4dm": {
+		"left": 493,
+		"top": 283,
+		"width": 1440,
+		"height": 424
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_patientCourant_dateNaissance.4dm": {
+		"left": 493,
+		"top": 309,
+		"width": 1440,
+		"height": 398
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Sous formulaire1.4dm": {
+		"left": 8,
+		"top": 487,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton2.4dm": {
+		"left": 132,
+		"top": 565,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Sous menu examen/ObjectMethods/Bouton2.4dm": {
+		"left": 132,
+		"top": 591,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/TableForms/4/Entree_TEST/method.4dm": {
+		"left": 157,
+		"top": 450,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/TableForms/4/Entree_TEST/ObjectMethods/field_PlaintePrincipale.4dm": {
+		"left": 223,
+		"top": 595,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/TableForms/4/Entree_TEST/ObjectMethods/Pop_MotifCS.4dm": {
+		"left": 1241,
+		"top": 376,
+		"width": 440,
+		"height": 673
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_PlaintePrincipale1.4dm": {
+		"left": -13,
+		"top": 231,
+		"width": 1440,
+		"height": 585
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton27.4dm": {
+		"left": 105,
+		"top": 497,
+		"width": 1440,
+		"height": 403
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate.4dm": {
+		"left": 684,
+		"top": 486,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/TableForms/23/Entree/method.4dm": {
+		"left": 0,
+		"top": 487,
+		"width": 1440,
+		"height": 533
+	},
+	"Sources/Forms/EXAMEN_BV1/ObjectMethods/Sous formulaire1.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate1.4dm": {
+		"left": 640,
+		"top": 244,
+		"width": 698,
+		"height": 446
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Sous formulaire8.4dm": {
+		"left": 640,
+		"top": 244,
+		"width": 698,
+		"height": 446
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton.4dm": {
+		"left": 640,
+		"top": 270,
+		"width": 698,
+		"height": 420
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVBRUTEVLOPTO.4dm": {
+		"left": 592,
+		"top": 326,
+		"width": 780,
+		"height": 400
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate2.4dm": {
+		"left": -1016,
+		"top": 26,
+		"width": 1016,
+		"height": 720
+	},
+	"Sources/Forms/TEST/ObjectMethods/Bouton9.4dm": {
+		"left": 465,
+		"top": 603,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/TEST/ObjectMethods/Popup Liste déroulante1.4dm": {
+		"left": 884,
+		"top": 588,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVBRUTEVPOPTO.4dm": {
+		"left": 465,
+		"top": 603,
+		"width": 780,
+		"height": 400
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVHABVLOPTO.4dm": {
+		"left": 465,
+		"top": 603,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_AVHABVPOPTO.4dm": {
+		"left": 465,
+		"top": 629,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Date1.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo Box_Geometrie_lu.4dm": {
+		"left": 382,
+		"top": 475,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_TYPECV.4dm": {
+		"left": 464,
+		"top": 681,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_Bris_type.4dm": {
+		"left": 446,
+		"top": 548,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_OD_ast_co_puissance.4dm": {
+		"left": 535,
+		"top": 565,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton29.4dm": {
+		"left": 535,
+		"top": 435,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OD_RayonPlat.4dm": {
+		"left": 367,
+		"top": 305,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OD_RayonCambre.4dm": {
+		"left": 547,
+		"top": 367,
+		"width": 1077,
+		"height": 513
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OG_RayonPlat.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_K_OG_RayonCambre.4dm": {
+		"left": 535,
+		"top": 695,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_RefObj_methode1.4dm": {
+		"left": 0,
+		"top": 155,
+		"width": 1440,
+		"height": 676
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image1.4dm": {
+		"left": 353,
+		"top": 401,
+		"width": 1440,
+		"height": 650
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image6.4dm": {
+		"left": 353,
+		"top": 427,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image12.4dm": {
+		"left": 846,
+		"top": 397,
+		"width": 1251,
+		"height": 598
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image13.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image14.4dm": {
+		"left": 639,
+		"top": 437,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image15.4dm": {
+		"left": 639,
+		"top": 463,
+		"width": 1440,
+		"height": 598
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image20.4dm": {
+		"left": 836,
+		"top": 500,
+		"width": 1440,
+		"height": 520
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image16.4dm": {
+		"left": 0,
+		"top": 259,
+		"width": 1440,
+		"height": 572
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image17.4dm": {
+		"left": 0,
+		"top": 259,
+		"width": 1440,
+		"height": 572
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image18.4dm": {
+		"left": 639,
+		"top": 489,
+		"width": 1440,
+		"height": 572
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_RefObj_methode.4dm": {
+		"left": 614,
+		"top": 476,
+		"width": 1440,
+		"height": 546
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_at_RefSubjVL_optotype.4dm": {
+		"left": 614,
+		"top": 528,
+		"width": 1440,
+		"height": 494
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Combo_at_RefSubjVP_optotype.4dm": {
+		"left": 614,
+		"top": 528,
+		"width": 1440,
+		"height": 494
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image23.4dm": {
+		"left": 644,
+		"top": 419,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image28.4dm": {
+		"left": 84,
+		"top": 351,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image29.4dm": {
+		"left": 717,
+		"top": 583,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image25.4dm": {
+		"left": 835,
+		"top": 558,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image24.4dm": {
+		"left": 740,
+		"top": 401,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_galilee.4dm": {
+		"left": 197,
+		"top": 528,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_galilee1.4dm": {
+		"left": 740,
+		"top": 453,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_galilee.4dm": {
+		"left": 740,
+		"top": 453,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_subjVL.4dm": {
+		"left": 835,
+		"top": 636,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_ref_subjVP.4dm": {
+		"left": 835,
+		"top": 610,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_obj.4dm": {
+		"left": 835,
+		"top": 610,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_subjVL.4dm": {
+		"left": 835,
+		"top": 662,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_subjVP.4dm": {
+		"left": 835,
+		"top": 662,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Copie_co_portee.4dm": {
+		"left": 651,
+		"top": 529,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Coller_ref_finale.4dm": {
+		"left": 835,
+		"top": 636,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate3.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate4.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate5.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton5.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Methods/alerteFonctionAVenir.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate6.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image10.4dm": {
+		"left": 149,
+		"top": 155,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image3.4dm": {
+		"left": 0,
+		"top": 181,
+		"width": 1440,
+		"height": 650
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_aideVisuelle.4dm": {
+		"left": 61,
+		"top": 499,
+		"width": 1440,
+		"height": 502
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Nom2.4dm": {
+		"left": 0,
+		"top": 275,
+		"width": 1440,
+		"height": 476
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Nom3.4dm": {
+		"left": 0,
+		"top": 275,
+		"width": 1440,
+		"height": 476
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_score.4dm": {
+		"left": 25,
+		"top": 383,
+		"width": 1440,
+		"height": 476
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image.4dm": {
+		"left": 0,
+		"top": 129,
+		"width": 1440,
+		"height": 702
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image7.4dm": {
+		"left": 149,
+		"top": 259,
+		"width": 1440,
+		"height": 520
+	},
+	"Trash/Methods/(exportFichePatient).4dm": {
+		"left": 199,
+		"top": 411,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/1/Entree/ObjectMethods/Pop_Sexe_Patient.4dm": {
+		"left": 423,
+		"top": 164,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image13.4dm": {
+		"left": 423,
+		"top": 190,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image11.4dm": {
+		"left": 423,
+		"top": 190,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image12.4dm": {
+		"left": 423,
+		"top": 216,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/Main menu/ObjectMethods/Bouton image5.4dm": {
+		"left": 423,
+		"top": 216,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton8.4dm": {
+		"left": 523,
+		"top": 362,
+		"width": 984,
+		"height": 452
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton9.4dm": {
+		"left": 523,
+		"top": 440,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/ObjectMethods/lb_praticien.4dm": {
+		"left": 523,
+		"top": 440,
+		"width": 984,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/method.4dm": {
+		"left": 925,
+		"top": 470,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton7.4dm": {
+		"left": 0,
+		"top": 181,
+		"width": 1440,
+		"height": 719
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Zone de saisie1.4dm": {
+		"left": 0,
+		"top": 129,
+		"width": 1440,
+		"height": 702
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image4.4dm": {
+		"left": 0,
+		"top": 155,
+		"width": 1440,
+		"height": 676
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image1.4dm": {
+		"left": 0,
+		"top": 207,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton10.4dm": {
+		"left": 366,
+		"top": 461,
+		"width": 1440,
+		"height": 494
+	},
+	"Sources/Forms/Parametres/ObjectMethods/List Box1.4dm": {
+		"left": 366,
+		"top": 487,
+		"width": 1440,
+		"height": 468
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton1.4dm": {
+		"left": 0,
+		"top": 26,
+		"width": 1440,
+		"height": 874
+	},
+	"Sources/Forms/Parametres/ObjectMethods/List Box3.4dm": {
+		"left": 0,
+		"top": 129,
+		"width": 1440,
+		"height": 702
+	},
+	"Sources/Forms/Parametres/ObjectMethods/List Box2.4dm": {
+		"left": 0,
+		"top": 181,
+		"width": 1440,
+		"height": 650
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image7.4dm": {
+		"left": 0,
+		"top": 181,
+		"width": 1440,
+		"height": 650
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image5.4dm": {
+		"left": 0,
+		"top": 207,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton image6.4dm": {
+		"left": 0,
+		"top": 233,
+		"width": 1440,
+		"height": 598
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton11.4dm": {
+		"left": 440,
+		"top": 563,
+		"width": 1440,
+		"height": 494
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Bouton3.4dm": {
+		"left": 648,
+		"top": 343,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Popup Liste déroulante.4dm": {
+		"left": 422,
+		"top": 710,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/Parametres/ObjectMethods/Combo Box.4dm": {
+		"left": 422,
+		"top": 684,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/TableForms/2/Entree/ObjectMethods/Pop_statut.4dm": {
+		"left": 423,
+		"top": 294,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/23/Entree/ObjectMethods/Combo Box.4dm": {
+		"left": 423,
+		"top": 268,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/14/Entree/ObjectMethods/Combo Box.4dm": {
+		"left": 423,
+		"top": 320,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVBRUTEVLOPTO.4dm": {
+		"left": 0,
+		"top": 207,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVBRUTEVPOPTO.4dm": {
+		"left": 0,
+		"top": 155,
+		"width": 1440,
+		"height": 676
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVHABVLOPTO.4dm": {
+		"left": 15,
+		"top": 495,
+		"width": 1440,
+		"height": 650
+	},
+	"Sources/TableForms/10/Entree/ObjectMethods/Combo_AVHABVPOPTO.4dm": {
+		"left": 15,
+		"top": 521,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/TableForms/6/Entree/ObjectMethods/Combo Box_Geometrie_lu.4dm": {
+		"left": 173,
+		"top": 279,
+		"width": 1440,
+		"height": 650
+	},
+	"Sources/TableForms/12/Entree/ObjectMethods/Combo_AT_TypeBris.4dm": {
+		"left": 0,
+		"top": 207,
+		"width": 1440,
+		"height": 624
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_examPreliminaire.4dm": {
+		"left": 446,
+		"top": 548,
+		"width": 780,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_keratometrie_refraction.4dm": {
+		"left": 97,
+		"top": 129,
+		"width": 1440,
+		"height": 650
+	},
+	"Sources/TableForms/9/Entree/ObjectMethods/Combo_RefObj_methode1.4dm": {
+		"left": 97,
+		"top": 181,
+		"width": 1440,
+		"height": 598
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Combo_RefObj_methode.4dm": {
+		"left": 423,
+		"top": 346,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Combo_at_RefSubjVL_optotype.4dm": {
+		"left": 423,
+		"top": 372,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Combo_at_RefSubjVP_optotype.4dm": {
+		"left": 423,
+		"top": 398,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/field_RefGalilee_OD_Distance.4dm": {
+		"left": 423,
+		"top": 424,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/field_RefSubjectiveVL_Distance5.4dm": {
+		"left": 423,
+		"top": 450,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/[REFRACTION]RefGalilee_ODG_AV.4dm": {
+		"left": 423,
+		"top": 476,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image12.4dm": {
+		"left": 423,
+		"top": 502,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image13.4dm": {
+		"left": 423,
+		"top": 528,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image14.4dm": {
+		"left": 423,
+		"top": 511,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image15.4dm": {
+		"left": 423,
+		"top": 563,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image18.4dm": {
+		"left": 423,
+		"top": 563,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image19.4dm": {
+		"left": 423,
+		"top": 589,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image17.4dm": {
+		"left": 574,
+		"top": 555,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image16.4dm": {
+		"left": 574,
+		"top": 581,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image20.4dm": {
+		"left": 715,
+		"top": 453,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Bouton image21.4dm": {
+		"left": 715,
+		"top": 479,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image21.4dm": {
+		"left": 836,
+		"top": 500,
+		"width": 1440,
+		"height": 520
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_obj.4dm": {
+		"left": 836,
+		"top": 526,
+		"width": 1440,
+		"height": 494
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_obj.4dm": {
+		"left": 836,
+		"top": 552,
+		"width": 1440,
+		"height": 468
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_subjVL.4dm": {
+		"left": 844,
+		"top": 686,
+		"width": 1440,
+		"height": 416
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_subjVL.4dm": {
+		"left": 835,
+		"top": 662,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/field_RefSubjectiveVL_ODG_AV.4dm": {
+		"left": 844,
+		"top": 712,
+		"width": 1440,
+		"height": 390
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_subjVL1.4dm": {
+		"left": 844,
+		"top": 738,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_subjVL1.4dm": {
+		"left": 844,
+		"top": 764,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Copie_ref_galilee.4dm": {
+		"left": 743,
+		"top": 354,
+		"width": 1440,
+		"height": 374
+	},
+	"Sources/TableForms/15/Entree/ObjectMethods/Coller_ref_finale.4dm": {
+		"left": 740,
+		"top": 505,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/listbox.4dm": {
+		"left": 404,
+		"top": 510,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/field_Image.4dm": {
+		"left": 565,
+		"top": 397,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_score1.4dm": {
+		"left": 565,
+		"top": 449,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bCancel8.4dm": {
+		"left": 105,
+		"top": 523,
+		"width": 1440,
+		"height": 377
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/List Box.4dm": {
+		"left": 404,
+		"top": 562,
+		"width": 929,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/Bouton image22.4dm": {
+		"left": 149,
+		"top": 284,
+		"width": 1440,
+		"height": 494
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_score2.4dm": {
+		"left": 553,
+		"top": 369,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_BV1/method.4dm": {
+		"left": 553,
+		"top": 395,
+		"width": 1017,
+		"height": 374
+	},
+	"Sources/Forms/EXAMEN_CLASSIQUE/method.4dm": {
+		"left": 0,
+		"top": 181,
+		"width": 1440,
+		"height": 719
+	},
+	"Sources/Forms/EXAMEN_CLASSIQUE/ObjectMethods/bValidate_solutionOptique.4dm": {
+		"left": 0,
+		"top": 181,
+		"width": 1440,
+		"height": 719
+	},
+	"Sources/Forms/EXAMEN_BV/ObjectMethods/bValidate_solutionOptique.4dm": {
+		"left": 327,
+		"top": 364,
+		"width": 1440,
+		"height": 546
+	},
+	"Sources/Forms/EXAMEN_CLASSIQUE/ObjectMethods/bValidate_keratometrie_refraction.4dm": {
+		"left": 327,
+		"top": 390,
+		"width": 1440,
+		"height": 520
+	},
+	"Sources/Forms/Accueil - identification/ObjectMethods/Zone de saisie.4dm": {
+		"left": 510,
+		"top": 280,
+		"width": 984,
+		"height": 374
+	}
+}

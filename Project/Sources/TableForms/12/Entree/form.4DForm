@@ -1,0 +1,463 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle_fond": {
+					"type": "rectangle",
+					"top": 6,
+					"left": 3,
+					"width": 467,
+					"height": 333,
+					"fill": "#366B84",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Rectangle91": {
+					"type": "rectangle",
+					"top": 16,
+					"left": 8,
+					"width": 454,
+					"height": 256,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 281,
+					"left": 11,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[BINOCULARITE:12]ID:1",
+					"top": 281,
+					"left": 204,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"label_ID_EXAMEN_PRELIMINAIRE": {
+					"type": "text",
+					"text": "ID_EXAMEN_PRELIMINAIRE:",
+					"top": 306,
+					"left": 11,
+					"width": 177,
+					"height": 16
+				},
+				"field_ID_EXAMEN_PRELIMINAIRE": {
+					"type": "input",
+					"dataSource": "[BINOCULARITE:12]ID_EXAMEN_PRELIMINAIRE:6",
+					"top": 306,
+					"left": 204,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"Texte137": {
+					"type": "text",
+					"text": "BINOCULARITE",
+					"top": 19,
+					"left": 11,
+					"width": 171,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte138": {
+					"type": "text",
+					"text": "PPC :",
+					"top": 48,
+					"left": 44,
+					"width": 98,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte139": {
+					"type": "text",
+					"text": "Masquage\rbrute :",
+					"top": 98,
+					"left": 44,
+					"width": 124,
+					"height": 31,
+					"stroke": "#FFFFFF"
+				},
+				"Texte140": {
+					"type": "text",
+					"text": "Masquage\rcompensé :",
+					"top": 132,
+					"left": 44,
+					"width": 93,
+					"height": 31,
+					"stroke": "#FFFFFF"
+				},
+				"Texte141": {
+					"type": "text",
+					"text": "Hirschberg :",
+					"top": 178,
+					"left": 44,
+					"width": 124,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte142": {
+					"type": "text",
+					"text": "Commentaires :",
+					"top": 224,
+					"left": 44,
+					"width": 124,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte144": {
+					"type": "text",
+					"text": "VL :",
+					"top": 139,
+					"left": 159,
+					"width": 98,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Texte146": {
+					"type": "text",
+					"text": "VP :",
+					"top": 139,
+					"left": 314,
+					"width": 30,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"field_Masquage_CompVL": {
+					"type": "input",
+					"left": 198,
+					"top": 139,
+					"width": 100,
+					"height": 17,
+					"dataSource": "[BINOCULARITE:12]Masquage:4.CompVL"
+				},
+				"field_Masquage_CompVP": {
+					"type": "input",
+					"left": 354,
+					"top": 139,
+					"width": 100,
+					"height": 17,
+					"dataSource": "[BINOCULARITE:12]Masquage:4.CompVP"
+				},
+				"Texte143": {
+					"type": "text",
+					"text": "VL :",
+					"top": 105,
+					"left": 159,
+					"width": 98,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Texte145": {
+					"type": "text",
+					"text": "VP :",
+					"top": 105,
+					"left": 314,
+					"width": 30,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"field_Masquage_BruteVL": {
+					"type": "input",
+					"left": 198,
+					"top": 105,
+					"width": 100,
+					"height": 17,
+					"dataSource": "[BINOCULARITE:12]Masquage:4.BruteVL"
+				},
+				"field_Masquage_BruteVP": {
+					"type": "input",
+					"left": 354,
+					"top": 105,
+					"width": 100,
+					"height": 17,
+					"dataSource": "[BINOCULARITE:12]Masquage:4.BruteVP"
+				},
+				"field_AT_DistanceBris": {
+					"type": "input",
+					"left": 354,
+					"top": 48,
+					"width": 70,
+					"height": 17,
+					"dataSource": "[BINOCULARITE:12]AmplitudeTriangulation:3.DistanceBris"
+				},
+				"Texte159": {
+					"type": "text",
+					"text": "cm",
+					"top": 48,
+					"left": 431,
+					"width": 23,
+					"height": 16
+				},
+				"Texte160": {
+					"type": "text",
+					"text": "Bris :",
+					"top": 48,
+					"left": 159,
+					"width": 44,
+					"height": 16,
+					"fontStyle": "normal",
+					"fontWeight": "bold"
+				},
+				"Texte162": {
+					"type": "text",
+					"text": "à",
+					"top": 48,
+					"left": 337,
+					"width": 7,
+					"height": 16
+				},
+				"Combo_AT_TypeBris": {
+					"type": "combo",
+					"left": 198,
+					"top": 45,
+					"width": 100,
+					"height": 23,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "at_typeBris",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Type_bris"
+					},
+					"method": "ObjectMethods/Combo_AT_TypeBris.4dm"
+				},
+				"field_Commentaire": {
+					"type": "input",
+					"dataSource": "[BINOCULARITE:12]Commentaire:2",
+					"top": 224,
+					"left": 159,
+					"width": 295,
+					"height": 40
+				},
+				"field_Hirschberg": {
+					"type": "input",
+					"dataSource": "[BINOCULARITE:12]Hirschberg:5",
+					"top": 178,
+					"left": 159,
+					"width": 295,
+					"height": 40
+				},
+				"field_AT_DistanceRecouvrement": {
+					"type": "input",
+					"left": 354,
+					"top": 73,
+					"width": 70,
+					"height": 17,
+					"dataSource": "[BINOCULARITE:12]AmplitudeTriangulation:3.DistanceRecouvrement"
+				},
+				"Texte15": {
+					"type": "text",
+					"text": "cm",
+					"top": 73,
+					"left": 431,
+					"width": 23,
+					"height": 16
+				},
+				"Texte17": {
+					"type": "text",
+					"text": "Recouvrement :",
+					"top": 73,
+					"left": 159,
+					"width": 103,
+					"height": 16,
+					"fontStyle": "normal",
+					"fontWeight": "bold"
+				},
+				"Texte18": {
+					"type": "text",
+					"text": "à",
+					"top": 73,
+					"left": 337,
+					"width": 7,
+					"height": 16
+				},
+				"Séparateur": {
+					"type": "splitter",
+					"left": 147,
+					"top": 42,
+					"width": 3,
+					"height": 223
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 364,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 364,
+					"left": 83,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 364,
+					"left": 146,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 364,
+					"left": 209,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 364,
+					"left": 272,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 364,
+					"left": 335,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 364,
+					"left": 398,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 430
+}

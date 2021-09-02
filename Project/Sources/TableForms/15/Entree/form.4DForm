@@ -1,0 +1,2855 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle_fond": {
+					"type": "rectangle",
+					"top": 7,
+					"left": 7,
+					"width": 1188,
+					"height": 510,
+					"fill": "#366B84",
+					"stroke": "transparent",
+					"borderRadius": 5
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 353,
+					"left": 13,
+					"width": 1173,
+					"height": 89,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 360,
+					"left": 218,
+					"width": 924,
+					"height": 44,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte16": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 361,
+					"left": 647,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte17": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 361,
+					"left": 694,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte18": {
+					"type": "text",
+					"text": "Axe",
+					"top": 361,
+					"left": 748,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte19": {
+					"type": "text",
+					"text": "Addition",
+					"top": 361,
+					"left": 861,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefFinale_OG_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.Sph",
+					"top": 380,
+					"left": 647,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OG_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.Cyl",
+					"top": 380,
+					"left": 697,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OG_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.Axe",
+					"top": 380,
+					"left": 748,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OG_Add": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.Add",
+					"top": 380,
+					"left": 868,
+					"width": 40,
+					"height": 17,
+					"stroke": "#b1c4dd",
+					"fill": "#33657D"
+				},
+				"Texte20": {
+					"type": "text",
+					"text": "°",
+					"top": 376,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte21": {
+					"type": "text",
+					"text": "AV",
+					"top": 361,
+					"left": 815,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefFinale_OG_AVVL": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.AVVL",
+					"top": 380,
+					"left": 816,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte22": {
+					"type": "text",
+					"text": "AV",
+					"top": 361,
+					"left": 914,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefFinale_OG_AVVP": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.AVVP",
+					"top": 380,
+					"left": 915,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte23": {
+					"type": "text",
+					"text": "REFRACTION FINALE",
+					"top": 360,
+					"left": 17,
+					"width": 171,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte24": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 361,
+					"left": 224,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte25": {
+					"type": "text",
+					"text": "Correction",
+					"top": 381,
+					"left": 135,
+					"width": 69,
+					"height": 16,
+					"stroke": "#b1c4dd",
+					"fontWeight": "bold"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 409,
+					"left": 217,
+					"width": 925,
+					"height": 28,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte26": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 361,
+					"left": 272,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte28": {
+					"type": "text",
+					"text": "Axe",
+					"top": 361,
+					"left": 324,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte29": {
+					"type": "text",
+					"text": "Addition",
+					"top": 361,
+					"left": 437,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Séparateur1": {
+					"type": "splitter",
+					"left": 1144,
+					"top": 358,
+					"width": 1,
+					"height": 80,
+					"bottom": 438
+				},
+				"Séparateur5": {
+					"type": "splitter",
+					"left": 615,
+					"top": 358,
+					"width": 1,
+					"height": 80,
+					"bottom": 438
+				},
+				"Séparateur6": {
+					"type": "splitter",
+					"left": 213,
+					"top": 358,
+					"width": 1,
+					"height": 80,
+					"bottom": 438
+				},
+				"field_RefFinale_OD_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.Sph",
+					"top": 380,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OD_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.Cyl",
+					"top": 380,
+					"left": 274,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OD_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.Axe",
+					"top": 380,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OD_Add": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.Add",
+					"top": 380,
+					"left": 443,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OD_PuissancePrisme": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.PuissancePrisme",
+					"top": 415,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OD_AxePrisme": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.AxePrisme",
+					"top": 415,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte30": {
+					"type": "text",
+					"text": "Prisme",
+					"top": 415,
+					"left": 158,
+					"width": 46,
+					"height": 16,
+					"stroke": "#b1c4dd",
+					"fontWeight": "bold"
+				},
+				"Texte31": {
+					"type": "text",
+					"text": "°",
+					"top": 376,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"field_RefFinale_OG_PuissancePrisme": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.Sph",
+					"top": 415,
+					"left": 647,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OG_AxePrisme": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OG.AxePrisme",
+					"top": 415,
+					"left": 748,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte34": {
+					"type": "text",
+					"text": "AV",
+					"top": 361,
+					"left": 391,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefFinale_OD_AVVL": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.AVVL",
+					"top": 380,
+					"left": 392,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte39": {
+					"type": "text",
+					"text": "AV",
+					"top": 361,
+					"left": 492,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefFinale_OD_AVVP": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.OD.AVVP",
+					"top": 380,
+					"left": 493,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte40": {
+					"type": "text",
+					"text": "°",
+					"top": 412,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte41": {
+					"type": "text",
+					"text": "°",
+					"top": 412,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte42": {
+					"type": "text",
+					"text": "∆",
+					"top": 413,
+					"left": 272,
+					"width": 38,
+					"height": 16,
+					"fontWeight": "normal",
+					"fontSize": 18
+				},
+				"Texte43": {
+					"type": "text",
+					"text": "∆",
+					"top": 413,
+					"left": 695,
+					"width": 38,
+					"height": 16,
+					"fontWeight": "normal",
+					"fontSize": 18
+				},
+				"Rectangle91": {
+					"type": "rectangle",
+					"top": 13,
+					"left": 13,
+					"width": 1173,
+					"height": 89,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 20,
+					"left": 217,
+					"width": 925,
+					"height": 44,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 21,
+					"left": 647,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 21,
+					"left": 694,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte3": {
+					"type": "text",
+					"text": "Axe",
+					"top": 21,
+					"left": 748,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte5": {
+					"type": "text",
+					"text": "Addition",
+					"top": 21,
+					"left": 861,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte6": {
+					"type": "text",
+					"text": "°",
+					"top": 36,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte14": {
+					"type": "text",
+					"text": "AV",
+					"top": 21,
+					"left": 815,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"Texte15": {
+					"type": "text",
+					"text": "AV",
+					"top": 21,
+					"left": 914,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"Texte27": {
+					"type": "text",
+					"text": "CORRECTION PORTEE",
+					"top": 20,
+					"left": 17,
+					"width": 171,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"label_ID1": {
+					"type": "text",
+					"text": "ID:",
+					"top": 462,
+					"left": 13,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID1": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]ID:1",
+					"top": 462,
+					"left": 123,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"label_ID_EXAMEN_GENERAL": {
+					"type": "text",
+					"text": "ID_EXAMEN_GENERAL:",
+					"top": 486,
+					"left": 13,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID_EXAMEN_GENERAL": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]ID_EXAMEN_GENERAL:7",
+					"top": 486,
+					"left": 123,
+					"width": 250,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"stroke": "#c0c0c0"
+				},
+				"Texte35": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 21,
+					"left": 224,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte11": {
+					"type": "text",
+					"text": "Correction",
+					"top": 41,
+					"left": 135,
+					"width": 69,
+					"height": 16,
+					"stroke": "#b1c4dd",
+					"fontWeight": "bold"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 69,
+					"left": 217,
+					"width": 925,
+					"height": 28,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte36": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 21,
+					"left": 272,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte37": {
+					"type": "text",
+					"text": "Axe",
+					"top": 21,
+					"left": 324,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte38": {
+					"type": "text",
+					"text": "Addition",
+					"top": 21,
+					"left": 437,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Séparateur2": {
+					"type": "splitter",
+					"left": 1144,
+					"top": 18,
+					"width": 1,
+					"height": 80,
+					"bottom": 98
+				},
+				"Séparateur4": {
+					"type": "splitter",
+					"left": 615,
+					"top": 18,
+					"width": 1,
+					"height": 80,
+					"bottom": 98
+				},
+				"Séparateur3": {
+					"type": "splitter",
+					"left": 213,
+					"top": 18,
+					"width": 1,
+					"height": 80,
+					"bottom": 98
+				},
+				"Texte4": {
+					"type": "text",
+					"text": "Prisme",
+					"top": 75,
+					"left": 158,
+					"width": 46,
+					"height": 16,
+					"stroke": "#b1c4dd",
+					"fontWeight": "bold"
+				},
+				"Texte": {
+					"type": "text",
+					"text": "°",
+					"top": 36,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte12": {
+					"type": "text",
+					"text": "AV",
+					"top": 21,
+					"left": 391,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"Texte13": {
+					"type": "text",
+					"text": "AV",
+					"top": 21,
+					"left": 492,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF",
+					"fontWeight": "bold"
+				},
+				"Texte7": {
+					"type": "text",
+					"text": "°",
+					"top": 72,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte8": {
+					"type": "text",
+					"text": "°",
+					"top": 72,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte9": {
+					"type": "text",
+					"text": "∆",
+					"top": 73,
+					"left": 273,
+					"width": 38,
+					"height": 16,
+					"fontWeight": "normal",
+					"fontSize": 18
+				},
+				"Texte10": {
+					"type": "text",
+					"text": "∆",
+					"top": 73,
+					"left": 695,
+					"width": 38,
+					"height": 16,
+					"fontWeight": "normal",
+					"fontSize": 18
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 111,
+					"left": 13,
+					"width": 1173,
+					"height": 55,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 118,
+					"left": 217,
+					"width": 925,
+					"height": 44,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte44": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 119,
+					"left": 647,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte45": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 119,
+					"left": 694,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte46": {
+					"type": "text",
+					"text": "Axe",
+					"top": 119,
+					"left": 748,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefObj_OG_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OG.Sph",
+					"top": 138,
+					"left": 647,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefObj_OG_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OG.Cyl",
+					"top": 138,
+					"left": 697,
+					"width": 45,
+					"height": 17,
+					"stroke": "#b1c4dd",
+					"fill": "#33657D"
+				},
+				"field_RefObj_OG_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OG.Axe",
+					"top": 138,
+					"left": 748,
+					"width": 40,
+					"height": 17,
+					"stroke": "#b1c4dd",
+					"fill": "#33657D"
+				},
+				"Texte48": {
+					"type": "text",
+					"text": "°",
+					"top": 134,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte49": {
+					"type": "text",
+					"text": "AV",
+					"top": 119,
+					"left": 815,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold",
+					"fill": "transparent"
+				},
+				"field_RefObj_OG_AV": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OG.AV",
+					"top": 138,
+					"left": 816,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte51": {
+					"type": "text",
+					"text": "REFRACTION OBJECTIVE",
+					"top": 118,
+					"left": 17,
+					"width": 171,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte52": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 119,
+					"left": 224,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte54": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 119,
+					"left": 272,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte55": {
+					"type": "text",
+					"text": "Axe",
+					"top": 119,
+					"left": 324,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Séparateur7": {
+					"type": "splitter",
+					"left": 1144,
+					"top": 119,
+					"width": 1,
+					"height": 40,
+					"bottom": 159
+				},
+				"Séparateur8": {
+					"type": "splitter",
+					"left": 615,
+					"top": 119,
+					"width": 1,
+					"height": 40,
+					"bottom": 159
+				},
+				"Séparateur9": {
+					"type": "splitter",
+					"left": 213,
+					"top": 119,
+					"width": 1,
+					"height": 40,
+					"bottom": 159
+				},
+				"field_RefObj_OD_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OD.Sph",
+					"top": 138,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefObj_OD_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OD.Cyl",
+					"top": 138,
+					"left": 274,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefObj_OD_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OD.Axe",
+					"top": 138,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte58": {
+					"type": "text",
+					"text": "°",
+					"top": 134,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte59": {
+					"type": "text",
+					"text": "AV",
+					"top": 119,
+					"left": 391,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold",
+					"fill": "transparent"
+				},
+				"field_RefObj_OD_AV": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefObjective:2.OD.AV",
+					"top": 138,
+					"left": 392,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 173,
+					"left": 13,
+					"width": 1173,
+					"height": 55,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 179,
+					"left": 217,
+					"width": 925,
+					"height": 44,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte47": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 181,
+					"left": 647,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte53": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 181,
+					"left": 694,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte56": {
+					"type": "text",
+					"text": "Axe",
+					"top": 181,
+					"left": 748,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVL_OG_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OG.Sph",
+					"top": 200,
+					"left": 647,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVL_OG_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OG.Cyl",
+					"top": 200,
+					"left": 697,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVL_OG_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OG.Axe",
+					"top": 200,
+					"left": 748,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte57": {
+					"type": "text",
+					"text": "°",
+					"top": 196,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte60": {
+					"type": "text",
+					"text": "AV",
+					"top": 181,
+					"left": 815,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefSubjectiveVL_OG_AVVL": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OG.AVVL",
+					"top": 200,
+					"left": 816,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte61": {
+					"type": "text",
+					"text": "REF SUBJECTIVE VL",
+					"top": 180,
+					"left": 17,
+					"width": 201,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte62": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 181,
+					"left": 224,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte63": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 181,
+					"left": 272,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte64": {
+					"type": "text",
+					"text": "Axe",
+					"top": 181,
+					"left": 324,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Séparateur10": {
+					"type": "splitter",
+					"left": 1144,
+					"top": 181,
+					"width": 1,
+					"height": 40,
+					"bottom": 221
+				},
+				"Séparateur11": {
+					"type": "splitter",
+					"left": 615,
+					"top": 181,
+					"width": 1,
+					"height": 40,
+					"bottom": 221
+				},
+				"Séparateur12": {
+					"type": "splitter",
+					"left": 213,
+					"top": 181,
+					"width": 1,
+					"height": 40,
+					"bottom": 221
+				},
+				"field_RefSubjectiveVL_OD_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OD.Sph",
+					"top": 200,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVL_OD_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OD.Cyl",
+					"top": 200,
+					"left": 274,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVL_OD_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OD.Axe",
+					"top": 200,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte65": {
+					"type": "text",
+					"text": "°",
+					"top": 196,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte66": {
+					"type": "text",
+					"text": "AV",
+					"top": 181,
+					"left": 391,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefSubjectiveVL_OD_AVVL": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OD.AVVL",
+					"top": 200,
+					"left": 392,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 235,
+					"left": 13,
+					"width": 1173,
+					"height": 55,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 242,
+					"left": 217,
+					"width": 925,
+					"height": 44,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte68": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 243,
+					"left": 647,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte69": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 243,
+					"left": 694,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte70": {
+					"type": "text",
+					"text": "Axe",
+					"top": 243,
+					"left": 748,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"[REFRACTION]RefGalilee_OG_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OG.Sph",
+					"top": 262,
+					"left": 647,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"[REFRACTION]RefGalilee_OG_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OG.Cyl",
+					"top": 262,
+					"left": 697,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"[REFRACTION]RefGalilee_OG_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OG.Axe",
+					"top": 262,
+					"left": 748,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte71": {
+					"type": "text",
+					"text": "°",
+					"top": 258,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte72": {
+					"type": "text",
+					"text": "AV",
+					"top": 243,
+					"left": 815,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"[REFRACTION]RefGalilee_OG_AVVL": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OG.AVVL",
+					"top": 262,
+					"left": 816,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte73": {
+					"type": "text",
+					"text": "VERIFICATION GALILEE",
+					"top": 242,
+					"left": 17,
+					"width": 171,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte74": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 243,
+					"left": 224,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte75": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 243,
+					"left": 272,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte76": {
+					"type": "text",
+					"text": "Axe",
+					"top": 243,
+					"left": 324,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Séparateur13": {
+					"type": "splitter",
+					"left": 1144,
+					"top": 243,
+					"width": 1,
+					"height": 40,
+					"bottom": 283
+				},
+				"Séparateur14": {
+					"type": "splitter",
+					"left": 615,
+					"top": 243,
+					"width": 1,
+					"height": 40,
+					"bottom": 283
+				},
+				"Séparateur15": {
+					"type": "splitter",
+					"left": 213,
+					"top": 243,
+					"width": 1,
+					"height": 40,
+					"bottom": 283
+				},
+				"[REFRACTION]RefGalilee_OD_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OD.Sph",
+					"top": 262,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"[REFRACTION]RefGalilee_OD_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OD.Cyl",
+					"top": 262,
+					"left": 274,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"[REFRACTION]RefGalilee_OD_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OD.Axe",
+					"top": 262,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte77": {
+					"type": "text",
+					"text": "°",
+					"top": 258,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte78": {
+					"type": "text",
+					"text": "AV",
+					"top": 243,
+					"left": 391,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"[REFRACTION]RefGalilee_OD_AVVL": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.ODAVVL",
+					"top": 262,
+					"left": 392,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 294,
+					"left": 13,
+					"width": 1173,
+					"height": 55,
+					"fill": "transparent",
+					"stroke": "#ACC813"
+				},
+				"Rectangle12": {
+					"type": "rectangle",
+					"top": 301,
+					"left": 217,
+					"width": 925,
+					"height": 44,
+					"fill": "#b1c4dd",
+					"stroke": "transparent",
+					"borderRadius": 10,
+					"right": 1142
+				},
+				"Texte80": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 302,
+					"left": 647,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte81": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 302,
+					"left": 694,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte82": {
+					"type": "text",
+					"text": "Axe",
+					"top": 302,
+					"left": 748,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVP_OG_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OG.Sph",
+					"top": 321,
+					"left": 647,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVP_OG_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OG.Cyl",
+					"top": 321,
+					"left": 697,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVP_OG_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OG.Axe",
+					"top": 321,
+					"left": 748,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte83": {
+					"type": "text",
+					"text": "°",
+					"top": 317,
+					"left": 790,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte85": {
+					"type": "text",
+					"text": "REF SUBJECTIVE VP",
+					"top": 301,
+					"left": 17,
+					"width": 201,
+					"height": 16,
+					"fontWeight": "bold",
+					"textDecoration": "underline",
+					"stroke": "#fffacd"
+				},
+				"Texte86": {
+					"type": "text",
+					"text": "Sphère",
+					"top": 302,
+					"left": 224,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte87": {
+					"type": "text",
+					"text": "Cylindre",
+					"top": 302,
+					"left": 272,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte88": {
+					"type": "text",
+					"text": "Axe",
+					"top": 302,
+					"left": 324,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Séparateur16": {
+					"type": "splitter",
+					"left": 1144,
+					"top": 302,
+					"width": 1,
+					"height": 40,
+					"bottom": 342
+				},
+				"Séparateur17": {
+					"type": "splitter",
+					"left": 615,
+					"top": 302,
+					"width": 1,
+					"height": 40,
+					"bottom": 342
+				},
+				"Séparateur18": {
+					"type": "splitter",
+					"left": 213,
+					"top": 302,
+					"width": 1,
+					"height": 40,
+					"bottom": 342
+				},
+				"field_RefSubjectiveVP_OD_Sph": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OD.Sph",
+					"top": 321,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVP_OD_Cyl": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OD.Cyl",
+					"top": 321,
+					"left": 274,
+					"width": 45,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVP_OD_Axe": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OD.Axe",
+					"top": 321,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte89": {
+					"type": "text",
+					"text": "°",
+					"top": 317,
+					"left": 366,
+					"width": 11,
+					"height": 16,
+					"fontSize": 18,
+					"fontWeight": "normal"
+				},
+				"Texte92": {
+					"type": "text",
+					"text": "Addition",
+					"top": 302,
+					"left": 861,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVP_OG_Add": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OG.Add",
+					"top": 321,
+					"left": 868,
+					"width": 40,
+					"height": 17,
+					"stroke": "#b1c4dd",
+					"fill": "#33657D"
+				},
+				"Texte93": {
+					"type": "text",
+					"text": "AV",
+					"top": 302,
+					"left": 914,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefSubjectiveVP_OG_AVVP": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OG.AVVP",
+					"top": 321,
+					"left": 915,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte94": {
+					"type": "text",
+					"text": "Addition",
+					"top": 302,
+					"left": 437,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVP_OD_Add": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OD.Add",
+					"top": 321,
+					"left": 443,
+					"width": 40,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd"
+				},
+				"Texte95": {
+					"type": "text",
+					"text": "AV",
+					"top": 302,
+					"left": 492,
+					"width": 55,
+					"height": 16,
+					"stroke": "#33657D",
+					"fontWeight": "bold"
+				},
+				"field_RefSubjectiveVP_OD_AVVP": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OD.AVVP",
+					"top": 321,
+					"left": 493,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 532,
+					"left": 13,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Premier enreg."
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 532,
+					"left": 76,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. précéden"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 532,
+					"left": 139,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Enreg. suivant"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 532,
+					"left": 202,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Dernier enreg."
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 532,
+					"left": 265,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Supprimer enreg"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 532,
+					"left": 328,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Annuler"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 532,
+					"left": 391,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte108": {
+					"type": "text",
+					"text": "Méthode :",
+					"top": 140,
+					"left": 27,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte288": {
+					"type": "text",
+					"text": "Optotype :",
+					"top": 202,
+					"left": 27,
+					"width": 65,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Texte290": {
+					"type": "text",
+					"text": "Optotype :",
+					"top": 323,
+					"left": 27,
+					"width": 65,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"Combo_RefObj_methode": {
+					"type": "combo",
+					"left": 94,
+					"top": 139,
+					"width": 115,
+					"height": 21,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onUnload"
+					],
+					"dataSource": "at_RefObj_methode",
+					"method": "ObjectMethods/Combo_RefObj_methode.4dm",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Type_Ref_Objective"
+					}
+				},
+				"Combo_at_RefSubjVL_optotype": {
+					"type": "combo",
+					"left": 94,
+					"top": 201,
+					"width": 115,
+					"height": 21,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onUnload"
+					],
+					"dataSource": "at_RefSubjVL_optotype",
+					"method": "ObjectMethods/Combo_at_RefSubjVL_optotype.4dm",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Optotype"
+					}
+				},
+				"Combo_at_RefSubjVP_optotype": {
+					"type": "combo",
+					"left": 94,
+					"top": 322,
+					"width": 115,
+					"height": 21,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onUnload"
+					],
+					"dataSource": "at_RefSubjVP_optotype",
+					"method": "ObjectMethods/Combo_at_RefSubjVP_optotype.4dm",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Optotype"
+					}
+				},
+				"Texte120": {
+					"type": "text",
+					"text": "Distance",
+					"top": 180,
+					"left": 442,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVL_OD_Distance": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OD.Distance",
+					"top": 199,
+					"left": 442,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "4",
+					"min": 0,
+					"max": 5,
+					"placeholder": "4"
+				},
+				"Texte275": {
+					"type": "text",
+					"text": "mètre(s)",
+					"top": 200,
+					"left": 475,
+					"width": 55,
+					"height": 16
+				},
+				"Texte132": {
+					"type": "text",
+					"text": "Distance",
+					"top": 242,
+					"left": 442,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefGalilee_OD_Distance": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OD.Distance",
+					"top": 261,
+					"left": 442,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "4",
+					"min": 0,
+					"max": 5,
+					"placeholder": "4"
+				},
+				"Texte278": {
+					"type": "text",
+					"text": "mètre(s)",
+					"top": 262,
+					"left": 475,
+					"width": 55,
+					"height": 16
+				},
+				"Texte137": {
+					"type": "text",
+					"text": "Distance",
+					"top": 302,
+					"left": 540,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVL_Distance5": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OD.Distance",
+					"top": 320,
+					"left": 540,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd",
+					"dataSourceTypeHint": "number",
+					"placeholder": "40",
+					"defaultValue": "40",
+					"min": 0
+				},
+				"Texte32": {
+					"type": "text",
+					"text": "Distance",
+					"top": 180,
+					"left": 867,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVL_OD_Distance1": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.OG.Distance",
+					"top": 199,
+					"left": 867,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "4",
+					"min": 0,
+					"max": 5,
+					"placeholder": "4"
+				},
+				"Texte33": {
+					"type": "text",
+					"text": "mètre(s)",
+					"top": 200,
+					"left": 900,
+					"width": 55,
+					"height": 16
+				},
+				"Texte50": {
+					"type": "text",
+					"text": "Distance",
+					"top": 242,
+					"left": 867,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefGalilee_OD_Distance1": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefGalilee:4.OG.Distance",
+					"top": 261,
+					"left": 867,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "4",
+					"min": 0,
+					"max": 5,
+					"placeholder": "4"
+				},
+				"Texte67": {
+					"type": "text",
+					"text": "mètre(s)",
+					"top": 262,
+					"left": 900,
+					"width": 55,
+					"height": 16
+				},
+				"Texte79": {
+					"type": "text",
+					"text": "Distance",
+					"top": 302,
+					"left": 965,
+					"width": 55,
+					"height": 16,
+					"stroke": "#FFFFFF"
+				},
+				"field_RefSubjectiveVL_Distance1": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.OG.Distance",
+					"top": 320,
+					"left": 965,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"stroke": "#b1c4dd",
+					"dataSourceTypeHint": "number",
+					"placeholder": "40",
+					"defaultValue": "40",
+					"min": 0
+				},
+				"Séparateur52": {
+					"type": "splitter",
+					"left": 1048,
+					"top": 359,
+					"width": 1,
+					"height": 80,
+					"bottom": 439
+				},
+				"Séparateur53": {
+					"type": "splitter",
+					"left": 1048,
+					"top": 19,
+					"width": 1,
+					"height": 80,
+					"bottom": 99
+				},
+				"Séparateur54": {
+					"type": "splitter",
+					"left": 1048,
+					"top": 120,
+					"width": 1,
+					"height": 40,
+					"bottom": 160
+				},
+				"Séparateur55": {
+					"type": "splitter",
+					"left": 1048,
+					"top": 182,
+					"width": 1,
+					"height": 40,
+					"bottom": 222
+				},
+				"Séparateur56": {
+					"type": "splitter",
+					"left": 1048,
+					"top": 244,
+					"width": 1,
+					"height": 40,
+					"bottom": 284
+				},
+				"Séparateur57": {
+					"type": "splitter",
+					"left": 1048,
+					"top": 303,
+					"width": 1,
+					"height": 40,
+					"bottom": 343
+				},
+				"field_RefFinale_OG_AVVL1": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.ODG.AVVL",
+					"top": 379,
+					"left": 1058,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVL_ODG_AV": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVL:3.ODG.AV",
+					"top": 199,
+					"left": 1058,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"[REFRACTION]RefGalilee_ODG_AV": {
+					"type": "input",
+					"dataSource": "[REFRACTION]RefractionGalilee.ODG.AV",
+					"top": 261,
+					"left": 1058,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefFinale_OG_AVVL2": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefFinale:6.ODG.AVVP",
+					"top": 379,
+					"left": 1103,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"field_RefSubjectiveVP_ODG_AV": {
+					"type": "input",
+					"dataSource": "[REFRACTION:15]RefSubjectiveVP:5.ODG.AV",
+					"top": 320,
+					"left": 1103,
+					"width": 30,
+					"height": 17,
+					"fill": "#33657D",
+					"borderStyle": "sunken",
+					"stroke": "#b1c4dd"
+				},
+				"Texte282": {
+					"type": "text",
+					"text": "VL",
+					"top": 20,
+					"left": 1064,
+					"width": 19,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#33657D"
+				},
+				"Texte283": {
+					"type": "text",
+					"text": "VP",
+					"top": 20,
+					"left": 1106,
+					"width": 19,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#33657D"
+				},
+				"Texte284": {
+					"type": "text",
+					"text": "VL",
+					"top": 180,
+					"left": 1064,
+					"width": 19,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#33657D"
+				},
+				"Texte285": {
+					"type": "text",
+					"text": "VP",
+					"top": 301,
+					"left": 1106,
+					"width": 19,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#33657D"
+				},
+				"Texte286": {
+					"type": "text",
+					"text": "VP",
+					"top": 360,
+					"left": 1106,
+					"width": 19,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#33657D"
+				},
+				"Texte287": {
+					"type": "text",
+					"text": "VL",
+					"top": 242,
+					"left": 1064,
+					"width": 19,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#33657D"
+				},
+				"Texte289": {
+					"type": "text",
+					"text": "VL",
+					"top": 360,
+					"left": 1064,
+					"width": 19,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#33657D"
+				},
+				"Texte281": {
+					"type": "text",
+					"text": "cm",
+					"top": 322,
+					"left": 998,
+					"width": 20,
+					"height": 16
+				},
+				"Texte143": {
+					"type": "text",
+					"text": "cm",
+					"top": 322,
+					"left": 572,
+					"width": 20,
+					"height": 16
+				},
+				"Bouton image12": {
+					"type": "pictureButton",
+					"left": 596,
+					"top": 139,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_gauche_5.png",
+					"method": "ObjectMethods/Bouton image12.4dm",
+					"loopBackToFirstFrame": false,
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image13": {
+					"type": "pictureButton",
+					"left": 618,
+					"top": 139,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_droite_4.png",
+					"method": "ObjectMethods/Bouton image13.4dm",
+					"loopBackToFirstFrame": false,
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image14": {
+					"type": "pictureButton",
+					"left": 596,
+					"top": 201,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_gauche_5.png",
+					"method": "ObjectMethods/Bouton image14.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image15": {
+					"type": "pictureButton",
+					"left": 618,
+					"top": 201,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_droite_4.png",
+					"method": "ObjectMethods/Bouton image15.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image16": {
+					"type": "pictureButton",
+					"left": 596,
+					"top": 263,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_gauche_5.png",
+					"method": "ObjectMethods/Bouton image16.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image17": {
+					"type": "pictureButton",
+					"left": 618,
+					"top": 263,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_droite_4.png",
+					"method": "ObjectMethods/Bouton image17.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image18": {
+					"type": "pictureButton",
+					"left": 596,
+					"top": 322,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_gauche_5.png",
+					"method": "ObjectMethods/Bouton image18.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image19": {
+					"type": "pictureButton",
+					"left": 618,
+					"top": 322,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_droite_4.png",
+					"method": "ObjectMethods/Bouton image19.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image20": {
+					"type": "pictureButton",
+					"left": 596,
+					"top": 381,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_gauche_5.png",
+					"method": "ObjectMethods/Bouton image20.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Bouton image21": {
+					"type": "pictureButton",
+					"left": 618,
+					"top": 381,
+					"width": 17,
+					"height": 16,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/fleche_droite_4.png",
+					"method": "ObjectMethods/Bouton image21.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Coller_ref_obj": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 142,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/paste_1_1.png",
+					"method": "ObjectMethods/Coller_ref_obj.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Copie_ref_obj": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 116,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/copy.png",
+					"method": "ObjectMethods/Copie_ref_obj.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Coller_ref_subjVL": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 204,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/paste_1_1.png",
+					"method": "ObjectMethods/Coller_ref_subjVL.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Copie_ref_subjVL": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 178,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/copy.png",
+					"method": "ObjectMethods/Copie_ref_subjVL.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Coller_ref_galilee": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 266,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/paste_1_1.png",
+					"method": "ObjectMethods/Coller_ref_galilee.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Copie_ref_galilee": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 240,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/copy.png",
+					"method": "ObjectMethods/Copie_ref_galilee.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Coller_ref_finale": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 390,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/paste_1_1.png",
+					"method": "ObjectMethods/Coller_ref_finale.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"field_CoPortee_OG_Sph1": {
+					"type": "input",
+					"dataSource": "lu_co_OG_Sph",
+					"top": 40,
+					"left": 647,
+					"width": 45,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OG_Cyl1": {
+					"type": "input",
+					"dataSource": "lu_co_OG_Cyl",
+					"top": 40,
+					"left": 697,
+					"width": 45,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OG_Axe1": {
+					"type": "input",
+					"dataSource": "lu_co_OG_Axe",
+					"top": 40,
+					"left": 747,
+					"width": 40,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": ""
+				},
+				"field_CoPortee_OG_Add1": {
+					"type": "input",
+					"dataSource": "lu_co_OG_Add",
+					"top": 40,
+					"left": 867,
+					"width": 40,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OG_AVVL3": {
+					"type": "input",
+					"dataSource": "acuiteHabituelleVL_OG",
+					"top": 40,
+					"left": 817,
+					"width": 30,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"field_CoPortee_OG_AVVP1": {
+					"type": "input",
+					"dataSource": "acuiteHabituelleVP_OG",
+					"top": 40,
+					"left": 915,
+					"width": 30,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"field_CoPortee_OD_Sph1": {
+					"type": "input",
+					"dataSource": "lu_co_OD_Sph",
+					"top": 40,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OD_Cyl1": {
+					"type": "input",
+					"dataSource": "lu_co_OD_Cyl",
+					"top": 40,
+					"left": 274,
+					"width": 45,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OD_Axe1": {
+					"type": "input",
+					"dataSource": "lu_co_OD_Axe",
+					"top": 40,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": ""
+				},
+				"field_CoPortee_OD_Add1": {
+					"type": "input",
+					"dataSource": "lu_co_OD_Add",
+					"top": 40,
+					"left": 443,
+					"width": 40,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OD_PuissancePrisme1": {
+					"type": "input",
+					"dataSource": "lu_co_OD_PuissancePrisme",
+					"top": 75,
+					"left": 224,
+					"width": 45,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OD_AxePrisme1": {
+					"type": "input",
+					"dataSource": "lu_co_OD_AxePrisme",
+					"top": 75,
+					"left": 324,
+					"width": 40,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": ""
+				},
+				"field_CoPortee_OG_PuissancePrisme1": {
+					"type": "input",
+					"dataSource": "lu_co_OG_PuissancePrisme",
+					"top": 75,
+					"left": 647,
+					"width": 40,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": "",
+					"min": -50,
+					"max": 50
+				},
+				"field_CoPortee_OG_AxePrisme1": {
+					"type": "input",
+					"dataSource": "lu_co_OG_AxePrisme",
+					"top": 75,
+					"left": 747,
+					"width": 40,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"dataSourceTypeHint": "number",
+					"defaultValue": "0",
+					"numberFormat": ""
+				},
+				"field_Correction_OD_AVVL1": {
+					"type": "input",
+					"dataSource": "acuiteHabituelleVL_OD",
+					"top": 40,
+					"left": 391,
+					"width": 30,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"field_CoPortee_OD_AVVP1": {
+					"type": "input",
+					"dataSource": "acuiteHabituelleVP_OD",
+					"top": 40,
+					"left": 492,
+					"width": 30,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"field_CoPortee_OG_AVVL4": {
+					"type": "input",
+					"dataSource": "acuiteHabituelleVL_ODG",
+					"top": 40,
+					"left": 1058,
+					"width": 30,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"field_CoPortee_OG_AVVL5": {
+					"type": "input",
+					"dataSource": "acuiteHabituelleVP_ODG",
+					"top": 40,
+					"left": 1098,
+					"width": 30,
+					"height": 17,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"focusable": false,
+					"stroke": "#808080"
+				},
+				"Copie_co_portee1": {
+					"type": "pictureButton",
+					"left": 1152,
+					"top": 49,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/copy.png",
+					"method": "ObjectMethods/Copie_co_portee1.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Coller_ref_subjVL1": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 325,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/paste_1_1.png",
+					"method": "ObjectMethods/Coller_ref_subjVL1.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"Copie_ref_subjVL1": {
+					"type": "pictureButton",
+					"left": 1155,
+					"top": 299,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/copy.png",
+					"method": "ObjectMethods/Copie_ref_subjVL1.4dm",
+					"useLastFrameAsDisabled": true
+				}
+			}
+		}
+	],
+	"geometryStamp": 5188,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

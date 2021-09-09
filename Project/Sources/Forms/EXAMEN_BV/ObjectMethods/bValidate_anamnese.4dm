@@ -1,6 +1,6 @@
 If (Form event code:C388=On Clicked:K2:4)
 	
-	anamnese.Motifconsultation:=motif_cs
+	anamnese.MotifConsultation:=motif_cs
 	
 	anamnese.PlaintePrincipale:=plainte_principale
 	anamnese.PlainteSecondaire:=plainte_secondaire
@@ -16,7 +16,7 @@ If (Form event code:C388=On Clicked:K2:4)
 	anamnese.DerniereCS:=derniere_cs
 	
 	// Enregistrement des l'entité 
-	examenGeneral.save()
+	
 	anamnese.save()
 	
 End if 

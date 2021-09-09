@@ -890,26 +890,26 @@
 				}
 			},
 			"entryOrder": [
-				"Help",
-				"Help2",
-				"Help6",
-				"Help1",
-				"Help3",
-				"Help4",
-				"field_AntecedentsFamiliauxSO",
-				"Help5",
-				"field_AntecedentsFamiliauxSG",
-				"field_SanteGenerale1",
-				"field_Traitements1",
-				"field_SanteOculaire1",
-				"field_commentaire",
-				"field_Patient_ophta",
+				"field_PlaintePrincipale1",
 				"field_PlaintePrincipale",
 				"field_PlainteSecondaire",
 				"field_Besoins",
-				"PopupDate",
+				"field_Patient_ophta",
 				"field_DerniereCS",
-				"field_PlaintePrincipale1"
+				"PopupDate",
+				"field_SanteOculaire1",
+				"field_Traitements1",
+				"field_SanteGenerale1",
+				"field_AntecedentsFamiliauxSG",
+				"field_AntecedentsFamiliauxSO",
+				"field_commentaire",
+				"Help",
+				"Help6",
+				"Help1",
+				"Help2",
+				"Help5",
+				"Help3",
+				"Help4"
 			]
 		},
 		{
@@ -2021,7 +2021,48 @@
 						"$ref": "/SOURCES/lists.json#/Geometrie_verre"
 					}
 				}
-			}
+			},
+			"entryOrder": [
+				"field_Correction_OD_Sph",
+				"field_Correction_OD_Cyl",
+				"field_Correction_OD_Axe",
+				"field_Correction_OD_Add",
+				"field_Correction_OG_Sph",
+				"field_Correction_OG_Cyl",
+				"field_Correction_OG_Axe",
+				"field_Correction_OG_Add",
+				"field_Correction_OD_PuissancePrisme",
+				"field_Correction_OD_AxePrisme",
+				"field_Correction_OD_PuissancePrisme1",
+				"field_Correction_OD_AxePrisme1",
+				"Combo Box_Geometrie_lu",
+				"field_Utilisation",
+				"field_DatePrescription",
+				"PopupDate2",
+				"field_DateRealisation",
+				"PopupDate3",
+				"Case à cocher",
+				"field_Commentaire2",
+				"field_Denomination_OD",
+				"field_Denomination_OG",
+				"field_Correction_OD_Sph1",
+				"field_Correction_OD_Cyl1",
+				"field_Correction_OD_Axe1",
+				"field_Correction_OD_Add1",
+				"field_Correction_OG_Sph1",
+				"field_Correction_OG_Cyl1",
+				"field_Correction_OG_Axe1",
+				"field_Correction_OG_Add1",
+				"field_Utilisation1",
+				"field_Produit",
+				"field_DatePrescription1",
+				"PopupDate4",
+				"field_DateRealisation1",
+				"PopupDate5",
+				"Case à cocher1",
+				"field_Commentaire3",
+				"Bouton28"
+			]
 		},
 		{
 			"objects": {
@@ -3621,7 +3662,58 @@
 					},
 					"right": 1428
 				}
-			}
+			},
+			"entryOrder": [
+				"field_AVBRUTEVLOD",
+				"field_AVBRUTEVLDISTOD",
+				"field_AVBRUTEVLOG",
+				"field_AVBRUTEVLDISTOG",
+				"field_AVBRUTEVLODG",
+				"field_AVBRUTEVLDISTODG",
+				"Combo_AVBRUTEVLOPTO",
+				"field_AVBRUTEVPOD",
+				"field_AVBRUTEVPDISTOD",
+				"field_AVBRUTEVPOG",
+				"field_AVBRUTEVPDISTOG",
+				"field_AVBRUTEVPODG",
+				"field_AVBRUTEVPDISTODG",
+				"Combo_AVBRUTEVPOPTO",
+				"field_AVHABVLOD",
+				"field_AVHABVLDISTOD",
+				"field_AVHABVLOG",
+				"field_AVHABVLDISTOG",
+				"field_AVHABVLODG",
+				"field_AVHABVLDISTODG",
+				"Combo_AVHABVLOPTO",
+				"field_AVHABVPOD",
+				"field_AVHABVPDISTOD",
+				"field_AVHABVPOG",
+				"field_AVHABVPDISTOG",
+				"field_AVHABVPODG",
+				"field_AVHABVPDISTODG",
+				"Combo_AVHABVPOPTO",
+				"field_Commentaire5",
+				"Combo_TYPECV",
+				"field_Image1",
+				"Combo_Bris_type",
+				"field_AT_DistanceBris",
+				"field_AT_DistanceRecouvrement",
+				"field_Masquage_BruteVL",
+				"field_Masquage_BruteVP",
+				"field_Masquage_CompVL",
+				"field_Masquage_CompVP",
+				"field_Hirschberg",
+				"field_Commentaire6",
+				"field_Coordination",
+				"field_Commentaire7",
+				"field_Dominance_Sensorielle",
+				"field_Dominance_Directeur",
+				"field_Dominance_Visee",
+				"field_Poursuites",
+				"field_FixationsSautees",
+				"field_FixationExcentree",
+				"field_Commentaire8"
+			]
 		},
 		{
 			"objects": {
@@ -6472,7 +6564,92 @@
 						"$ref": "/SOURCES/lists.json#/Type_Kerato"
 					}
 				}
-			}
+			},
+			"entryOrder": [
+				"field_RefSubjectiveVP_OD_Sph",
+				"Combo_RefObj_methode",
+				"field_RefObj_OD_Sph",
+				"field_RefObj_OD_Cyl",
+				"field_RefObj_OD_Axe",
+				"field_RefObj_OD_AV",
+				"field_RefObj_OG_Sph",
+				"field_RefObj_OG_Cyl",
+				"field_RefObj_OG_Axe",
+				"field_RefObj_OG_AV",
+				"Combo_at_RefSubjVL_optotype",
+				"field_RefSubjectiveVL_OD_Sph",
+				"field_RefSubjectiveVL_OD_Cyl",
+				"field_RefSubjectiveVL_OD_Axe",
+				"field_RefSubjectiveVL_OD_AV",
+				"field_RefSubjectiveVL_OD_Distance",
+				"field_RefSubjectiveVL_OG_Sph",
+				"field_RefSubjectiveVL_OG_Cyl",
+				"field_RefSubjectiveVL_OG_Axe",
+				"field_RefSubjectiveVL_OG_AV",
+				"field_RefSubjectiveVL_OG_Distance",
+				"field_RefSubjectiveVL_ODG_AV",
+				"Combo_at_RefSubjVP_optotype",
+				"field_RefSubjectiveVL_OD_Sph1",
+				"field_RefSubjectiveVP_OD_Cyl",
+				"field_RefSubjectiveVP_OD_Axe",
+				"field_RefSubjectiveVP_OD_Add",
+				"field_RefSubjectiveVP_OD_AV",
+				"field_RefSubjectiveVL_Distance5",
+				"field_RefSubjectiveVP_OG_Sph",
+				"field_RefSubjectiveVP_OG_Cyl",
+				"field_RefSubjectiveVP_OG_Axe",
+				"field_RefSubjectiveVP_OG_Add",
+				"field_RefSubjectiveVP_OG_AV",
+				"field_RefSubjectiveVL_Distance4",
+				"field_RefSubjectiveVP_ODG_AV",
+				"field_RefFinale_OD_Sph",
+				"field_RefFinale_OD_Cyl",
+				"field_RefFinale_OD_Axe",
+				"field_RefFinale_OD_AVVL",
+				"field_RefFinale_OD_Add",
+				"field_RefFinale_OD_AVVP",
+				"field_RefFinale_OG_Sph",
+				"field_RefFinale_OG_Cyl",
+				"field_RefFinale_OG_Axe",
+				"field_RefFinale_OG_AVVL",
+				"field_RefFinale_OG_Add",
+				"field_RefFinale_OG_AVVP",
+				"field_RefFinale_OG_AVVL1",
+				"field_RefFinale_OG_AVVL2",
+				"field_RefFinale_OD_PuissancePrisme",
+				"field_RefFinale_OD_AxePrisme",
+				"field_RefFinale_OG_PuissancePrisme",
+				"field_RefFinale_OG_AxePrisme",
+				"Combo_RefObj_methode1",
+				"field_K_OD_RayonPlat",
+				"field_K_OD_RayonCambre",
+				"field_K_OD_AxePlat",
+				"field_K_OG_RayonPlat",
+				"field_K_OG_RayonCambre",
+				"field_K_OG_AxePlat",
+				"field_OD_ast_co_puissance",
+				"field_OD_ast_co_axe",
+				"field_OG_ast_co_puissance",
+				"field_OG_ast_co_axe",
+				"field_CoPortee_OD_Sph",
+				"field_CoPortee_OD_Cyl",
+				"field_CoPortee_OD_Axe",
+				"field_Correction_OD_AVVL",
+				"field_CoPortee_OD_Add",
+				"field_CoPortee_OD_AVVP",
+				"field_CoPortee_OG_Sph",
+				"field_CoPortee_OG_Cyl",
+				"field_CoPortee_OG_Axe",
+				"field_CoPortee_OG_AVVL",
+				"field_CoPortee_OG_Add",
+				"field_CoPortee_OG_AVVP",
+				"field_CoPortee_OG_AVVL1",
+				"field_CoPortee_OG_AVVL2",
+				"field_CoPortee_OD_PuissancePrisme",
+				"field_CoPortee_OD_AxePrisme",
+				"field_CoPortee_OG_PuissancePrisme",
+				"field_CoPortee_OG_AxePrisme"
+			]
 		},
 		{
 			"objects": {
@@ -6952,7 +7129,22 @@
 					"fontWeight": "bold",
 					"stroke": "#ACC812"
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton1",
+				"Bouton2",
+				"Bouton3",
+				"Bouton6",
+				"Bouton4",
+				"field_Annexes_OD",
+				"field_Annexes_OG",
+				"field_SegmentAnterieur_OD",
+				"field_SegmentAnterieur_OG",
+				"field_SegmentPosterieur_OD",
+				"field_SegmentPosterieur_OG",
+				"field_Conclusion",
+				"field_Commentaire9"
+			]
 		},
 		{
 			"objects": {
@@ -7121,7 +7313,15 @@
 						"onClick"
 					]
 				}
-			}
+			},
+			"entryOrder": [
+				"field_Diagnostic",
+				"field_Traitement",
+				"field_ProchaineVisite",
+				"field_Conseils",
+				"field_Commentaire10",
+				"Bouton5"
+			]
 		},
 		{
 			"objects": {
@@ -8070,7 +8270,19 @@
 					],
 					"method": "ObjectMethods/bCancel8.4dm"
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton17",
+				"Bouton18",
+				"Bouton19",
+				"Bouton21",
+				"Bouton20",
+				"field_Type",
+				"field_Image",
+				"field_Commentaire1",
+				"listbox",
+				"Bouton27"
+			]
 		},
 		{
 			"objects": {
@@ -8444,27 +8656,38 @@
 					],
 					"method": "ObjectMethods/bCancel9.4dm"
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton22",
+				"Bouton23",
+				"Bouton24",
+				"Bouton26",
+				"Bouton25",
+				"field_SensibiliteEblouissement",
+				"field_BinoculariteAvancee",
+				"field_VisionCouleurs",
+				"field_Autre"
+			]
 		}
 	],
 	"geometryStamp": 20010,
 	"editor": {
 		"groups": {
-			"Group16": [
-				"Texte12",
-				"Non saisissable5"
+			"Group15": [
+				"Texte13",
+				"Non saisissable6"
 			],
 			"Group14": [
 				"Texte14",
 				"Non saisissable7"
 			],
-			"Group15": [
-				"Texte13",
-				"Non saisissable6"
+			"Group16": [
+				"Texte12",
+				"Non saisissable5"
 			],
-			"Group5": [
-				"label_Commentaire1",
-				"field_Commentaire2"
+			"Group7": [
+				"Texte261",
+				"field_Utilisation"
 			],
 			"Group6": [
 				"Texte50",
@@ -8475,9 +8698,9 @@
 				"PopupDate3",
 				"Case à cocher"
 			],
-			"Group7": [
-				"Texte261",
-				"field_Utilisation"
+			"Group5": [
+				"label_Commentaire1",
+				"field_Commentaire2"
 			],
 			"Group": [
 				"Rectangle3",

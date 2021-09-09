@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Choix examen",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -88,7 +88,8 @@
 						"onClick"
 					],
 					"style": "texturedBevel",
-					"popupPlacement": "none"
+					"popupPlacement": "none",
+					"method": "ObjectMethods/Bouton.4dm"
 				},
 				"Bouton2": {
 					"type": "button",
@@ -113,7 +114,8 @@
 					"events": [
 						"onClick"
 					],
-					"style": "texturedBevel"
+					"style": "texturedBevel",
+					"method": "ObjectMethods/Bouton3.4dm"
 				},
 				"Bouton image9": {
 					"type": "pictureButton",
@@ -136,9 +138,16 @@
 					"events": [
 						"onClick"
 					],
-					"style": "texturedBevel"
+					"style": "texturedBevel",
+					"method": "ObjectMethods/Bouton4.4dm"
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton",
+				"Bouton3",
+				"Bouton2",
+				"Bouton4"
+			]
 		}
 	],
 	"geometryStamp": 4

@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Fiche Patient",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -36,10 +36,18 @@
 		},
 		{
 			"objects": {
+				"Zone de groupe6": {
+					"type": "groupBox",
+					"text": "Historique",
+					"top": 688,
+					"left": 24,
+					"width": 602,
+					"height": 102
+				},
 				"Zone de groupe5": {
 					"type": "groupBox",
 					"text": "Accompagnant",
-					"top": 495,
+					"top": 517,
 					"left": 23,
 					"width": 602,
 					"height": 66
@@ -47,7 +55,7 @@
 				"Zone de groupe4": {
 					"type": "groupBox",
 					"text": "Autre",
-					"top": 567,
+					"top": 589,
 					"left": 23,
 					"width": 602,
 					"height": 96
@@ -55,7 +63,7 @@
 				"Zone de groupe3": {
 					"type": "groupBox",
 					"text": "Référent",
-					"top": 399,
+					"top": 421,
 					"left": 23,
 					"width": 603,
 					"height": 90
@@ -63,7 +71,7 @@
 				"Zone de groupe2": {
 					"type": "groupBox",
 					"text": "Contact",
-					"top": 324,
+					"top": 346,
 					"left": 23,
 					"width": 603,
 					"height": 69
@@ -71,7 +79,7 @@
 				"Zone de groupe1": {
 					"type": "groupBox",
 					"text": "Coordonnées",
-					"top": 248,
+					"top": 270,
 					"left": 23,
 					"width": 603,
 					"height": 70
@@ -79,7 +87,7 @@
 				"Zone de groupe": {
 					"type": "groupBox",
 					"text": "Etat Civil",
-					"top": 151,
+					"top": 173,
 					"left": 24,
 					"width": 602,
 					"height": 92
@@ -97,7 +105,7 @@
 				"Texte1": {
 					"type": "text",
 					"text": "Nom :",
-					"top": 190,
+					"top": 212,
 					"left": 29,
 					"width": 58,
 					"height": 16
@@ -105,7 +113,7 @@
 				"Texte2": {
 					"type": "text",
 					"text": "Prénom :",
-					"top": 217,
+					"top": 239,
 					"left": 29,
 					"width": 58,
 					"height": 16
@@ -113,7 +121,7 @@
 				"Texte6": {
 					"type": "text",
 					"text": "Date de naissance :",
-					"top": 190,
+					"top": 212,
 					"left": 314,
 					"width": 128,
 					"height": 16
@@ -121,7 +129,7 @@
 				"Texte7": {
 					"type": "text",
 					"text": "Adresse : ",
-					"top": 267,
+					"top": 289,
 					"left": 29,
 					"width": 129,
 					"height": 16
@@ -129,7 +137,7 @@
 				"Texte8": {
 					"type": "text",
 					"text": "Code postal :",
-					"top": 292,
+					"top": 314,
 					"left": 29,
 					"width": 129,
 					"height": 16
@@ -137,7 +145,7 @@
 				"Texte9": {
 					"type": "text",
 					"text": "Ville :",
-					"top": 293,
+					"top": 315,
 					"left": 314,
 					"width": 42,
 					"height": 16
@@ -145,7 +153,7 @@
 				"Texte10": {
 					"type": "text",
 					"text": "Téléphone 1 :",
-					"top": 344,
+					"top": 366,
 					"left": 29,
 					"width": 164,
 					"height": 16
@@ -153,7 +161,7 @@
 				"Texte11": {
 					"type": "text",
 					"text": "Téléphone 2 :",
-					"top": 343,
+					"top": 365,
 					"left": 314,
 					"width": 164,
 					"height": 16
@@ -161,7 +169,7 @@
 				"Texte12": {
 					"type": "text",
 					"text": "Adresse mail :",
-					"top": 368,
+					"top": 390,
 					"left": 29,
 					"width": 164,
 					"height": 16
@@ -169,7 +177,7 @@
 				"Texte14": {
 					"type": "text",
 					"text": "Commentaire : ",
-					"top": 589,
+					"top": 611,
 					"left": 28,
 					"width": 164,
 					"height": 16
@@ -195,7 +203,7 @@
 				"Texte15": {
 					"type": "text",
 					"text": "Association :",
-					"top": 441,
+					"top": 463,
 					"left": 29,
 					"width": 164,
 					"height": 16
@@ -203,8 +211,8 @@
 				"Bouton1": {
 					"type": "button",
 					"text": "ENREGISTRER ET QUITTER",
-					"top": 676,
-					"left": 148,
+					"top": 796,
+					"left": 174,
 					"width": 185,
 					"height": 29,
 					"events": [
@@ -217,7 +225,7 @@
 				"Bouton2": {
 					"type": "button",
 					"text": "ENREGISTRER ET AJOUTER UN EXAMEN",
-					"top": 676,
+					"top": 796,
 					"left": 361,
 					"width": 264,
 					"height": 29,
@@ -229,7 +237,7 @@
 				},
 				"PopupDate": {
 					"type": "subform",
-					"top": 191,
+					"top": 213,
 					"left": 600,
 					"width": 19,
 					"height": 16,
@@ -249,8 +257,8 @@
 				"Bouton3": {
 					"type": "button",
 					"text": "ANNULER",
-					"top": 676,
-					"left": 23,
+					"top": 796,
+					"left": 24,
 					"width": 90,
 					"height": 25,
 					"events": [
@@ -307,7 +315,7 @@
 				"Texte33": {
 					"type": "text",
 					"text": "Consentement :",
-					"top": 636,
+					"top": 658,
 					"left": 28,
 					"width": 138,
 					"height": 16
@@ -315,7 +323,7 @@
 				"Bouton4": {
 					"type": "button",
 					"text": "Ajouter document",
-					"top": 636,
+					"top": 658,
 					"left": 139,
 					"width": 150,
 					"height": 32,
@@ -329,7 +337,7 @@
 				"Texte34": {
 					"type": "text",
 					"text": "Sexe :",
-					"top": 217,
+					"top": 239,
 					"left": 314,
 					"width": 128,
 					"height": 16
@@ -337,7 +345,7 @@
 				"Texte35": {
 					"type": "text",
 					"text": "Autre :",
-					"top": 465,
+					"top": 487,
 					"left": 29,
 					"width": 164,
 					"height": 16
@@ -345,7 +353,7 @@
 				"label_ID": {
 					"type": "text",
 					"text": "ID:",
-					"top": 168,
+					"top": 190,
 					"left": 29,
 					"width": 100,
 					"height": 17
@@ -353,7 +361,7 @@
 				"field_ID": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]ID:1",
-					"top": 168,
+					"top": 190,
 					"left": 139,
 					"width": 160,
 					"height": 17,
@@ -364,7 +372,7 @@
 				"field_Nom": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Nom:2",
-					"top": 190,
+					"top": 212,
 					"left": 139,
 					"width": 160,
 					"height": 17
@@ -372,7 +380,7 @@
 				"field_Prenom": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Prenom:3",
-					"top": 216,
+					"top": 238,
 					"left": 139,
 					"width": 160,
 					"height": 17
@@ -380,7 +388,7 @@
 				"field_DateDeNaissance": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]DateDeNaissance:4",
-					"top": 189,
+					"top": 211,
 					"left": 434,
 					"width": 160,
 					"height": 17
@@ -388,7 +396,7 @@
 				"field_Adresse_Rue": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Adresse:5.Rue",
-					"top": 267,
+					"top": 289,
 					"left": 139,
 					"width": 455,
 					"height": 17,
@@ -397,7 +405,7 @@
 				"field_Tel1": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Tel1:6",
-					"top": 342,
+					"top": 364,
 					"left": 139,
 					"width": 160,
 					"height": 17
@@ -405,7 +413,7 @@
 				"field_Tel2": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Tel2:7",
-					"top": 342,
+					"top": 364,
 					"left": 434,
 					"width": 160,
 					"height": 17
@@ -413,7 +421,7 @@
 				"field_Mail": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Mail:8",
-					"top": 367,
+					"top": 389,
 					"left": 139,
 					"width": 455,
 					"height": 17,
@@ -422,7 +430,7 @@
 				"label_Ophtalmologiste": {
 					"type": "text",
 					"text": "Ophtalmologiste :",
-					"top": 417,
+					"top": 439,
 					"left": 29,
 					"width": 110,
 					"height": 16
@@ -430,7 +438,7 @@
 				"field_Ophtalmologiste": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Ophtalmologiste:9",
-					"top": 417,
+					"top": 439,
 					"left": 139,
 					"width": 160,
 					"height": 17
@@ -438,7 +446,7 @@
 				"field_Accompagnant_Nom": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Accompagnant:10.Nom",
-					"top": 514,
+					"top": 536,
 					"left": 139,
 					"width": 160,
 					"height": 17
@@ -446,7 +454,7 @@
 				"field_Commentaire": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Commentaire:11",
-					"top": 587,
+					"top": 609,
 					"left": 139,
 					"width": 455,
 					"height": 43,
@@ -455,7 +463,7 @@
 				"field_Adresse_CP": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Adresse:5.CP",
-					"top": 291,
+					"top": 313,
 					"left": 139,
 					"width": 160,
 					"height": 17
@@ -463,7 +471,7 @@
 				"field_Adresse_CP1": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Adresse:5.ville",
-					"top": 291,
+					"top": 313,
 					"left": 434,
 					"width": 160,
 					"height": 17
@@ -471,7 +479,7 @@
 				"Texte4": {
 					"type": "text",
 					"text": "Nom :",
-					"top": 514,
+					"top": 536,
 					"left": 29,
 					"width": 58,
 					"height": 16
@@ -479,7 +487,7 @@
 				"Texte16": {
 					"type": "text",
 					"text": "Prénom :",
-					"top": 540,
+					"top": 562,
 					"left": 29,
 					"width": 58,
 					"height": 16
@@ -487,7 +495,7 @@
 				"field_Accompagnant_Prenom": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Accompagnant:10.Prenom",
-					"top": 539,
+					"top": 561,
 					"left": 139,
 					"width": 160,
 					"height": 17
@@ -495,7 +503,7 @@
 				"field_Accompagnant_Tel": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Accompagnant:10.Tel",
-					"top": 514,
+					"top": 536,
 					"left": 434,
 					"width": 160,
 					"height": 17
@@ -503,7 +511,7 @@
 				"Texte17": {
 					"type": "text",
 					"text": "Téléphone :",
-					"top": 514,
+					"top": 536,
 					"left": 314,
 					"width": 76,
 					"height": 16
@@ -511,7 +519,7 @@
 				"field_Accompagnant_Lien": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Accompagnant:10.Lien",
-					"top": 539,
+					"top": 561,
 					"left": 434,
 					"width": 160,
 					"height": 17
@@ -519,7 +527,7 @@
 				"Texte18": {
 					"type": "text",
 					"text": "Lien patient :",
-					"top": 540,
+					"top": 562,
 					"left": 314,
 					"width": 86,
 					"height": 16
@@ -527,7 +535,7 @@
 				"field_Referent_Association": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Referent:12.Association",
-					"top": 440,
+					"top": 462,
 					"left": 139,
 					"width": 455,
 					"height": 17,
@@ -536,7 +544,7 @@
 				"field_Referent_Autre": {
 					"type": "input",
 					"dataSource": "[PATIENT:1]Referent:12.Autre",
-					"top": 464,
+					"top": 486,
 					"left": 139,
 					"width": 455,
 					"height": 17,
@@ -545,22 +553,21 @@
 				"Pop_Sexe_Patient": {
 					"type": "dropdown",
 					"left": 434,
-					"top": 216,
+					"top": 238,
 					"width": 160,
 					"height": 23,
 					"events": [
 						"onDataChange"
 					],
-					"dataSource": "at_PATIENT_Sexe",
+					"dataSource": "[PATIENT:1]Sexe:13",
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/Sexe_Patient"
-					},
-					"method": "ObjectMethods/Pop_Sexe_Patient.4dm"
+					}
 				},
 				"bFirst": {
 					"type": "pictureButton",
-					"top": 721,
-					"left": 27,
+					"top": 61,
+					"left": 210,
 					"width": 48,
 					"height": 48,
 					"tooltip": {
@@ -579,8 +586,8 @@
 				},
 				"bPrevious": {
 					"type": "pictureButton",
-					"top": 721,
-					"left": 90,
+					"top": 61,
+					"left": 273,
 					"width": 48,
 					"height": 48,
 					"tooltip": {
@@ -599,8 +606,8 @@
 				},
 				"bNext": {
 					"type": "pictureButton",
-					"top": 721,
-					"left": 153,
+					"top": 61,
+					"left": 336,
 					"width": 48,
 					"height": 48,
 					"tooltip": {
@@ -619,8 +626,8 @@
 				},
 				"bLast": {
 					"type": "pictureButton",
-					"top": 721,
-					"left": 216,
+					"top": 61,
+					"left": 399,
 					"width": 48,
 					"height": 48,
 					"tooltip": {
@@ -639,8 +646,8 @@
 				},
 				"bDelete": {
 					"type": "pictureButton",
-					"top": 721,
-					"left": 279,
+					"top": 61,
+					"left": 462,
 					"width": 48,
 					"height": 48,
 					"tooltip": {
@@ -659,8 +666,8 @@
 				},
 				"bCancel": {
 					"type": "pictureButton",
-					"top": 721,
-					"left": 342,
+					"top": 61,
+					"left": 525,
 					"width": 48,
 					"height": 48,
 					"tooltip": {
@@ -679,8 +686,8 @@
 				},
 				"bValidate": {
 					"type": "pictureButton",
-					"top": 721,
-					"left": 405,
+					"top": 61,
+					"left": 588,
 					"width": 48,
 					"height": 48,
 					"tooltip": {
@@ -696,11 +703,115 @@
 						"onClick"
 					],
 					"visibility": "hidden"
+				},
+				"listbox": {
+					"type": "listbox",
+					"top": 708,
+					"left": 29,
+					"width": 592,
+					"height": 76,
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"headerHeight": "2em",
+					"listboxType": "currentSelection",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"resizingMode": "legacy",
+					"method": "ObjectMethods/listbox.4dm",
+					"table": "EXAMEN_GENERAL",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDoubleClick",
+						"onUnload"
+					],
+					"dataSource": "Form:C1466.currentExamG",
+					"columns": [
+						{
+							"name": "DateExam",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Date Exam",
+								"name": "Entête1"
+							},
+							"footer": {
+								"name": "1"
+							},
+							"dataSource": "[EXAMEN_GENERAL:3]DateExam:3"
+						},
+						{
+							"name": "ID",
+							"width": 120,
+							"enterable": false,
+							"header": {
+								"text": "Motif",
+								"name": "2"
+							},
+							"footer": {
+								"name": "3"
+							},
+							"dataSource": "[EXAMEN_GENERAL:3]ID:1.ExamenGeneralToAnamnese.MotifConsultation"
+						},
+						{
+							"name": "ID_PRATICIEN",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Id Praticien",
+								"name": "6"
+							},
+							"footer": {
+								"name": "7"
+							},
+							"dataSource": "[PATIENT:1]ID:1"
+						},
+						{
+							"name": "TypeExam",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Type Exam",
+								"name": "8"
+							},
+							"footer": {
+								"name": "9"
+							}
+						}
+					]
 				}
-			}
+			},
+			"entryOrder": [
+				"field_ID",
+				"field_Nom",
+				"field_Prenom",
+				"field_DateDeNaissance",
+				"PopupDate",
+				"Pop_Sexe_Patient",
+				"field_Adresse_Rue",
+				"field_Adresse_CP",
+				"field_Adresse_CP1",
+				"field_Tel1",
+				"field_Tel2",
+				"field_Mail",
+				"field_Ophtalmologiste",
+				"field_Referent_Association",
+				"field_Referent_Autre",
+				"field_Accompagnant_Nom",
+				"field_Accompagnant_Prenom",
+				"field_Accompagnant_Tel",
+				"field_Accompagnant_Lien",
+				"field_Commentaire",
+				"Bouton4",
+				"listbox",
+				"Bouton1",
+				"Bouton2",
+				"Bouton3"
+			]
 		}
 	],
-	"geometryStamp": 547,
+	"geometryStamp": 741,
 	"editor": {
 		"groups": {
 			"Group5": [

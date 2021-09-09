@@ -1,35 +1,47 @@
 ﻿{
 	"forms": {
+		"Main menu1": {
+			"timeStamp": "2021-09-09T08:21:21.490Z",
+			"destination": "detailPrinter"
+		},
 		"EXAMEN_BV": {
-			"timeStamp": "2021-09-02T00:52:50.164Z",
+			"timeStamp": "2021-09-09T08:10:10.159Z",
 			"destination": "detailScreen"
 		},
 		"TEST": {
 			"timeStamp": "2021-08-31T11:54:49.573Z",
 			"destination": "detailScreen"
 		},
+		"Choix_rapport": {
+			"timeStamp": "2021-09-08T18:27:30.018Z",
+			"destination": "detailScreen"
+		},
 		"Main menu": {
-			"timeStamp": "2021-09-01T16:55:29.453Z",
+			"timeStamp": "2021-09-09T08:21:01.490Z",
 			"destination": "detailPrinter"
 		},
+		"Rapport_perso": {
+			"timeStamp": "2021-09-09T16:37:25.071Z",
+			"destination": "detailScreen"
+		},
 		"Accueil - identification": {
-			"timeStamp": "2021-09-02T01:09:28.745Z",
+			"timeStamp": "2021-09-08T23:20:56.949Z",
 			"destination": "detailScreen"
 		},
 		"EXAMEN_BV_SousFormulaire": {
-			"timeStamp": "2021-09-01T13:42:04.223Z",
+			"timeStamp": "2021-09-02T12:59:05.594Z",
 			"destination": "detailScreen"
 		},
 		"EXAMEN_CLASSIQUE": {
-			"timeStamp": "2021-09-02T01:02:29.514Z",
+			"timeStamp": "2021-09-09T08:20:36.776Z",
 			"destination": "detailScreen"
 		},
 		"Sous menu examen": {
-			"timeStamp": "2021-08-28T22:32:01.575Z",
+			"timeStamp": "2021-09-09T08:22:17.700Z",
 			"destination": "detailScreen"
 		},
 		"Parametres": {
-			"timeStamp": "2021-09-01T21:51:45.716Z",
+			"timeStamp": "2021-09-09T08:22:07.278Z",
 			"destination": "detailScreen"
 		}
 	}

@@ -406,7 +406,17 @@
 					],
 					"visibility": "hidden"
 				}
-			}
+			},
+			"entryOrder": [
+				"field_ID",
+				"field_Nom",
+				"field_Prenom",
+				"field_Login",
+				"field_MotDePasse",
+				"Pop_statut",
+				"Bouton2",
+				"Bouton3"
+			]
 		}
 	],
 	"geometryStamp": 13,

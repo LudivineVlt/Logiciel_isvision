@@ -226,13 +226,18 @@
 					"left": 83,
 					"top": 115,
 					"width": 728,
-					"height": 956,
+					"height": 341,
 					"events": [
 						"onDataChange",
 						"onSelectionChange",
 						"onAfterEdit"
 					],
-					"dataSource": "[RAPPORT_TYPE:23]Modele:4"
+					"dataSource": "[RAPPORT_TYPE:23]Modele:4",
+					"method": "ObjectMethods/ZoneWritePro.4dm",
+					"layoutMode": "embedded",
+					"showReferences": false,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false
 				},
 				"Combo Box": {
 					"type": "combo",
@@ -243,18 +248,24 @@
 					"events": [
 						"onDataChange"
 					],
-					"dataSource": "at_rapport_categorie",
+					"dataSource": "[RAPPORT_TYPE:23]Categorie:3",
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/Categorie_rapport"
 					},
-					"method": "ObjectMethods/Combo Box.4dm"
+					"method": "ObjectMethods/Combo Box.4dm",
+					"dataSourceTypeHint": "arrayText",
+					"automaticInsertion": true
 				}
 			}
 		}
 	],
-	"geometryStamp": 226,
+	"geometryStamp": 231,
 	"editor": {
 		"groups": {
+			"Group2": [
+				"label_Nom",
+				"field_Nom"
+			],
 			"Group4": [
 				"bFirst",
 				"bPrevious",
@@ -263,10 +274,6 @@
 				"bDelete",
 				"bCancel",
 				"bValidate"
-			],
-			"Group2": [
-				"label_Nom",
-				"field_Nom"
 			]
 		},
 		"activeView": "View 1",

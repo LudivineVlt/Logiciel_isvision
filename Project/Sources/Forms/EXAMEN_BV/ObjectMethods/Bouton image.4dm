@@ -7,10 +7,10 @@ If (FORM Event:C1606.code=On Clicked:K2:4)
 	// sheet form window = feuille intégrée dans la fenetre courante
 	// plain form window = nouvelle fenetre normale (indépendante)
 	// popup form window = fenetre pop up (sans bouton système de fermeture)
-	Open form window:C675("Identification"; Plain form window:K39:10)
+	Open form window:C675("Main menu"; Plain form window:K39:10)
 	
 	// appel du contenu du formulaire "Identification"
-	DIALOG:C40("Identification")
+	DIALOG:C40("Main menu")
 	
 	SHOW WINDOW:C435($refFenTestCode)
 	

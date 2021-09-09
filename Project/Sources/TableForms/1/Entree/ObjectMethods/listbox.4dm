@@ -1,0 +1,4 @@
+Case of 
+	: (Form event code:C388=On Load:K2:1)
+		QUERY:C277([EXAMEN_GENERAL:3]; [EXAMEN_GENERAL:3]ID_PATIENT:4=[PATIENT:1]ID:1)
+End case 

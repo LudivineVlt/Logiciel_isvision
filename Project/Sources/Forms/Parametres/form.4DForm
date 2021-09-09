@@ -420,7 +420,18 @@
 					"action": "",
 					"method": "ObjectMethods/Bouton9.4dm"
 				}
-			}
+			},
+			"entryOrder": [
+				"Zone de saisie5",
+				"Zone de saisie7",
+				"Popup Liste déroulante",
+				"Zone de saisie15",
+				"PopupDate2",
+				"Bouton7",
+				"Bouton8",
+				"Bouton9",
+				"lb_praticien"
+			]
 		},
 		{
 			"objects": {
@@ -647,7 +658,15 @@
 						"$ref": "/SOURCES/lists.json#/Categorie_rapport"
 					}
 				}
-			}
+			},
+			"entryOrder": [
+				"Zone de saisie2",
+				"Combo Box",
+				"Bouton1",
+				"Bouton2",
+				"Bouton10",
+				"List Box1"
+			]
 		},
 		{
 			"objects": {
@@ -983,7 +1002,19 @@
 					],
 					"dataSource": "at_parametre_renouvellement_lc"
 				}
-			}
+			},
+			"entryOrder": [
+				"Combo Box2",
+				"Combo Box3",
+				"Combo Box4",
+				"Combo Box5",
+				"Combo Box6",
+				"Combo Box7",
+				"Bouton3",
+				"Bouton4",
+				"Bouton11",
+				"List Box2"
+			]
 		}
 	],
 	"geometryStamp": 1700,

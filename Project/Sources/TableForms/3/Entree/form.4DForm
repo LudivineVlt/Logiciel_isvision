@@ -50,7 +50,10 @@
 					"top": 10,
 					"left": 120,
 					"width": 250,
-					"height": 17
+					"height": 17,
+					"enterable": true,
+					"fill": "transparent",
+					"borderStyle": "sunken"
 				},
 				"label_TypeExam": {
 					"type": "text",

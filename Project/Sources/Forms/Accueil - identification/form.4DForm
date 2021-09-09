@@ -11,22 +11,23 @@
 	"windowMaxHeight": 32767,
 	"events": [
 		"onLoad",
-		"onPageChange",
 		"onValidate",
 		"onClick",
-		"onDoubleClick",
 		"onOutsideCall",
-		"onBeginDragOver",
-		"onDragOver",
+		"onDoubleClick",
 		"onDrop",
-		"onAfterKeystroke",
 		"onMenuSelect",
 		"onPluginArea",
-		"onAfterEdit",
+		"onDragOver",
+		"onUnload",
 		"onTimer",
-		"onBoundVariableChange"
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Identification",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -157,7 +158,12 @@
 					"width": 211,
 					"height": 17,
 					"placeholder": "••••••••",
-					"dataSource": "P_MotDePasse"
+					"dataSource": "P_MotDePasse",
+					"events": [
+						"onDataChange"
+					],
+					"method": "ObjectMethods/field_P_MotDePasse.4dm",
+					"stroke": "#FFFFFF"
 				},
 				"Bouton3": {
 					"type": "button",
@@ -233,5 +239,6 @@
 		}
 	},
 	"rightMargin": 20,
-	"bottomMargin": 20
+	"bottomMargin": 20,
+	"method": "method.4dm"
 }

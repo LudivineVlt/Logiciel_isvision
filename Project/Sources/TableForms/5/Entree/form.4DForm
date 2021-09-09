@@ -396,7 +396,16 @@
 					"sizingX": "fixed",
 					"sizingY": "fixed"
 				}
-			}
+			},
+			"entryOrder": [
+				"field_Graphisme",
+				"field_Perception",
+				"field_Deplacements",
+				"field_VieQuotidienne",
+				"field_BienEtre",
+				"field_ID",
+				"field_ID_ANAMNESE"
+			]
 		}
 	],
 	"geometryStamp": 844,

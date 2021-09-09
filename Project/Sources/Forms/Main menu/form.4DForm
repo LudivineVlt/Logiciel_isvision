@@ -27,7 +27,7 @@
 		"onBoundVariableChange",
 		"onPageChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Menu principal - Connecté",
 	"destination": "detailPrinter",
 	"pages": [
 		{
@@ -79,7 +79,10 @@
 					"borderStyle": "raised",
 					"sizingX": "fixed",
 					"sizingY": "fixed",
-					"switchBackWhenReleased": false
+					"switchBackWhenReleased": false,
+					"method": "ObjectMethods/Bouton image1.4dm",
+					"loopBackToFirstFrame": false,
+					"useLastFrameAsDisabled": true
 				},
 				"Texte5": {
 					"type": "text",
@@ -288,7 +291,8 @@
 					],
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/edition.png",
 					"rowCount": 4,
-					"method": "ObjectMethods/Bouton image4.4dm"
+					"method": "ObjectMethods/Bouton image4.4dm",
+					"switchWhenRollover": true
 				},
 				"Bouton image5": {
 					"type": "pictureButton",
@@ -346,11 +350,16 @@
 					"width": 125,
 					"height": 25,
 					"events": [
-						"onClick"
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
 					],
 					"style": "texturedBevel",
-					"popupPlacement": "none",
-					"method": "ObjectMethods/Bouton.4dm"
+					"method": "ObjectMethods/Bouton.4dm",
+					"borderStyle": "none",
+					"iconFrames": 2,
+					"focusable": true,
+					"defaultButton": false
 				},
 				"Bouton2": {
 					"type": "button",
@@ -363,7 +372,9 @@
 						"onClick"
 					],
 					"style": "texturedBevel",
-					"method": "ObjectMethods/Bouton2.4dm"
+					"method": "ObjectMethods/Bouton2.4dm",
+					"borderStyle": "none",
+					"iconFrames": 2
 				},
 				"Bouton3": {
 					"type": "button",
@@ -375,7 +386,10 @@
 					"events": [
 						"onClick"
 					],
-					"style": "texturedBevel"
+					"style": "texturedBevel",
+					"borderStyle": "none",
+					"iconFrames": 2,
+					"method": "ObjectMethods/Bouton3.4dm"
 				},
 				"Bouton4": {
 					"type": "button",
@@ -387,7 +401,10 @@
 					"events": [
 						"onClick"
 					],
-					"style": "texturedBevel"
+					"style": "texturedBevel",
+					"borderStyle": "none",
+					"iconFrames": 2,
+					"method": "ObjectMethods/Bouton4.4dm"
 				},
 				"Séparateur1": {
 					"type": "splitter",
@@ -412,7 +429,7 @@
 					"resizingMode": "legacy",
 					"right": 616,
 					"table": "PATIENT",
-					"dataSource": "currentPatient",
+					"dataSource": "",
 					"stroke": "#000000",
 					"detailForm": "",
 					"events": [
@@ -428,7 +445,7 @@
 					"columns": [
 						{
 							"name": "col_Nom",
-							"width": 160,
+							"width": 102,
 							"enterable": true,
 							"header": {
 								"text": "Nom",
@@ -442,7 +459,7 @@
 						},
 						{
 							"name": "col_Prenom",
-							"width": 160,
+							"width": 113,
 							"enterable": true,
 							"header": {
 								"text": "Prenom",
@@ -471,11 +488,12 @@
 								"name": "Entête6",
 								"text": "Date de visite"
 							},
-							"name": "col_visite",
+							"name": "dateVisite",
 							"footer": {
 								"name": "Pied5"
 							},
-							"width": 130
+							"width": 130,
+							"dataSource": "Form:C1466.lb_patient.PatientToExamenGeneral.DateVisite"
 						}
 					]
 				},
@@ -540,16 +558,16 @@
 				"PopupDate2",
 				"Bouton1",
 				"Bouton6",
+				"Bouton5",
 				"lb_patient",
 				"Bouton",
-				"Bouton2",
 				"Bouton3",
-				"Bouton4",
-				"Bouton5"
+				"Bouton2",
+				"Bouton4"
 			]
 		}
 	],
-	"geometryStamp": 2802,
+	"geometryStamp": 2881,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

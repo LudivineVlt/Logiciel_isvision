@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Examen basse vision",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -90,18 +90,6 @@
 					"width": 1423,
 					"height": 5
 				},
-				"Bouton image4": {
-					"type": "pictureButton",
-					"left": 1422,
-					"top": 8,
-					"width": 24,
-					"height": 23,
-					"events": [
-						"onClick"
-					],
-					"picture": "Images/ensemble-d'engrenages_1.png",
-					"borderStyle": "raised"
-				},
 				"Texte2": {
 					"type": "text",
 					"text": "CLINIQUE ISVISION",
@@ -133,7 +121,7 @@
 					],
 					"picture": "Images/61449.png",
 					"borderStyle": "raised",
-					"action": "cancel"
+					"action": "previousPage"
 				},
 				"Zone de groupe1": {
 					"type": "groupBox",
@@ -260,24 +248,25 @@
 					"style": "texturedBevel",
 					"method": "ObjectMethods/Bouton.4dm"
 				},
-				"List Box": {
+				"lb_exams": {
 					"type": "listbox",
 					"left": 30,
 					"top": 741,
-					"width": 1407,
-					"height": 81,
+					"width": 1403,
+					"height": 73,
 					"events": [
+						"onLoad",
 						"onClick",
-						"onHeaderClick",
-						"onDataChange",
-						"onSelectionChange"
+						"onUnload"
 					],
 					"staticColumnCount": 1,
 					"selectionMode": "multiple",
 					"textAlign": "automatic",
-					"method": "ObjectMethods/List Box.4dm",
-					"listboxType": "currentSelection",
-					"table": "EXAMEN_GENERAL",
+					"method": "ObjectMethods/lb_exams.4dm",
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.lb_exams",
+					"currentItemSource": "Form:C1466.lb_exam",
+					"scrollbarHorizontal": "hidden",
 					"columns": [
 						{
 							"header": {
@@ -288,7 +277,7 @@
 							"footer": {
 								"name": "Pied1"
 							},
-							"dataSource": "[EXAMEN_GENERAL]Date",
+							"dataSource": "This:C1470.DateExam",
 							"dataSourceTypeHint": "date"
 						},
 						{
@@ -300,8 +289,8 @@
 							"footer": {
 								"name": "Pied2"
 							},
-							"width": 494,
-							"dataSource": "[EXAMEN_GENERAL]ExamenGeneralToAnamnese.MotifCS"
+							"width": 338,
+							"dataSource": "This:C1470.ExamenGeneralToAnamnese.MotifConsultation"
 						},
 						{
 							"header": {
@@ -312,8 +301,8 @@
 							"footer": {
 								"name": "Pied3"
 							},
-							"width": 769,
-							"dataSource": "[EXAMEN_GENERAL]ExamenGeneralToConclusion.Conclusion"
+							"width": 919,
+							"dataSource": "This:C1470.ExamenGeneralToConclusion.Diagnostic"
 						}
 					]
 				},
@@ -443,6 +432,24 @@
 					],
 					"picture": "Images/oeil.png",
 					"method": "ObjectMethods/Bouton image22.4dm"
+				},
+				"Bouton image4": {
+					"type": "pictureButton",
+					"left": 1422,
+					"top": 8,
+					"width": 24,
+					"height": 23,
+					"events": [
+						"onClick"
+					],
+					"picture": "Images/ensemble-d'engrenages_1_1.png",
+					"borderStyle": "raised",
+					"sizingX": "fixed",
+					"sizingY": "fixed",
+					"switchBackWhenReleased": false,
+					"method": "ObjectMethods/Bouton image4.4dm",
+					"loopBackToFirstFrame": false,
+					"useLastFrameAsDisabled": true
 				}
 			}
 		},
@@ -950,26 +957,26 @@
 				}
 			},
 			"entryOrder": [
-				"Help",
-				"Help2",
-				"Help6",
-				"Help1",
-				"Help3",
-				"Help4",
-				"field_AntecedentsFamiliauxSO",
-				"Help5",
-				"field_AntecedentsFamiliauxSG",
-				"field_SanteGenerale1",
-				"field_Traitements1",
-				"field_SanteOculaire1",
-				"field_commentaire",
-				"field_Patient_ophta",
+				"field_PlaintePrincipale1",
 				"field_PlaintePrincipale",
 				"field_PlainteSecondaire",
 				"field_Besoins",
-				"PopupDate",
+				"field_Patient_ophta",
 				"field_DerniereCS",
-				"field_PlaintePrincipale1"
+				"PopupDate",
+				"field_SanteOculaire1",
+				"field_Traitements1",
+				"field_SanteGenerale1",
+				"field_AntecedentsFamiliauxSG",
+				"field_AntecedentsFamiliauxSO",
+				"field_commentaire",
+				"Help",
+				"Help6",
+				"Help1",
+				"Help2",
+				"Help5",
+				"Help3",
+				"Help4"
 			]
 		},
 		{
@@ -2342,7 +2349,8 @@
 					"dataSource": "acuiteBruteVL_OD",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"Texte175": {
 					"type": "text",
@@ -2823,7 +2831,8 @@
 					"dataSource": "acuiteBruteVP_OD",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVHABVLOD": {
 					"type": "input",
@@ -2834,7 +2843,8 @@
 					"dataSource": "acuiteHabituelleVL_OD",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVHABVPOD": {
 					"type": "input",
@@ -2845,7 +2855,8 @@
 					"dataSource": "acuiteHabituelleVP_OD",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVBRUTEVLDISTOD": {
 					"type": "input",
@@ -2906,7 +2917,8 @@
 					"dataSource": "acuiteBruteVL_OG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVBRUTEVPOG": {
 					"type": "input",
@@ -2917,7 +2929,8 @@
 					"dataSource": "acuiteBruteVP_OG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVHABVLOG": {
 					"type": "input",
@@ -2928,7 +2941,8 @@
 					"dataSource": "acuiteHabituelleVL_OG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVHABVPOG": {
 					"type": "input",
@@ -2939,7 +2953,8 @@
 					"dataSource": "acuiteHabituelleVP_OG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVBRUTEVLDISTOG": {
 					"type": "input",
@@ -3104,7 +3119,8 @@
 					"dataSource": "acuiteBruteVL_ODG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVBRUTEVPODG": {
 					"type": "input",
@@ -3115,7 +3131,8 @@
 					"dataSource": "acuiteBruteVP_ODG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVHABVLODG": {
 					"type": "input",
@@ -3126,7 +3143,8 @@
 					"dataSource": "acuiteHabituelleVL_ODG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVHABVPODG": {
 					"type": "input",
@@ -3137,7 +3155,8 @@
 					"dataSource": "acuiteHabituelleVP_ODG",
 					"dataSourceTypeHint": "number",
 					"min": 0,
-					"max": 20
+					"max": 20,
+					"placeholder": "10"
 				},
 				"field_AVBRUTEVLDISTODG": {
 					"type": "input",
@@ -3837,7 +3856,58 @@
 					},
 					"right": 1428
 				}
-			}
+			},
+			"entryOrder": [
+				"field_AVBRUTEVLOD",
+				"field_AVBRUTEVLDISTOD",
+				"field_AVBRUTEVLOG",
+				"field_AVBRUTEVLDISTOG",
+				"field_AVBRUTEVLODG",
+				"field_AVBRUTEVLDISTODG",
+				"Combo_AVBRUTEVLOPTO",
+				"field_AVBRUTEVPOD",
+				"field_AVBRUTEVPDISTOD",
+				"field_AVBRUTEVPOG",
+				"field_AVBRUTEVPDISTOG",
+				"field_AVBRUTEVPODG",
+				"field_AVBRUTEVPDISTODG",
+				"Combo_AVBRUTEVPOPTO",
+				"field_AVHABVLOD",
+				"field_AVHABVLDISTOD",
+				"field_AVHABVLOG",
+				"field_AVHABVLDISTOG",
+				"field_AVHABVLODG",
+				"field_AVHABVLDISTODG",
+				"Combo_AVHABVLOPTO",
+				"field_AVHABVPOD",
+				"field_AVHABVPDISTOD",
+				"field_AVHABVPOG",
+				"field_AVHABVPDISTOG",
+				"field_AVHABVPODG",
+				"field_AVHABVPDISTODG",
+				"Combo_AVHABVPOPTO",
+				"field_Commentaire5",
+				"Combo_TYPECV",
+				"field_Image1",
+				"Combo_Bris_type",
+				"field_AT_DistanceBris",
+				"field_AT_DistanceRecouvrement",
+				"field_Masquage_BruteVL",
+				"field_Masquage_BruteVP",
+				"field_Masquage_CompVL",
+				"field_Masquage_CompVP",
+				"field_Hirschberg",
+				"field_Commentaire6",
+				"field_Coordination",
+				"field_Commentaire7",
+				"field_Dominance_Sensorielle",
+				"field_Dominance_Directeur",
+				"field_Dominance_Visee",
+				"field_Poursuites",
+				"field_FixationsSautees",
+				"field_FixationExcentree",
+				"field_Commentaire8"
+			]
 		},
 		{
 			"objects": {
@@ -7090,7 +7160,103 @@
 						"$ref": "/SOURCES/lists.json#/Type_Kerato"
 					}
 				}
-			}
+			},
+			"entryOrder": [
+				"field_RefSubjectiveVP_OG_Sph",
+				"field_RefSubjectiveVP_OG_Cyl",
+				"field_RefSubjectiveVP_OG_Axe",
+				"field_RefSubjectiveVP_OD_Sph",
+				"field_RefSubjectiveVP_OG_Add",
+				"field_RefSubjectiveVP_OG_AV",
+				"field_RefSubjectiveVL_Distance4",
+				"field_RefSubjectiveVP_ODG_AV",
+				"field_RefFinale_OD_Sph",
+				"field_RefFinale_OD_Cyl",
+				"field_RefFinale_OD_Axe",
+				"field_RefFinale_OD_AVVL",
+				"field_RefFinale_OD_Add",
+				"field_RefFinale_OD_AVVP",
+				"field_RefFinale_OG_Sph",
+				"field_RefFinale_OG_Cyl",
+				"field_RefFinale_OG_Axe",
+				"field_RefFinale_OG_AVVL",
+				"field_RefFinale_OG_Add",
+				"field_RefFinale_OG_AVVP",
+				"field_RefFinale_OG_AVVL1",
+				"field_RefFinale_OG_AVVL2",
+				"field_RefFinale_OD_PuissancePrisme",
+				"field_RefFinale_OD_AxePrisme",
+				"field_RefFinale_OG_PuissancePrisme",
+				"field_RefFinale_OG_AxePrisme",
+				"field_OD_ast_co_puissance",
+				"field_OD_ast_co_axe",
+				"field_OG_ast_co_puissance",
+				"field_OG_ast_co_axe",
+				"field_CoPortee_OD_Sph",
+				"field_CoPortee_OD_Cyl",
+				"field_CoPortee_OD_Axe",
+				"field_Correction_OD_AVVL",
+				"field_CoPortee_OD_Add",
+				"field_CoPortee_OD_AVVP",
+				"field_CoPortee_OG_Sph",
+				"field_CoPortee_OG_Cyl",
+				"field_CoPortee_OG_Axe",
+				"field_CoPortee_OG_AVVL",
+				"field_CoPortee_OG_Add",
+				"field_CoPortee_OG_AVVP",
+				"field_CoPortee_OG_AVVL1",
+				"field_CoPortee_OG_AVVL2",
+				"field_CoPortee_OD_PuissancePrisme",
+				"field_CoPortee_OD_AxePrisme",
+				"field_CoPortee_OG_PuissancePrisme",
+				"field_CoPortee_OG_AxePrisme",
+				"Combo_RefObj_methode1",
+				"field_K_OD_RayonPlat",
+				"field_K_OD_RayonCambre",
+				"field_K_OD_AxePlat",
+				"field_K_OG_RayonPlat",
+				"field_K_OG_RayonCambre",
+				"field_K_OG_AxePlat",
+				"Combo_RefObj_methode",
+				"field_RefObj_OD_Sph",
+				"field_RefObj_OD_Cyl",
+				"field_RefObj_OD_Axe",
+				"field_RefObj_OD_AV",
+				"field_RefObj_OG_Sph",
+				"field_RefObj_OG_Cyl",
+				"field_RefObj_OG_Axe",
+				"field_RefObj_OG_AV",
+				"Combo_at_RefSubjVL_optotype",
+				"field_RefSubjectiveVL_OD_Sph",
+				"field_RefSubjectiveVL_OD_Cyl",
+				"field_RefSubjectiveVL_OD_Axe",
+				"field_RefSubjectiveVL_OD_AV",
+				"field_RefSubjectiveVL_OD_Distance",
+				"field_RefSubjectiveVL_OG_Sph",
+				"field_RefSubjectiveVL_OG_Cyl",
+				"field_RefSubjectiveVL_OG_Axe",
+				"field_RefSubjectiveVL_OG_AV",
+				"field_RefSubjectiveVL_OG_Distance",
+				"field_RefSubjectiveVL_ODG_AV",
+				"field_RefGalilee_OD_Sph",
+				"field_RefGalilee_OD_Cyl",
+				"field_RefGalilee_OD_Axe",
+				"field_RefGalilee_OD_AV",
+				"field_RefGalilee_OD_Distance",
+				"field_RefGalilee_OG_Sph",
+				"field_RefGalilee_OG_Cyl",
+				"field_RefGalilee_OG_Axe",
+				"field_RefGalilee_OG_AV",
+				"field_RefGalilee_OG_Distance",
+				"[REFRACTION]RefGalilee_ODG_AV",
+				"Combo_at_RefSubjVP_optotype",
+				"field_RefSubjectiveVL_OD_Sph1",
+				"field_RefSubjectiveVP_OD_Cyl",
+				"field_RefSubjectiveVP_OD_Axe",
+				"field_RefSubjectiveVP_OD_Add",
+				"field_RefSubjectiveVP_OD_AV",
+				"field_RefSubjectiveVL_Distance5"
+			]
 		},
 		{
 			"objects": {
@@ -7460,7 +7626,9 @@
 					"top": 270,
 					"left": 510,
 					"width": 400,
-					"height": 80
+					"height": 80,
+					"placeholder": "Paupières lisses, cils fournis, sans dépots",
+					"defaultValue": "Paupières lisses, cils fournis, sans dépots"
 				},
 				"field_SegmentAnterieur_OD": {
 					"type": "input",
@@ -7468,7 +7636,9 @@
 					"top": 363,
 					"left": 510,
 					"width": 400,
-					"height": 80
+					"height": 80,
+					"placeholder": "Segment calme, cornée claire ne prenant pas la fluo",
+					"defaultValue": "Segment calme, cornée claire ne prenant pas la fluo"
 				},
 				"field_SegmentPosterieur_OD": {
 					"type": "input",
@@ -7476,7 +7646,9 @@
 					"top": 457,
 					"left": 510,
 					"width": 400,
-					"height": 80
+					"height": 80,
+					"placeholder": "Cristallin clair, rétine saine, NO sans particularités",
+					"defaultValue": "Cristallin clair, rétine saine, NO sans particularités"
 				},
 				"field_Conclusion": {
 					"type": "input",
@@ -7485,7 +7657,9 @@
 					"left": 510,
 					"width": 854,
 					"height": 45,
-					"right": 1364
+					"right": 1364,
+					"placeholder": "Tout va bien",
+					"defaultValue": "Tout va bien"
 				},
 				"Texte296": {
 					"type": "text",
@@ -7524,7 +7698,9 @@
 					"left": 510,
 					"width": 854,
 					"height": 45,
-					"right": 1364
+					"right": 1364,
+					"placeholder": "ras",
+					"defaultValue": "ras"
 				},
 				"Texte298": {
 					"type": "text",
@@ -7542,7 +7718,9 @@
 					"top": 270,
 					"left": 964,
 					"width": 400,
-					"height": 80
+					"height": 80,
+					"placeholder": "Paupières lisses, cils fournis, sans dépots",
+					"defaultValue": "Paupières lisses, cils fournis, sans dépots"
 				},
 				"field_SegmentAnterieur_OG": {
 					"type": "input",
@@ -7550,7 +7728,9 @@
 					"top": 363,
 					"left": 964,
 					"width": 400,
-					"height": 80
+					"height": 80,
+					"placeholder": "Segment calme, cornée claire ne prenant pas la fluo",
+					"defaultValue": "Segment calme, cornée claire ne prenant pas la fluo"
 				},
 				"field_SegmentPosterieur_OG": {
 					"type": "input",
@@ -7558,7 +7738,9 @@
 					"top": 457,
 					"left": 964,
 					"width": 400,
-					"height": 80
+					"height": 80,
+					"placeholder": "Cristallin clair, rétine saine, NO sans particularités",
+					"defaultValue": "Cristallin clair, rétine saine, NO sans particularités"
 				},
 				"Texte299": {
 					"type": "text",
@@ -7570,7 +7752,22 @@
 					"fontWeight": "bold",
 					"stroke": "#ACC812"
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton1",
+				"Bouton2",
+				"Bouton3",
+				"Bouton4",
+				"Bouton6",
+				"field_Annexes_OD",
+				"field_Annexes_OG",
+				"field_SegmentAnterieur_OD",
+				"field_SegmentAnterieur_OG",
+				"field_SegmentPosterieur_OD",
+				"field_SegmentPosterieur_OG",
+				"field_Conclusion",
+				"field_Commentaire9"
+			]
 		},
 		{
 			"objects": {
@@ -7739,7 +7936,15 @@
 						"onClick"
 					]
 				}
-			}
+			},
+			"entryOrder": [
+				"field_Diagnostic",
+				"field_Traitement",
+				"field_ProchaineVisite",
+				"field_Conseils",
+				"field_Commentaire10",
+				"Bouton5"
+			]
 		},
 		{
 			"objects": {
@@ -8487,7 +8692,35 @@
 						"onClick"
 					]
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton7",
+				"Bouton8",
+				"Bouton9",
+				"Bouton11",
+				"Bouton10",
+				"field_Nom1",
+				"field_Description1",
+				"field_Retenue1",
+				"field_Distance1",
+				"field_Date2",
+				"PopupDate7",
+				"field_Commentaire11",
+				"field_Nom2",
+				"field_Description2",
+				"field_Retenue2",
+				"field_Distance2",
+				"field_Date3",
+				"PopupDate8",
+				"field_Commentaire12",
+				"field_Nom3",
+				"field_Description3",
+				"field_Retenue3",
+				"field_Distance3",
+				"field_Date4",
+				"PopupDate9",
+				"field_Commentaire13"
+			]
 		},
 		{
 			"objects": {
@@ -9916,7 +10149,45 @@
 						"onClick"
 					]
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton12",
+				"Bouton13",
+				"Bouton14",
+				"Bouton16",
+				"Bouton15",
+				"Bouton47",
+				"Bouton46",
+				"Regle1",
+				"Regle2",
+				"Regle3",
+				"Regle4",
+				"Regle5",
+				"Regle6",
+				"Regle7",
+				"Regle8",
+				"Regle9",
+				"Regle10",
+				"Regle11",
+				"Regle12",
+				"Regle13",
+				"Regle14",
+				"Regle15",
+				"Regle16",
+				"Regle17",
+				"Regle18",
+				"Regle19",
+				"Regle20",
+				"Regle21",
+				"Regle22",
+				"Regle23",
+				"Regle24",
+				"Regle25",
+				"Bouton45",
+				"field_Resultat1",
+				"Bouton29",
+				"field_Commentaire14"
+			]
 		},
 		{
 			"objects": {
@@ -10375,7 +10646,19 @@
 					],
 					"method": "ObjectMethods/bCancel8.4dm"
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton17",
+				"Bouton18",
+				"Bouton19",
+				"Bouton21",
+				"Bouton20",
+				"field_Type",
+				"field_Image",
+				"field_Commentaire1",
+				"listbox",
+				"Bouton27"
+			]
 		},
 		{
 			"objects": {
@@ -10749,23 +11032,38 @@
 					],
 					"method": "ObjectMethods/bCancel9.4dm"
 				}
-			}
+			},
+			"entryOrder": [
+				"Bouton22",
+				"Bouton23",
+				"Bouton24",
+				"Bouton26",
+				"Bouton25",
+				"field_SensibiliteEblouissement",
+				"field_BinoculariteAvancee",
+				"field_VisionCouleurs",
+				"field_Autre"
+			]
 		}
 	],
-	"geometryStamp": 19979,
+	"geometryStamp": 19990,
 	"editor": {
 		"groups": {
-			"Group16": [
-				"Texte12",
-				"Non saisissable5"
+			"Group15": [
+				"Texte13",
+				"Non saisissable6"
 			],
 			"Group14": [
 				"Texte14",
 				"Non saisissable7"
 			],
-			"Group15": [
-				"Texte13",
-				"Non saisissable6"
+			"Group16": [
+				"Texte12",
+				"Non saisissable5"
+			],
+			"Group7": [
+				"Texte261",
+				"field_Utilisation"
 			],
 			"Group6": [
 				"Texte50",
@@ -10779,34 +11077,6 @@
 			"Group5": [
 				"label_Commentaire1",
 				"field_Commentaire2"
-			],
-			"Group7": [
-				"Texte261",
-				"field_Utilisation"
-			],
-			"Group": [
-				"Rectangle3",
-				"Bouton1",
-				"Bouton2",
-				"Bouton3",
-				"Bouton4",
-				"Bouton6",
-				"Rectangle4",
-				"Rectangle5",
-				"Rectangle6",
-				"Rectangle7",
-				"Rectangle8",
-				"Rectangle9",
-				"Rectangle10",
-				"Rectangle11",
-				"Rectangle12",
-				"Rectangle13",
-				"Rectangle14",
-				"Rectangle15",
-				"Rectangle16",
-				"Rectangle17",
-				"Rectangle18",
-				"Rectangle19"
 			],
 			"Group1": [
 				"Rectangle20",
@@ -10831,14 +11101,6 @@
 				"Rectangle35",
 				"Rectangle36",
 				"Rectangle37"
-			],
-			"Group13": [
-				"Texte371",
-				"Texte372",
-				"Texte373",
-				"Texte374",
-				"Texte375",
-				"Texte376"
 			],
 			"Group2": [
 				"Rectangle38",
@@ -10871,6 +11133,14 @@
 				"Texte355",
 				"Texte357",
 				"Texte358"
+			],
+			"Group13": [
+				"Texte371",
+				"Texte372",
+				"Texte373",
+				"Texte374",
+				"Texte375",
+				"Texte376"
 			],
 			"Group11": [
 				"Texte359",

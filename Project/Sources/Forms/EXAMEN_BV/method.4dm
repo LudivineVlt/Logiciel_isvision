@@ -1,5 +1,6 @@
 If (FORM Event:C1606.code=On Load:K2:1)
-	
+	currentIDPATIENT:=[PATIENT:1]ID:1
+	ALERT:C41(String:C10([PATIENT:1]ID:1))
 	
 	// Nouvelle entité dans la table EXAMEN_GENERAL
 	examenGeneral:=ds:C1482.EXAMEN_GENERAL.new()
@@ -14,9 +15,13 @@ If (FORM Event:C1606.code=On Load:K2:1)
 	//[PRATICIEN]ID = ID du praticien de l'enregistrement courant
 	examenGeneral.ID_PRATICIEN:=[PRATICIEN:2]ID:1
 	
+	examenGeneral.save()
+	
 	// Nouvelle entité dans la table ANAMNESE
 	anamnese:=ds:C1482.ANAMNESE.new()
 	anamnese.ID_EXAMEN_GENERAL:=examenGeneral.ID
+	
+	anamnese.save()
 	
 	// Nouvelle entité dans la table ANTECEDENT_LUNETTES
 	antedecentLunettes:=ds:C1482.ANTECEDENT_LUNETTES.new()

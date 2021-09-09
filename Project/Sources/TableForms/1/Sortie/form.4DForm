@@ -46,7 +46,7 @@
 					"dataSource": "[PATIENT:1]ID:1",
 					"top": 37,
 					"left": 10,
-					"width": 250,
+					"width": 77,
 					"height": 17,
 					"borderStyle": "none"
 				},
@@ -54,7 +54,7 @@
 					"type": "line",
 					"top": 0,
 					"height": 60,
-					"left": 265
+					"left": 97
 				},
 				"label_Nom": {
 					"type": "text",
@@ -260,6 +260,13 @@
 			}
 		}
 	],
-	"geometryStamp": 1,
-	"method": "method.4dm"
+	"geometryStamp": 170,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }
